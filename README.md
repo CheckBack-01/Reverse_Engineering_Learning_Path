@@ -1,3 +1,3 @@
 # Reverse_Engineering_Learning_Path
 
-My learning path official repo for TOCD (Try Of Check Dogs): self-directed curriculum in reverse engineering & malware development. Includes phased syllabus, reproducible labs (PBR), docs (PAD), encrypted missions, evidence, and tools across F1–F5 (Linux→kernel/UEFI).
+Official repository of my learning path for TOCD (Try Of Check Dogs): self-paced curriculum in reverse engineering and malware development. phases, reproducible labs (PBR), drills (PAD), guides and evidence. The goal is for anyone to be able to find a lab, run it with a script, and verify evidence with hashes.
