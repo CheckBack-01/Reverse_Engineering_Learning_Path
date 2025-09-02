@@ -57,8 +57,6 @@ If prompted, enter the passphrase (provided with the block).
 Once decrypted, you’ll see the full practice instructions.
 Execute the mission as directed and document your results.
 
----
-
 #### Example Usage
 
 ```bash
@@ -76,8 +74,6 @@ Mission: Scan the internal network and document active hosts.
 Tools: nmap, netdiscover.
 Objective: Identify possible attack vectors.
 ```
-
----
 
 ---
 ### **Benefits of the Protocol**
