@@ -74,11 +74,11 @@
 
 **TOCD pause (Bug Bounty + University)** · BackLogs (reinforcement).
 
-## Q6 — 2027-04-01 → 2027-07-31
+### Q6 — 2027-04-01 → 2027-07-31
 
 **TOCD pause (Bug Bounty + University)** · BackLogs (reinforcement).
 
-## Q7 — 2027-08-03 → 2027-11-30
+### Q7 — 2027-08-03 → 2027-11-30
 
 **Phase 3 (continuation)**
 
