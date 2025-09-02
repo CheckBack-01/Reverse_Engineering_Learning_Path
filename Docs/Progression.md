@@ -117,9 +117,9 @@ _All items remain ☐ Not started for PBR/PAD; only light reinforcement._
 1. Change status: `☐` → `◐` → `✔`.  
 2. Increment counters at the top.  
 3. Add links:
- - **Labs:** `Phases/P1_ENIAC/0B01/D14_FHS/`
- - **Evidence:** `Phases/P1_ENIAC/0B01/D14_FHS/evidence/`
- - **PAD:** `Phases/P1_ENIAC/0B01/PAD/`
+ - **Labs:** `Phases/P1_Eniac/0B01/D14_Fhs/`
+ - **Evidence:** `Phases/P1_Eniac/0B01/D14_Fhs/Evidence/`
+ - **PAD:** `Phases/P1_Eniac/0B01/PAD/`
    
 4. Commit with a clear message:
     - `feat(pbr): close PBR-0.1 (0B01) + evidence + PAD draft`
