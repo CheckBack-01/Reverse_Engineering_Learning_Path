@@ -40,6 +40,7 @@ Cybersecurity—especially reverse engineering—demands more than collecting fa
    - Development/scripting projects  
    - Reversing and evasion exercises
 
+---
 
 ### Practice Types in TOCD
 
