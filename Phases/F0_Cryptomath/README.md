@@ -17,7 +17,7 @@ will provide the **knowledge and skills** needed to master these subjects. This 
 
 ---
 
-## Scope & Methodology
+### Scope & Methodology
 
 * **Codename:** F0 — Applied Cryptomath
 * **Cadence:** **3–4 sessions/week (60–75 min each)**, non-daily micro-track
@@ -27,7 +27,7 @@ will provide the **knowledge and skills** needed to master these subjects. This 
 
 ---
 
-## Phase Objectives (Outcomes)
+### Phase Objectives (Outcomes)
 
 * Practical command of **base conversions** (bin/dec/hex) and representation (**two’s complement**).
 * Working knowledge of **modular arithmetic** (operations, inverses, practical Fermat).
@@ -37,7 +37,7 @@ will provide the **knowledge and skills** needed to master these subjects. This 
 
 ---
 
-## Block Structure
+### Block Structure
 
 Each block follows **Goal · Highlights · PBR · PAD** and ships encrypted evidence.
 
@@ -50,7 +50,7 @@ Each block follows **Goal · Highlights · PBR · PAD** and ships encrypted evid
 
 ---
 
-## Stacks & Content
+### **Stacks & Content**
 
 ### Stack 0.1 — Base Systems & Representation
 
@@ -82,7 +82,7 @@ Each block follows **Goal · Highlights · PBR · PAD** and ships encrypted evid
 
 ---
 
-## Closeout Example (B0M1)
+### **Closeout Example (B0M1)**
 
 **Goal.** Fluency in base conversion, binary representation, and shell-based scripting for conversions.
 
@@ -107,7 +107,7 @@ Number systems (bin, hex, dec); why **two’s complement** matters; quick sanity
 
 ---
 
-## Deliverables per Block
+### Deliverables per Block
 
 * `script/pbr_run.sh` (one-command reproducible)
 * `evidence/` with `run.log`, `checksums.txt`, `manifest.json`, screenshots
@@ -118,7 +118,7 @@ Number systems (bin, hex, dec); why **two’s complement** matters; quick sanity
 
 ---
 
-## Success Criteria (Rubric)
+### Success Criteria (Rubric)
 
 |    Level | Criterion                                                         |
 | -------: | ----------------------------------------------------------------- |
@@ -129,7 +129,7 @@ Number systems (bin, hex, dec); why **two’s complement** matters; quick sanity
 
 ---
 
-## Prerequisites & Setup
+### Prerequisites & Setup
 
 * Isolated VM with a clean snapshot.
 * Tools: `bash`, `bc`, `xxd`, `python3` (+ `venv`), `gpg`.
@@ -138,7 +138,7 @@ Number systems (bin, hex, dec); why **two’s complement** matters; quick sanity
 
 ---
 
-## Workflow (per block)
+### Workflow (per block)
 
 1. **Plan:** read the block README; create a `venv` if applicable.
 2. **Do:** run `script/pbr_run.sh` and complete the mission (`mission.asc`).
@@ -148,7 +148,7 @@ Number systems (bin, hex, dec); why **two’s complement** matters; quick sanity
 
 ---
 
-## OPSEC/Legal Notes
+### OPSEC/Legal Notes
 
 * All work is **benign**, educational, and performed in **controlled lab environments**.
 * Do not reuse encryption scripts outside the lab without review.
@@ -156,7 +156,7 @@ Number systems (bin, hex, dec); why **two’s complement** matters; quick sanity
 
 ---
 
-## Closing
+### Closing
 
 Phase 0 **anchors** the mathematical fundamentals that let you understand binaries and cryptography without shortcuts. Run in parallel to the technical phases,
 it raises comprehension and lowers friction once ROP, parsers, loaders, or any low-level analysis arrives. Reproducible, measurable, and defensible: exactly what you need to advance with confidence.
