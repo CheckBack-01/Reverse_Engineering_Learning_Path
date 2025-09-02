@@ -15,13 +15,13 @@ _Try Of Check Dogs_ is my self-directed learning path, designed to run before, d
 
 ---
 
-## My Methodology: **Deep-Dive & Layered**
+### My Methodology: **Deep-Dive & Layered**
 
 Cybersecurity—especially reverse engineering—demands more than collecting facts. Knowledge must be **absorbed deeply, logically, and stepwise**.  
 **Deep-Dive & Layered** structures learning so each layer rests on firm, verifiable foundations.
 
 
-## TOCD Structure
+### TOCD Structure
 
 **Phase → Block → Stack → Mastery Evaluation**
 
@@ -41,21 +41,21 @@ Cybersecurity—especially reverse engineering—demands more than collecting fa
    - Reversing and evasion exercises
 
 
-## Practice Types in TOCD
+### Practice Types in TOCD
 
 - **CTF (Capture The Flag):** Guided exercises to build theoretical and hands-on foundations.  
 - **PBR (Proof-of-Bounty-Readiness):** Reproducible, challenge-driven labs aligned with real-world Bug Bounty scenarios; preparation and execution are fully documented.  
 - **PAD (Practical Aptitude Drill):** An **integrated, multi-technique mission per Block** that validates competence under realistic constraints; it **closes the Block** and is evaluative by design.
 
 
-## Scope & Ethics
+### Scope & Ethics
 
 * **Lab-only.** All experiments run on my own VMs and benign artifacts.
 * **Safety first.** No testing on real systems or third-party infrastructure without explicit authorization.
 * **Measurement over claims.** Evasion and “bypass” are framed as **measurable experiments** to understand and improve defenses, not to facilitate misuse.
 
 
-## Outcome
+### Outcome
 
 This is **not** a traditional course. It’s a comprehensive, staged plan that blends theory, labs, simulations, 
 and real-world style challenges to produce tangible results: **solid skills**, a **verifiable public portfolio**, and the ability to operate responsibly and effectively in offensive-security lab environments.
