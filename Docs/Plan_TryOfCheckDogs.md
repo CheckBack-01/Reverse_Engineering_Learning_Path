@@ -136,4 +136,3 @@ During the 9-month bug bounty + university period, maintain TOCD with **6–8 h/
 
 By the end, I will have **operational RE/maldev skills**, a portfolio of **verifiable projects**, **measured evasion** backed by telemetry, 
 and **professional-grade documentation**—ready for a specialized role and the JHU master’s program.
-```
