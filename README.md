@@ -87,7 +87,7 @@ sha256sum -c manifest.sha256      # optional if .sha256 is provided
 ```
 
 ### Expected outputs:
-
+``` 
 evidence/ with labeled logs and screenshots
 
 manifest.json with hashes and environment metadata
@@ -105,9 +105,9 @@ Do not commit samples or heavy binaries: include hashes and verifiable public so
 Git LFS: use sparingly, only for specific images or PDFs if needed.
 
 Minimum reproducibility: every lab provides a bootstrap script and a manifest.json with versions and artifact hashes.
-
+```
 ### Automation (CI)
-
+```
 Validators in .github/workflows/ run on push/PR:
 
 Markdown and shell lint (markdownlint, shellcheck)
@@ -125,19 +125,20 @@ Backlog and sprints are tracked with Issues and Milestones per phase.
 Tags/Releases mark milestones (e.g., phase1-eniac-v1).
 
 If a pbr.tar.gz is distributed, publish it as a Release asset instead of committing it to the tree.
-
+```
 ### Security & Legal
-
+```
 This repository does not distribute malware or executable samples.
 
 All exercises are performed in isolated VMs as outlined in docs/opsec/.
 
 External contributions must respect LICENSE and SECURITY.md (if present).
-
+```
 ### Quick Support
-
+```
 For structure or reproducibility issues: open an Issue with the [PBR] or [TALK] prefix.
 
 For “Encrypted Mission” protocol questions: see docs/opsec/Encrypted_Mission_Protocol.md.
 
 Contact: open an Issue using the appropriate template.
+```
