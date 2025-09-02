@@ -60,7 +60,6 @@ implants with **C2** and **persistence**, **evasion techniques validated via tel
     8A (new): Initial Access & covert delivery (maldocs, LNK/HTA/JS, AMSI, LOLBins, WMI).  
     8B (new): Minimal Blue Track (Sysmon/ETW, YARA/Sigma, KQL) for baseline & validation.  
     9B (new): Implant crypto & Packer v2 (proper AEAD, key rotation, light mutation).
-
 - **Phase 5 — Advanced persistence & firmware**  
   Rootkits/bootkits, UEFI, and a final project with technical defense.  
   - **Extensions 12A–12F (optional):**  
