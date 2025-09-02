@@ -2,7 +2,7 @@
 # OPSEC & Legal — Policy and Playbook (TOCD)
 
 **Owner:** Denis Yunior Pérez Medina • **Scope:** Entire TOCD repo (labs, docs, evidence, encrypted missions)
-**Status:** v1.0 • **Last updated:** 2025-08-19
+**Status:** v1.0 • **Last updated:** 2025-09-02
 
 > **TL;DR**
 >
