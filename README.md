@@ -35,7 +35,7 @@ My_Learning_Path/
 ├─ LICENSE
 └─ README.md                  # this document
 ```
-## How to Find What You Need
+### How to Find What You Need
 
 #### 1) I need a specific lab
 
@@ -50,7 +50,7 @@ My_Learning_Path/
 - All manifests: phases/**/D??_*/*manifest.json
 
 - All run scripts: phases/**/D??_*/script*/pbr_run.sh or tools/pbr_run.sh
-
+---
 #### 2) I need the syllabus and dates
 
 - docs/syllabus/Syllabus_Summary.md
@@ -58,7 +58,7 @@ My_Learning_Path/
 - docs/syllabus/Public_Schedule.md
 
 - Phase roadmap: docs/syllabus/Progression.md
-
+---
 #### 3) I need the method and rules
 
 - docs/guide/README.md
@@ -69,6 +69,7 @@ My_Learning_Path/
 
 
 # **How to Run a Lab (standard procedure)**
+
 Inside each lab folder, the README.md explains the steps. The common pattern is:
 ```
 # 1) Clone (or update) and enter the lab
@@ -93,8 +94,8 @@ sha256sum -c manifest.sha256      # optional if .sha256 is provided
 
 - Brief “expected vs observed” notes in the lab’s README.md
 
-
-## **Conventions & Evidence Discipline**
+---
+### **Conventions & Evidence Discipline**
 
 - Naming: DXX_TOPIC for each day/lab. Example: D14_FHS.
 
@@ -106,8 +107,8 @@ sha256sum -c manifest.sha256      # optional if .sha256 is provided
 
 - Minimum reproducibility: every lab provides a bootstrap script and a manifest.json with versions and artifact hashes.
 
-
-## **Automation (CI)**
+---
+### **Automation (CI)**
 
 - Validators in .github/workflows/ run on push/PR:
 
@@ -119,8 +120,8 @@ sha256sum -c manifest.sha256      # optional if .sha256 is provided
 
 If the pipeline fails, check the corresponding job log.
 
-
-## **Issues, Backlog, and Releases**
+---
+### **Issues, Backlog, and Releases**
 
 - Backlog and sprints are tracked with Issues and Milestones per phase.
 
@@ -128,8 +129,8 @@ If the pipeline fails, check the corresponding job log.
 
 - If a pbr.tar.gz is distributed, publish it as a Release asset instead of committing it to the tree.
 
-
-## **Security & Legal**
+---
+### **Security & Legal**
 
 - This repository does not distribute malware or executable samples.
 
@@ -137,8 +138,8 @@ If the pipeline fails, check the corresponding job log.
 
 - External contributions must respect LICENSE and SECURITY.md (if present).
 
-
-## **Quick Support**
+---
+### **Quick Support**
 
 - For structure or reproducibility issues: open an Issue with the [PBR] or [TALK] prefix.
 
