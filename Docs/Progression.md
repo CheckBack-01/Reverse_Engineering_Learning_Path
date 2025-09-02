@@ -23,7 +23,7 @@
 
 ---
 
-## F0 Micro-Track (parallel to F1)
+### F0 Micro-Track (parallel to F1)
 
 **Window:** **2025-08-21 → \~2025-10-05** · **Cadence:** 3–4 sessions/week (60–75 min)
 
@@ -48,7 +48,7 @@
 
 ---
 
-## Quarter View (PBR/PAD status by block)
+### Quarter View (PBR/PAD status by block)
 
 ### **Q1 — 2025-08-14 → 2025-11-30 (Phase 1 start · F0 in parallel until \~2025-10-05)**
 
