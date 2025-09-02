@@ -67,7 +67,7 @@ My_Learning_Path/
 - OPSEC and legal: docs/opsec/*
 
 - “Encrypted Mission”: docs/opsec/Encrypted_Mission_Protocol.md
-___
+
 
 # **How to Run a Lab (standard procedure)**
 Inside each lab folder, the README.md explains the steps. The common pattern is:
@@ -92,7 +92,7 @@ sha256sum -c manifest.sha256      # optional if .sha256 is provided
 - manifest.json with hashes and environment metadata
 
 - Brief “expected vs observed” notes in the lab’s README.md
-___
+
 
 ## **Conventions & Evidence Discipline**
 
@@ -105,7 +105,7 @@ ___
 - Git LFS: use sparingly, only for specific images or PDFs if needed.
 
 - Minimum reproducibility: every lab provides a bootstrap script and a manifest.json with versions and artifact hashes.
-___
+
 
 ## **Automation (CI)**
 
@@ -127,7 +127,7 @@ ___
 - Tags/Releases mark milestones (e.g., phase1-eniac-v1).
 
 - If a pbr.tar.gz is distributed, publish it as a Release asset instead of committing it to the tree.
-___
+
 
 ## **Security & Legal**
 
@@ -136,7 +136,7 @@ ___
 - All exercises are performed in isolated VMs as outlined in docs/opsec/.
 
 - External contributions must respect LICENSE and SECURITY.md (if present).
-___ 
+
 
 ## **Quick Support**
 
@@ -145,4 +145,4 @@ ___
 - For “Encrypted Mission” protocol questions: see docs/opsec/Encrypted_Mission_Protocol.md.
 
 - Contact: open an Issue using the appropriate template.
-___ 
+ 
