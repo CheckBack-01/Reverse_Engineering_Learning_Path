@@ -1,6 +1,3 @@
-Aquí tienes la **nueva guía** lista para pegar en `docs/guide/README.md` (o donde prefieras). Está alineada con tu árbol actual y con el “Repository Map & How to Navigate It” que ya pusiste en el README.
-
----
 
 # Guide — Recruiter Overview (TOCD / My\_Learning\_Path)
 
