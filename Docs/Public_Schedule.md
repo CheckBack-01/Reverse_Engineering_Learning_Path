@@ -39,6 +39,7 @@
 * **1B01 — Toolchain, Debugging & VCS · 1 stack**
   Stacks/topics: Git/PRs/hooks, Make/CMake, binutils, compiler flags, sanitizers, gdb/lldb, strace/ltrace, perf.
 
+---
 
 ### Q2 — 2025-12-01 → 2026-02-07
 
@@ -53,6 +54,7 @@
 * **5B01 — Linking/Loading (ELF, PLT/GOT, LD\_PRELOAD) · 1 stack**
   ELF headers/relocs/symbols, shared libs/visibility, hooks via `LD_PRELOAD`, rpath/runpath.
 
+---
 
 ### Q3 — 2026-04-01 → 2026-07-31
 
@@ -67,6 +69,7 @@
 * **EX0B01 — Express Module F2** (tools & harness).
 * **3B02 — Bridge F2→F3 · 2 stacks** (evidence packages + F3 warm-up).
 
+---
 
 ### Q4 — 2026-08-01 → 2026-11-30
 
@@ -80,6 +83,7 @@
 
 > **TOCD pause:** 2026-09-14 → 2027-08-02 (BackLogs).
 
+---
 
 ### Q5 — 2026-12-01 → 2027-03-31
 
@@ -90,6 +94,7 @@
 
 **TOCD pause (Bug Bounty + University)** · BackLogs (reinforcement).
 
+---
 
 ### Q7 — 2027-08-03 → 2027-11-30
 
@@ -98,6 +103,7 @@
 * **0B04 — Advanced Windows Internals (MM/OBJ/ETW/APC) · 4 stacks**
   VADs/**region-map**, Object Manager/**handle-map**, threads/APC, minimal ETW.
 
+---
 
 ### Q8 — 2027-12-01 → 2028-03-31
 
