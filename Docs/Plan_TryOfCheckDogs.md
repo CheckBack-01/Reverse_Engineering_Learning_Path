@@ -56,10 +56,11 @@ implants with **C2** and **persistence**, **evasion techniques validated via tel
 
 - **Phase 4 — Evasion, persistence, and operations**  
   Anti-debug/anti-VM, unhooking, direct syscalls, hollowing, module stomping, **C2**, and covert operations.  
-  ```
-    8A (new): Initial Access & covert delivery (maldocs, LNK/HTA/JS, AMSI, LOLBins, WMI).  
-    8B (new): Minimal Blue Track (Sysmon/ETW, YARA/Sigma, KQL) for baseline & validation.  
-    9B (new): Implant crypto & Packer v2 (proper AEAD, key rotation, light mutation).
+  
+    * 8A (new): Initial Access & covert delivery (maldocs, LNK/HTA/JS, AMSI, LOLBins, WMI).  
+    * 8B (new): Minimal Blue Track (Sysmon/ETW, YARA/Sigma, KQL) for baseline & validation.  
+    * 9B (new): Implant crypto & Packer v2 (proper AEAD, key rotation, light mutation).
+  
 - **Phase 5 — Advanced persistence & firmware**  
   Rootkits/bootkits, UEFI, and a final project with technical defense.  
   - **Extensions 12A–12F (optional):**  
