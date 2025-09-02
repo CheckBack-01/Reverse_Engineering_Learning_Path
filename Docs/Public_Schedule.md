@@ -11,7 +11,7 @@
 
 ---
 
-## Quick Phase View (durations)
+### Quick Phase View (durations)
 
 * **Phase 1** (Foundations) · **Q1–Q2** · \~6 months
 * **Phase 2** (Applied analysis & first execution paths) · **Q3** · \~4 months
@@ -23,7 +23,7 @@
 
 ---
 
-## Q1 — 2025-08-14 → 2025-11-30
+### Q1 — 2025-08-14 → 2025-11-30
 
 **Phase 1 (start)**
 
@@ -32,7 +32,7 @@
 * **1B01 — Toolchain, Debugging & VCS · 1 stack**
   Stacks/topics: Git/PRs/hooks, Make/CMake, binutils, compiler flags, sanitizers, gdb/lldb, strace/ltrace, perf.
 
-## Q2 — 2025-12-01 → 2026-02-07
+##@ Q2 — 2025-12-01 → 2026-02-07
 
 **Phase 1 (closure)**
 
@@ -45,7 +45,7 @@
 * **5B01 — Linking/Loading (ELF, PLT/GOT, LD\_PRELOAD) · 1 stack**
   ELF headers/relocs/symbols, shared libs/visibility, hooks via `LD_PRELOAD`, rpath/runpath.
 
-## Q3 — 2026-04-01 → 2026-07-31
+### Q3 — 2026-04-01 → 2026-07-31
 
 **Phase 2 (complete)**
 
@@ -58,7 +58,7 @@
 * **EX0B01 — Express Module F2** (tools & harness).
 * **3B02 — Bridge F2→F3 · 2 stacks** (evidence packages + F3 warm-up).
 
-## Q4 — 2026-08-01 → 2026-11-30
+### Q4 — 2026-08-01 → 2026-11-30
 
 **Phase 3 (start, through 2026-09-14)**
 
@@ -70,7 +70,7 @@
 
 > **TOCD pause:** 2026-09-14 → 2027-08-02 (BackLogs).
 
-## Q5 — 2026-12-01 → 2027-03-31
+### Q5 — 2026-12-01 → 2027-03-31
 
 **TOCD pause (Bug Bounty + University)** · BackLogs (reinforcement).
 
@@ -85,7 +85,7 @@
 * **0B04 — Advanced Windows Internals (MM/OBJ/ETW/APC) · 4 stacks**
   VADs/**region-map**, Object Manager/**handle-map**, threads/APC, minimal ETW.
 
-## Q8 — 2027-12-01 → 2028-03-31
+### Q8 — 2027-12-01 → 2028-03-31
 
 **Phase 3 (continuation)**
 
@@ -94,7 +94,7 @@
 * **2B03 — Heap Exploitation (LFH vs glibc) · 3 stacks**
   UAF/overwrite (Windows), tcache/fastbin (Linux), mitigations.
 
-## Q9 — 2028-04-01 → 2028-07-31
+### Q9 — 2028-04-01 → 2028-07-31
 
 **Phase 3 (closure)**
 
@@ -103,7 +103,7 @@
 * **4B02 — F3-CAP (userland → SYSTEM) · 2 stacks**
   Integrated PoC + technical defense.
 
-## Q10 — 2028-08-01 → 2028-11-30
+### Q10 — 2028-08-01 → 2028-11-30
 
 **Phase 4 (start)**
 
@@ -111,7 +111,7 @@
 * **8B — Minimal Blue Track** (Sysmon/ETW, YARA/Sigma, KQL).
 * **F4-B1 — Evasion I** (anti-analysis, hash-based resolution, string/CFG obfuscation, basic syscalls).
 
-## Q11 — 2028-12-01 → 2029-03-31
+### Q11 — 2028-12-01 → 2029-03-31
 
 **Phase 4 (continuation)**
 
@@ -119,7 +119,7 @@
 * **9B — Implant Crypto & Packer v2** (AEAD, rotation, light mutation).
 * **F4-B3 — Cross-platform Persistence** (Win/Linux/macOS).
 
-## Q12 — 2029-04-01 → 2029-07-31
+### Q12 — 2029-04-01 → 2029-07-31
 
 **Phase 4 (closure)**
 
@@ -137,7 +137,7 @@
 * **B1 — Linux Kernel (LKMs, kprobes/ftrace) · themed stacks**
   Kbuild/Kconfig, didactic instrumentation, /proc/sysfs metrics.
 
-## Q14 — 2029-12-01 → 2030-03-31
+### Q14 — 2029-12-01 → 2030-03-31
 
 **Phase 5 (closure)**
 
