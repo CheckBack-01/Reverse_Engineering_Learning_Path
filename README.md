@@ -51,9 +51,9 @@ My_Learning_Path/
 
 - All labs in the repo: phases/**/D??_*
 
-- All manifests: phases/**/D??_*/*manifest.json
+- All manifests: phases/F*_*/*B**/D??_*/*manifest.json
 
-- All run scripts: phases/**/D??_*/script*/pbr_run.sh or tools/pbr_run.sh
+- All run scripts: phases/F*_*/*B**/D??_*/script*/pbr_run.sh or tools/pbr_run.sh
 
 #### 2) I need the syllabus and dates
 
@@ -77,8 +77,8 @@ My_Learning_Path/
 Inside each lab folder, the README.md explains the steps. The common pattern is:
 ```
 # 1) Clone (or update) and enter the lab
-git clone https://github.com/<your-user>/My_Learning_Path.git
-cd My_Learning_Path/phases/F1_ENIAC/0B01/D14_FHS
+git clone https://github.com/CheckBack-01/Reverse_Engineering_Learning_Path.git
+cd Reverse_Engineering_Learning_Path/phases/F1_ENIAC/0B01/D14_FHS
 
 # 2) Check dependencies and environment
 bash tools/check_env.sh           # or the equivalent script inside the lab
