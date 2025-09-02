@@ -37,19 +37,20 @@ My_Learning_Path/
 
 ```
 ## How to Find What You Need
+
 1) I need a specific lab
 
-Convention: phases/Fx_NAME/BLOCK/DXX_TOPIC/
+-Convention: phases/Fx_NAME/BLOCK/DXX_TOPIC/
 
-Example: phases/F1_ENIAC/0B01/D14_FHS/
+-Example: phases/F1_ENIAC/0B01/D14_FHS/
 
 Shortcuts:
 
-All labs in the repo: phases/**/D??_*
+-All labs in the repo: phases/**/D??_*
 
-All manifests: phases/**/D??_*/*manifest.json
+-All manifests: phases/**/D??_*/*manifest.json
 
-All run scripts: phases/**/D??_*/script*/pbr_run.sh or tools/pbr_run.sh
+-All run scripts: phases/**/D??_*/script*/pbr_run.sh or tools/pbr_run.sh
 
 2) I need the syllabus and dates
 
