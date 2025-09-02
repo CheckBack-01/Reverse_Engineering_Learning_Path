@@ -3,8 +3,8 @@
 Official repository of my learning path for TOCD (Try Of Check Dogs): self-paced curriculum in reverse engineering and malware development. phases, reproducible labs (PBR), drills (PAD), guides and evidence. The goal is for anyone to be able to find a lab, run it with a script, and verify evidence with hashes.
 
 ## **Repository Map & How to Navigate It**
-```
 
+```
 My_Learning_Path/
 ├─ docs/                      # Reading docs (not labs)
 │  ├─ syllabus/               # Syllabus, public schedule, progression
@@ -34,7 +34,6 @@ My_Learning_Path/
 ├─ .gitattributes
 ├─ LICENSE
 └─ README.md                  # this document
-
 ```
 ## How to Find What You Need
 
@@ -87,6 +86,7 @@ sha256sum -c manifest.sha256      # optional if .sha256 is provided
 # or open manifest.json and compare hashes
 ```
 **Expected outputs:**
+
 - evidence/ with labeled logs and screenshots
 
 - manifest.json with hashes and environment metadata
@@ -118,7 +118,7 @@ sha256sum -c manifest.sha256      # optional if .sha256 is provided
 - Link checker for external links
 
 If the pipeline fails, check the corresponding job log.
-___
+
 
 ## **Issues, Backlog, and Releases**
 
