@@ -8,11 +8,13 @@
 > • F1–F3 blocks follow `XBYY` (e.g., `0B04`) → `X` = block index starting at 0 · `YY` = number of stacks.
 > • In F4 use **F4-B1..B5** and modules **8A/8B/9B**.
 > • In F5 use **B1..B5** for thematic clarity.
+> **Parallel note:** **Phase 0 (Applied Cryptomath)** runs alongside Phase 1 from **2025-08-21 → \~2025-10-05**, **3–4 sessions/week (60–75 min)**. This micro-track does **not** materially change the daily 5 h commitment.
 
 ---
 
 ### Quick Phase View (durations)
 
+* **Phase 0** (Applied Cryptomath · parallel micro-track) · **Q1** (2025-08-21 → \~2025-10-05) · \~6 weeks · non-daily (3–4×/week, 60–75 min)
 * **Phase 1** (Foundations) · **Q1–Q2** · \~6 months
 * **Phase 2** (Applied analysis & first execution paths) · **Q3** · \~4 months
 * **Phase 3** (Internals & userland/kernel intro) · **Q4** *(start)*, **Q7–Q9** *(continuation)* · \~12–14 effective months (with a pause)
@@ -21,9 +23,14 @@
 
 > **TOCD pause:** 2026-09-14 → 2027-08-02 (Bug Bounty + University; BackLogs 6–8 h/week).
 
----
 
 ### Q1 — 2025-08-14 → 2025-11-30
+
+**Phase 0 (parallel micro-track · 2025-08-21 → \~2025-10-05)**
+*Cadence:* 3–4 sessions/week (60–75 min) · *Impact:* minimal on daily schedule
+
+* **Stacks/topics:** base conversions (bin/dec/hex, two’s complement), modular arithmetic (ops, inverses, Fermat in practice), number-theory essentials (primes, gcd/lcm, factorization), minimal linear algebra for block representations (**Hill-lite**).
+* **Deliverables:** 3 **mini-PBRs** (Conversions, Modular Ops, Number-Theory Essentials) + **PAD-lite** (Hill-lite encoding). Evidence discipline mirrors F1 (README, manifest, evidence).
 
 **Phase 1 (start)**
 
@@ -31,6 +38,7 @@
   Stacks/topics: FHS, permissions (chmod/ACL), pipelines (grep/sed/awk), backups/rsync, processes/signals, basic networking, apt/dpkg, minimal OPSEC.
 * **1B01 — Toolchain, Debugging & VCS · 1 stack**
   Stacks/topics: Git/PRs/hooks, Make/CMake, binutils, compiler flags, sanitizers, gdb/lldb, strace/ltrace, perf.
+
 
 ### Q2 — 2025-12-01 → 2026-02-07
 
@@ -45,6 +53,7 @@
 * **5B01 — Linking/Loading (ELF, PLT/GOT, LD\_PRELOAD) · 1 stack**
   ELF headers/relocs/symbols, shared libs/visibility, hooks via `LD_PRELOAD`, rpath/runpath.
 
+
 ### Q3 — 2026-04-01 → 2026-07-31
 
 **Phase 2 (complete)**
@@ -58,6 +67,7 @@
 * **EX0B01 — Express Module F2** (tools & harness).
 * **3B02 — Bridge F2→F3 · 2 stacks** (evidence packages + F3 warm-up).
 
+
 ### Q4 — 2026-08-01 → 2026-11-30
 
 **Phase 3 (start, through 2026-09-14)**
@@ -70,13 +80,16 @@
 
 > **TOCD pause:** 2026-09-14 → 2027-08-02 (BackLogs).
 
+
 ### Q5 — 2026-12-01 → 2027-03-31
 
 **TOCD pause (Bug Bounty + University)** · BackLogs (reinforcement).
 
+
 ### Q6 — 2027-04-01 → 2027-07-31
 
 **TOCD pause (Bug Bounty + University)** · BackLogs (reinforcement).
+
 
 ### Q7 — 2027-08-03 → 2027-11-30
 
@@ -84,6 +97,7 @@
 
 * **0B04 — Advanced Windows Internals (MM/OBJ/ETW/APC) · 4 stacks**
   VADs/**region-map**, Object Manager/**handle-map**, threads/APC, minimal ETW.
+
 
 ### Q8 — 2027-12-01 → 2028-03-31
 
@@ -94,6 +108,8 @@
 * **2B03 — Heap Exploitation (LFH vs glibc) · 3 stacks**
   UAF/overwrite (Windows), tcache/fastbin (Linux), mitigations.
 
+---
+
 ### Q9 — 2028-04-01 → 2028-07-31
 
 **Phase 3 (closure)**
@@ -103,6 +119,8 @@
 * **4B02 — F3-CAP (userland → SYSTEM) · 2 stacks**
   Integrated PoC + technical defense.
 
+---
+
 ### Q10 — 2028-08-01 → 2028-11-30
 
 **Phase 4 (start)**
@@ -111,6 +129,8 @@
 * **8B — Minimal Blue Track** (Sysmon/ETW, YARA/Sigma, KQL).
 * **F4-B1 — Evasion I** (anti-analysis, hash-based resolution, string/CFG obfuscation, basic syscalls).
 
+---
+
 ### Q11 — 2028-12-01 → 2029-03-31
 
 **Phase 4 (continuation)**
@@ -118,6 +138,8 @@
 * **F4-B2 — Evasion II** (APC early-bird, thread-less, module stomping, PPID spoof).
 * **9B — Implant Crypto & Packer v2** (AEAD, rotation, light mutation).
 * **F4-B3 — Cross-platform Persistence** (Win/Linux/macOS).
+
+---
 
 ### Q12 — 2029-04-01 → 2029-07-31
 
@@ -130,12 +152,16 @@
 > **F4 Extensions (optional):** **12A** macOS + EndpointSecurity · **12B** Linux EDR/eBPF · **12C** Android + Frida · **12D** Hardware RE basics · **12E** Bus sniffers & FW pipeline · **12F** Glitching/FPGA lite.
 > **Express Module:** **OPSEC/Legal** (3–5 days).
 
+---
+
 ### Q13 — 2029-08-01 → 2029-11-30
 
 **Phase 5 (start)**
 
 * **B1 — Linux Kernel (LKMs, kprobes/ftrace) · themed stacks**
   Kbuild/Kconfig, didactic instrumentation, /proc/sysfs metrics.
+
+---
 
 ### Q14 — 2029-12-01 → 2030-03-31
 
@@ -151,6 +177,7 @@
 
 ### Notes
 
+* **Phase 0** is a short, non-daily micro-track to accelerate Phase 1 comprehension; it does not materially change the overall time budget. After completion, maintain with **BackLogs** (20–30 min, 1–2×/week).
 * Each **Block** closes with **PBR + PAD** (integrated mission) and **reproducible evidence**.
 * **Stacks** list the main thematic axes per block (high level).
 * Dates are reference frames; deliverables do not change with minor calendar shifts.
