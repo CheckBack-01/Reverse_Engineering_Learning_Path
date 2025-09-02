@@ -1,5 +1,5 @@
 
-# F0Cryptomath
+# Cryptomath
 
 ### Rationale for Introducing a New Phase
 
