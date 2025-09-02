@@ -1,13 +1,11 @@
 
 # Encrypted Mission Protocol
 
----
 ### **Light Practice Format — Sensitive Intelligence Simulation**
 
 This protocol replaces plain-text delivery of instructions for **PBRs** and **PADs**.  
 All instructions are provided **encrypted** and can only be read by following the procedure below.
 
----
 ### **Objective**
 
 Simulate a real-world workflow where critical orders/data are **never exposed directly**, reinforcing skills in:
@@ -16,9 +14,9 @@ Simulate a real-world workflow where critical orders/data are **never exposed di
 - Using **GnuPG** (`gpg`) for encryption and decryption  
 - Maintaining a secure, traceable workflow in a lab environment
 
----
 ### **Procedure**
 
+---
 ### **1) Receive the mission**
 You’ll be given an **encrypted data block** in ASCII-armored GPG format.
 
