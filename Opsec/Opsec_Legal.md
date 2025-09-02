@@ -13,7 +13,7 @@
 > * No operational malware, no real-world targeting, no persistence outside the lab.
 
 ---
-### 1) Purpose & Scope
+### **1) Purpose & Scope**
 
 Define operational and legal rules for all **Reverse Engineering / Malware Development** work under **TOCD**, ensuring safety, legality, and reproducibility.
 
@@ -21,7 +21,7 @@ Define operational and legal rules for all **Reverse Engineering / Malware Devel
 * Objective: **learn and demonstrate** techniques **in lab only**—**not** to run real campaigns.
 
 ---
-### 2) Non-Negotiables
+### **2) Non-Negotiables**
 
 1. **Legality & consent:** only on assets you own or with **explicit authorization**.
 2. **Isolation:** dedicated VMs with **no** routes to third-party networks or data.
@@ -30,7 +30,7 @@ Define operational and legal rules for all **Reverse Engineering / Malware Devel
 5. **Least privilege:** restrict access, secrets, and artifacts to the minimum necessary.
 
 ---
-### ** 3) Allowed Technical Scope (Lab-Only)**
+### **3) Allowed Technical Scope (Lab-Only)**
 
 * **Dedicated VMs** (Win/Linux/macOS) with **snapshots** per PBR/PAD.
 * **Network:** outbound NAT; **no** exposed inbound ports.
@@ -39,7 +39,7 @@ Define operational and legal rules for all **Reverse Engineering / Malware Devel
 * **Prohibited:** testing on third-party assets, real phishing, or handling real user data.
 
 ---
-### 4) ** Engagement Rules (Bug Bounty / CTF)**
+### **4) Engagement Rules (Bug Bounty / CTF)**
 
 * Only **authorized programs** and **in-scope windows** (re-check policy every time).
 * **No PII exfiltration**; use **synthetic data**.
@@ -193,7 +193,7 @@ gpg --decrypt mission.gpg
 * Add a visible notice in `README.md` and in each PAD/PBR.
 
 ---
-### 17) **Auditability & Traceability**
+### **17) Auditability & Traceability**
 
 * Descriptive commits; issues/milestones aligned with **KPIs**.
 * Record hashes and versions per PBR/PAD.
