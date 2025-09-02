@@ -20,8 +20,8 @@ Define operational and legal rules for all **Reverse Engineering / Malware Devel
 * Applies to: source code, scripts, binaries, evidence, documentation, and **Encrypted Missions**.
 * Objective: **learn and demonstrate** techniques **in lab only**—**not** to run real campaigns.
 
-
-## 2) Non-Negotiables
+---
+### 2) Non-Negotiables
 
 1. **Legality & consent:** only on assets you own or with **explicit authorization**.
 2. **Isolation:** dedicated VMs with **no** routes to third-party networks or data.
@@ -29,8 +29,8 @@ Define operational and legal rules for all **Reverse Engineering / Malware Devel
 4. **Reproducibility:** scripts, pinned versions, hashes, and environment notes for every run.
 5. **Least privilege:** restrict access, secrets, and artifacts to the minimum necessary.
 
-
-## ** 3) Allowed Technical Scope (Lab-Only)**
+---
+### ** 3) Allowed Technical Scope (Lab-Only)**
 
 * **Dedicated VMs** (Win/Linux/macOS) with **snapshots** per PBR/PAD.
 * **Network:** outbound NAT; **no** exposed inbound ports.
@@ -38,8 +38,8 @@ Define operational and legal rules for all **Reverse Engineering / Malware Devel
 * **Tooling:** debuggers, disassemblers, ETW/Sysmon, YARA/Sigma, KQL, etc.
 * **Prohibited:** testing on third-party assets, real phishing, or handling real user data.
 
-
-## 4) ** Engagement Rules (Bug Bounty / CTF)**
+---
+### 4) ** Engagement Rules (Bug Bounty / CTF)**
 
 * Only **authorized programs** and **in-scope windows** (re-check policy every time).
 * **No PII exfiltration**; use **synthetic data**.
@@ -51,7 +51,7 @@ Define operational and legal rules for all **Reverse Engineering / Malware Devel
   * Follow the program’s disclosure timelines.
 
 ---
-## **5) Data Classification & Handling**
+### **5) Data Classification & Handling**
 
 **Levels**
 
@@ -64,8 +64,8 @@ Define operational and legal rules for all **Reverse Engineering / Malware Devel
 * Do not commit `secrets.*`, `*.key`, `*.pem`, `*.pfx`, `*.kdbx`, or dumps with tokens.
 * Store evidence hashes in `SHA256SUMS.txt`; environment versions in `ENVINFO.md`.
 
-___
-## **6) Secret Management**
+---
+### **6) Secret Management**
 
 * Local `.env` plus a `dotenv.example` with **no real values**.
 * Use GPG for **Encrypted Missions** and any sensitive transport.
@@ -73,7 +73,7 @@ ___
 * **Never** share secrets via issues/PRs.
 
 ---
-## **7) Reproducible Builds & Metadata Hygiene**
+### **7) Reproducible Builds & Metadata Hygiene**
 
 * Pin versions and set **`SOURCE_DATE_EPOCH`**.
 * **Strip** symbols in public binaries; keep symbols **lab-only**.
@@ -82,7 +82,7 @@ ___
 
 
 ---
-## **8) Safe Publishing Checklist (Pre-Push)**
+### **8) Safe Publishing Checklist (Pre-Push)**
 
 * [ ] No secrets or PII present.
 * [ ] Evidence sanitized (internal hostnames/IPs obfuscated).
@@ -92,7 +92,7 @@ ___
 
 
 ---
-## **9) Encrypted Mission Protocol (GPG)**
+### **9) Encrypted Mission Protocol (GPG)**
 
 * **Location:** `missions/encrypted/`
 * **Format:** **ASCII-armored GPG** blocks only in public repos; never plain-text instructions.
@@ -106,13 +106,13 @@ ___
 
 
 ---
-## **10) Evidence & Chain of Custody**
+### **10) Evidence & Chain of Custody**
 
 * Evidence must be **reproducible**, minimal, and secret-free.
 * Record exact tool versions and hashes.
 
 ---
-## **11) Networking, Isolation & Snapshots**
+### **11) Networking, Isolation & Snapshots**
 
 * **Outbound NAT only**; no port forwarding.
 * **Snapshots:** before/after each PBR/PAD; verify restore.
@@ -120,14 +120,14 @@ ___
 * **DNS:** prefer internal resolver or reputable public DNS.
 
 ---
-## **12) Account & Access Security**
+### **12) Account & Access Security**
 
 * Enforce 2FA on GitHub and lab accounts.
 * Use tokens with **minimal scopes** and expirations.
 * Private repos: least-privilege membership and change tracking.
 
 ---
-## **13) Quick Templates**
+### **13) Quick Templates**
 
 **13.1 — Lab Consent (template)**
 
@@ -170,7 +170,7 @@ gpg --armor --encrypt --recipient "TOCD Lab" mission.txt > mission.gpg
 gpg --decrypt mission.gpg
 ```
 ---
-## **14) Incident Response (What to do if…)**
+### **14) Incident Response (What to do if…)**
 
 * **Secret leaked:** revoke/rotate creds, remove artifact, log incident under `docs/incidents/`.
 * **Instability outside lab:** stop, document, restore snapshot, root-cause.
@@ -178,7 +178,7 @@ gpg --decrypt mission.gpg
 * **Legal/ethical risk:** pause, review policy, **do not proceed** until cleared.
 
 ---
-## **15) Legal & Ethical Boundaries (Red Lines)**
+### **15) Legal & Ethical Boundaries (Red Lines)**
 
 * No testing on third-party infrastructure **without permission**.
 * No DoS, ransomware, cryptojacking, or persistence outside lab.
@@ -186,21 +186,21 @@ gpg --decrypt mission.gpg
 * No real personal data; use synthetic datasets only.
 
 ---
-## **16) Licensing & Educational Use**
+### **16) Licensing & Educational Use**
 
 * This repository and artifacts are for **educational purposes**.
 * Code and PoCs are designed to function **in lab environments only**.
 * Add a visible notice in `README.md` and in each PAD/PBR.
 
 ---
-## 17) **Auditability & Traceability**
+### 17) **Auditability & Traceability**
 
 * Descriptive commits; issues/milestones aligned with **KPIs**.
 * Record hashes and versions per PBR/PAD.
 * Version YARA/Sigma/KQL rule changes under `rules/`.
 
 ---
-## **18) Related Documents**
+### **18) Related Documents**
 
 * `Plan.md` — Overall plan and calendar.
 * `docs/Public_Schedule.md` — Public quarterly schedule.
