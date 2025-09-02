@@ -130,7 +130,7 @@
 > **F4 Extensions (optional):** **12A** macOS + EndpointSecurity · **12B** Linux EDR/eBPF · **12C** Android + Frida · **12D** Hardware RE basics · **12E** Bus sniffers & FW pipeline · **12F** Glitching/FPGA lite.
 > **Express Module:** **OPSEC/Legal** (3–5 days).
 
-## Q13 — 2029-08-01 → 2029-11-30
+### Q13 — 2029-08-01 → 2029-11-30
 
 **Phase 5 (start)**
 
