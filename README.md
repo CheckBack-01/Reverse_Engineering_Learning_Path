@@ -7,9 +7,10 @@ Official repository of my learning path for TOCD (Try Of Check Dogs): self-paced
 ```
 My_Learning_Path/
 ├─ docs/                      # Reading docs (not labs)
-│  ├─ syllabus/               # Syllabus, public schedule, progression
+│  ├─ syllabus/               # Syllabus, public schedule, progression, plan tryofcheckdogs
 │  │  ├─ Syllabus_Summary.md
 │  │  ├─ Public_Schedule.md
+│  │  ├─ Plan_TyrOfCheckDogs.md
 │  │  └─ Progression.md
 │  ├─ opsec/                  # OPSEC/Legal and “Encrypted Mission” protocols
 │  │  ├─ Opsec_Legal.md
@@ -20,12 +21,14 @@ My_Learning_Path/
 │  ├─ F0_Cryptomath/
 │  ├─ F1_ENIAC/
 │  │  └─ 0B01/
-│  │     └─ D14_FHS/
-│  │        ├─ README.md      # lab instructions
-│  │        ├─ manifest.json  # metadata + artifact hashes
-│  │        └─ evidence/      # logs, screenshots, outputs (no samples)
+│  │     ├─ D14_FHS/
+│  │     |  ├─ README.md      # lab instructions
+│  │     |  ├─ manifest.json  # metadata + artifact hashes
+│  │     |  └─ evidence/      # logs, screenshots, outputs (no samples)
+|  |     └─ PAD/              # block aptitude test
 │  ├─ F2_IBM1401/
-│  └─ F3_Intel4004/ ...
+|  ├─ F3_Intel4004/ ...
+│  └─ TryOfCheckDogs.md
 ├─ tools/                     # Reusable scripts (pbr_run.sh, check_env.sh)
 ├─ templates/                 # Lab README and manifest templates
 ├─ .github/                   # CI (markdownlint, shellcheck, validators)
