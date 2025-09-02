@@ -2,7 +2,7 @@
 
 Official repository of my learning path for TOCD (Try Of Check Dogs): self-paced curriculum in reverse engineering and malware development. phases, reproducible labs (PBR), drills (PAD), guides and evidence. The goal is for anyone to be able to find a lab, run it with a script, and verify evidence with hashes.
 
-## **Repository Map & How to Navigate It**
+### **Repository Map & How to Navigate It**
 
 ```
 My_Learning_Path/
@@ -35,6 +35,7 @@ My_Learning_Path/
 ├─ LICENSE
 └─ README.md                  # this document
 ```
+---
 ### How to Find What You Need
 
 #### 1) I need a specific lab
@@ -67,8 +68,8 @@ My_Learning_Path/
 
 - “Encrypted Mission”: docs/opsec/Encrypted_Mission_Protocol.md
 
-
-# **How to Run a Lab (standard procedure)**
+---
+### **How to Run a Lab (standard procedure)**
 
 Inside each lab folder, the README.md explains the steps. The common pattern is:
 ```
