@@ -51,7 +51,7 @@ My_Learning_Path/
 - All manifests: phases/**/D??_*/*manifest.json
 
 - All run scripts: phases/**/D??_*/script*/pbr_run.sh or tools/pbr_run.sh
----
+
 #### 2) I need the syllabus and dates
 
 - docs/syllabus/Syllabus_Summary.md
@@ -59,7 +59,7 @@ My_Learning_Path/
 - docs/syllabus/Public_Schedule.md
 
 - Phase roadmap: docs/syllabus/Progression.md
----
+
 #### 3) I need the method and rules
 
 - docs/guide/README.md
