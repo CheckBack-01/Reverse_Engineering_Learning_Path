@@ -12,9 +12,8 @@
 > * **Encrypted Missions** deliver instructions only via GPG; nothing sensitive in plain text.
 > * No operational malware, no real-world targeting, no persistence outside the lab.
 
-
-
-## 1) Purpose & Scope
+---
+### 1) Purpose & Scope
 
 Define operational and legal rules for all **Reverse Engineering / Malware Development** work under **TOCD**, ensuring safety, legality, and reproducibility.
 
@@ -29,7 +28,6 @@ Define operational and legal rules for all **Reverse Engineering / Malware Devel
 3. **Benign payloads:** harmless, templated, reversible; **rollback guaranteed**.
 4. **Reproducibility:** scripts, pinned versions, hashes, and environment notes for every run.
 5. **Least privilege:** restrict access, secrets, and artifacts to the minimum necessary.
-
 
 
 ## ** 3) Allowed Technical Scope (Lab-Only)**
