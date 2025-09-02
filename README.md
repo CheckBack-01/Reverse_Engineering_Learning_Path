@@ -5,7 +5,7 @@ Official repository of my learning path for TOCD (Try Of Check Dogs): self-paced
 ### **Repository Map & How to Navigate It**
 
 ```
-My_Learning_Path/
+Reverse_Engineering_Learning_Path/
 ├─ docs/                      # Reading docs (not labs)
 │  ├─ syllabus/               # Syllabus, public schedule, progression, plan tryofcheckdogs
 │  │  ├─ Syllabus_Summary.md
