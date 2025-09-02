@@ -7,7 +7,7 @@
 
 ---
 
-## 1) Phase summary (brief)
+### 1) Phase summary (brief)
 
 **Phase 1 — Systems & programming fundamentals**
 Linux/CLI, Bash, toolchain (Git/Make, debuggers, sanitizers), systems C (memory, pointers, I/O), x86\_64/ABI and basic assembly, linking/loading (ELF, PLT/GOT), `LD_PRELOAD`. Outcome: low-level operational fluency and in-house utilities.
@@ -26,7 +26,7 @@ Linux kernel (LKMs, kprobes/ftrace), Windows kernel (callbacks, IOCTL/IRP), lab 
 
 ---
 
-## 2) Quarter map (4 months per time block)
+### 2) Quarter map (4 months per time block)
 
 > Legend: F1–F5 = phase; Bx = block; CAP = Capstone; (8A/8B/9B/12A–C) = added modules
 
@@ -49,7 +49,7 @@ Linux kernel (LKMs, kprobes/ftrace), Windows kernel (callbacks, IOCTL/IRP), lab 
 
 ---
 
-## 3) Blocks per phase (short list)
+### 3) Blocks per phase (short list)
 
 **F1**: B1 Linux/CLI · B2 Toolchain/Debugging · B3 Systems C I · B4 x86\_64/ABI/asm · B5 ELF/PLT/GOT/`LD_PRELOAD` · (minimal OPSEC)
 
@@ -63,7 +63,7 @@ Linux kernel (LKMs, kprobes/ftrace), Windows kernel (callbacks, IOCTL/IRP), lab 
 
 ---
 
-## 4) Macro deliverables per phase
+### 4) Macro deliverables per phase
 
 * **F1:** C utilities, ELF parser, `LD_PRELOAD` hook, docs & tests.
 * **F2:** reversing report with unpack, **PE parser**, loader with ≥2 techniques.
@@ -73,14 +73,14 @@ Linux kernel (LKMs, kprobes/ftrace), Windows kernel (callbacks, IOCTL/IRP), lab 
 
 ---
 
-## 5) Calendar notes
+### 5) Calendar notes
 
 * **TOCD pause:** 2026-09-14 → 2027-08-02. During this period: **Bug Bounty + University** with reinforcement **BackLogs** (6–8 h/week).
 * **TOCD resumes without pauses:** from 2027-08-03 through program completion.
 
 ---
 
-## 6) Conventions & metrics
+### 6) Conventions & metrics
 
 * Each block closes with **PBR + PAD** and reproducible evidence.
 * Validation with a **Blue** panel where applicable (8B present starting in F4).
