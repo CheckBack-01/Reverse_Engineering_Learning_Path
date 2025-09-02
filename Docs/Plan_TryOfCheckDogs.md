@@ -109,7 +109,7 @@ During the 9-month bug bounty + university period, maintain TOCD with **6–8 h/
 - **Ethics/Legal:** lab-only testing and explicit consent in controlled cases.
 
 
-## **10) OPSEC & Legal**
+### **10) OPSEC & Legal**
 
 - Campaign-level project compartmentalization.  
 - Metadata minimization (PDB/RSDS, timestamps, FileVersionInfo).  
