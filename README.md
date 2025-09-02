@@ -51,9 +51,9 @@ My_Learning_Path/
 
 - All labs in the repo: phases/Fx_NAME/D??_*
 
-- All manifests: phases/Fx_NAME/*B??/D??_*/*manifest.json
+- All manifests: phases/Fx_NAME/BLOCK/D??_*/*manifest.json
 
-- All run scripts: phases/Fx_NAME/*B??/D??_*/script*/pbr_run.sh or tools/pbr_run.sh
+- All run scripts: phases/Fx_NAME/BLOCK/D??_*/script*/pbr_run.sh or tools/pbr_run.sh
 
 #### 2) I need the syllabus and dates
 
