@@ -5,7 +5,6 @@
 > **Cross-cutting methodology:** **PBR** (reproducible labs) + **PAD** (*Practical Aptitude Drill: per-block integrated mission — multi-technique and evaluative*) · OPSEC/Legal applied · Blue validation (8B) where applicable.
 > **Block nomenclature:** when block codes are used, follow `XBYY` (e.g., `0B03`) → `X` = block index (starting at 0), `YY` = number of stacks in the block.
 
----
 
 ### 1) Phase summary (brief)
 
@@ -24,7 +23,6 @@ Process internals (PEB/TEB, regions, TLS), **ROP/JOP** with info-leak (Win/Linux
 **Phase 5 — Kernel, firmware & boot (closure)**
 Linux kernel (LKMs, kprobes/ftrace), Windows kernel (callbacks, IOCTL/IRP), lab rootkit-style PoCs (reversible and detectable), **UEFI/OVMF** and benign DXE, bootflow and **Secure Boot on/off** comparison. Outcome: **Capstone F5** integrating kernel + firmware with technical defense and proven rollback.
 
----
 
 ### 2) Quarter map (4 months per time block)
 
@@ -47,7 +45,6 @@ Linux kernel (LKMs, kprobes/ftrace), Windows kernel (callbacks, IOCTL/IRP), lab 
 | C13 | 2029-08 → 2029-11 | **F5:** Pre-flight · B1 Linux kernel (LKMs/kprobes) · start of B2 Windows kernel (IOCTL/IRP)                                   | Stable LKM & metrics; Windows driver in progress              |
 | C14 | 2029-12 → 2030-03 | **F5:** finish B2 · B3 Benign rootkit PoCs · B4 UEFI/OVMF (DXE) · B5 Bootflow · **CAP F5**                                     | Benign DXE, Secure Boot comparison, kernel+firmware Capstone  |
 
----
 
 ### 3) Blocks per phase (short list)
 
@@ -61,7 +58,6 @@ Linux kernel (LKMs, kprobes/ftrace), Windows kernel (callbacks, IOCTL/IRP), lab 
 
 **F5**: Pre-flight · B1 Linux kernel (LKMs/kprobes) · B2 Windows kernel (IOCTL/IRP/callbacks) · B3 Benign rootkit PoCs (lab) · B4 UEFI/OVMF (DXE) · B5 Bootflow & Secure Boot · **CAP F5**
 
----
 
 ### 4) Macro deliverables per phase
 
@@ -71,14 +67,12 @@ Linux kernel (LKMs, kprobes/ftrace), Windows kernel (callbacks, IOCTL/IRP), lab 
 * **F4:** delivery chains (8A), blue baseline (8B), evasive loader with crypto/packer v2, measured persistence & C2, **Capstone F4**.
 * **F5:** benign LKM and Windows driver, reversible rootkit-style PoCs, benign DXE and Secure Boot comparison, **Capstone F5**.
 
----
 
 ### 5) Calendar notes
 
 * **TOCD pause:** 2026-09-14 → 2027-08-02. During this period: **Bug Bounty + University** with reinforcement **BackLogs** (6–8 h/week).
 * **TOCD resumes without pauses:** from 2027-08-03 through program completion.
 
----
 
 ### 6) Conventions & metrics
 
