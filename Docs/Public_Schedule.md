@@ -32,7 +32,7 @@
 * **1B01 — Toolchain, Debugging & VCS · 1 stack**
   Stacks/topics: Git/PRs/hooks, Make/CMake, binutils, compiler flags, sanitizers, gdb/lldb, strace/ltrace, perf.
 
-##@ Q2 — 2025-12-01 → 2026-02-07
+### Q2 — 2025-12-01 → 2026-02-07
 
 **Phase 1 (closure)**
 
