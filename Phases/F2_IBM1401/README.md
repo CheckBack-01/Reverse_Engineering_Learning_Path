@@ -1,4 +1,4 @@
-# F2_IBM1401 — Placeholder_Readme (Not_Active_Yet)
+# F2_IBM1401 — Placeholder (Not_Active_Yet)
 
 > **Status:** PLANNED · **Start_Date:** 2026-04-01  
 > **Planned_Window:** 2026-04-01 → 2026-07-31 (Phase_2 · Applied_Analysis_And_Initial_Execution_Paths)
