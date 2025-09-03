@@ -1,0 +1,14 @@
+
+
+{
+  "status": "PLANNED",
+  "placeholder": true,
+  "lab_id": " ",
+  "title": " ",
+  "date": " ",
+  "repo": { "commit": null, "branch": "main" },
+  "environment": {},
+  "artifacts": [],
+  "result": { "status": "pending", "summary": "Content will be published with reproducible evidence." },
+  "notes": "This is a placeholder manifest. It is included to keep the repo structure and CI checks stable until the lab is implemented."
+}
