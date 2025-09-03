@@ -2,9 +2,9 @@
 {
   "status": "PLANNED",
   "placeholder": true,
-  "lab_id": "<REPLACE>",
-  "title": "<REPLACE>",
-  "date": "TBD",
+  "lab_id": " ",
+  "title": " ",
+  "date": " ",
   "repo": { "commit": null, "branch": "main" },
   "environment": {},
   "artifacts": [],
