@@ -13,7 +13,7 @@ Upon activation, this directory will include:
 - PAD missions and concise debriefs
 
 ## Repository_Conventions
-- Technical paths in **lowercase**: `script/`, `evidence/`, `manifest.json`  
+- Technical paths: `script/`, `evidence/`, `manifest.json`  
 - Markdown headings in **Capitalized_Snake_Case**  
 - No samples or large binaries; publish **hashes** and sources only
 
