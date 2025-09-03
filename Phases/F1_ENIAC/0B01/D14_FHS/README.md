@@ -10,7 +10,7 @@
 
 ---
 
-## How Phase 1 is organized
+### How Phase 1 is organized
 
 **Nomenclature.** Blocks use short codes like `0B01`, where `X` is the zero-based block index and `YY` is the count of stacks inside that block (when applicable).
 
