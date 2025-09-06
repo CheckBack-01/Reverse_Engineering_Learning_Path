@@ -1,62 +1,58 @@
 
-
 # Try Of Check Dogs (TOCD)
 
-**Objective:** Become a **Reverse Engineer** and **Malware Developer** specialized in **defense evasion**, able to build, modify, conceal, and bypass controls(firewalls, EDR, and other security layers) 
-across **Windows** and **Linux**.
+**Objective.** Become a **Reverse Engineer** and **Malware Developer** specialized in **defense evasion**, able to build, modify, conceal, and bypass controls (firewalls, EDR, and other security layers) across **Windows** and **Linux**.
 
-**What is TOCD?**  
-_Try Of Check Dogs_ is my self-directed learning path, designed to run before, during, and after my studies at [TEP PCMM — PUCMM](https://tep.pucmm.edu.do/ts-ciberseguridad), with the goal of entering the [Johns Hopkins University M.S. track in Reverse Engineering & Vulnerability Analysis](https://ep.jhu.edu/courses/695744-reverse-engineering-and-vulnerability-analysis/).
+### What Is TOCD
+_Try Of Check Dogs_ is a self-directed learning path that runs before, during, and after studies at [TEP PCMM — PUCMM](https://tep.pucmm.edu.do/ts-ciberseguridad), with the long-term goal of entering the [JHU M.S. in Reverse Engineering & Vulnerability Analysis](https://ep.jhu.edu/courses/695744-reverse-engineering-and-vulnerability-analysis/).
 
-**Purpose of the path**
-1. **Build a solid technical profile** to stand out in offensive security and the job market.  
-2. **Earn key certifications** that validate skills and increase visibility, helping fund advanced study at JHU.  
-3. **Practice and compete in Bug Bounty**, aiming for real, measurable rewards.
-
----
-
-### My Methodology: **Deep-Dive & Layered**
-
-Cybersecurity—especially reverse engineering—demands more than collecting facts. Knowledge must be **absorbed deeply, logically, and stepwise**.  
-**Deep-Dive & Layered** structures learning so each layer rests on firm, verifiable foundations.
-
-
-### TOCD Structure
-
-**Phase → Block → Stack → Mastery Evaluation**
-
-1. **Phase:** Highest level; a macro objective and step-change in competence.  
-   Examples:
-   - **Phase 1:** Strong fundamentals (hardware, OS, low-level programming).  
-   - **Phase 2:** Initial practical application (basic malware analysis, reversing).  
-   - **Phase 3:** Advanced mastery (complex malware, exploit dev, high-end evasion).
-
-2. **Block:** A focused theme within a Phase (e.g., “Computer Architecture & Assembly,” “OS Internals”).
-
-3. **Stack:** The smallest unit—sequenced topics/tools that complete a Block.
-
-4. **Mastery Evaluation:** A practical test proving real-world applicability. May include:
-   - Solving **CrackMes**  
-   - Development/scripting projects  
-   - Reversing and evasion exercises
+### Purpose_Of_The_Path
+1. **Build a solid technical profile** to stand out in offensive security.  
+2. **Earn key certifications** that validate skills and increase visibility.  
+3. **Practice Bug_Bounty** aiming for measurable, real outcomes.
 
 ---
 
-### Practice Types in TOCD
+### Methodology_Deep_Dive_And_Layered
+Cybersecurity (and reversing) requires depth and sequence. Knowledge is developed **layer by layer**, with **measurable** outcomes and **reproducible** procedures.
 
-- **CTF (Capture The Flag):** Guided exercises to build theoretical and hands-on foundations.  
-- **PBR (Proof-of-Bounty-Readiness):** Reproducible, challenge-driven labs aligned with real-world Bug Bounty scenarios; preparation and execution are fully documented.  
-- **PAD (Practical Aptitude Drill):** An **integrated, multi-technique mission per Block** that validates competence under realistic constraints; it **closes the Block** and is evaluative by design.
+### TOCD_Structure
+**Phase → Block → Stack → Mastery_Evaluation**
 
+- **Phase:** macro objective and step-change in competence.  
+- **Block:** focused theme inside a phase (e.g., “OS Internals”).  
+- **Stack:** smallest unit; sequenced topics/tools within a block.  
+- **Mastery_Evaluation:** practical validation of skills.
 
-### Scope & Ethics
+---
 
-* **Lab-only.** All experiments run on my own VMs and benign artifacts.
-* **Safety first.** No testing on real systems or third-party infrastructure without explicit authorization.
-* **Measurement over claims.** Evasion and “bypass” are framed as **measurable experiments** to understand and improve defenses, not to facilitate misuse.
+### Practice_Method — PAD, PBR, MJT
+This path uses three complementary practice types. Each has a **definition** and a **primary objective**:
 
+- **PAD — Practical_Aptitude_Drill (Definition):** guided, focused drill on a single technique (e.g., `grep/awk`, permissions, `find/tar`) with immediate checks.  
+  **Objective:** achieve **operational fluency** and remove ambiguity in flags/usage.  
+  **When:** during the topic (short sessions).
+
+- **PBR — Practical_Build_Reproducible (Definition):** **reproducible lab** that consolidates a topic or block into a **one-click** procedure with audit-ready evidence.  
+  **Objective:** guarantee **stability** and **traceability** of the learning outcome.  
+  **When:** at the **end of a topic** and at the **end of a block**.
+
+- **MJT — Mock_Job_Test (Definition):** mini job-style exercise with **minimal context** that demands triage, decisions, and concise evidence on **benign but “suspicious”** artifacts.  
+  **Objective:** demonstrate **judgment and autonomy** beyond scripted steps.  
+  **When:** **after** a topic/block and **post-PBR** to stress reproducibility.
+
+**Artifacts_And_Reproducibility (standard):**
+- Runner: `bash script/pbr_run.sh --all`  
+- Evidence: `evidence/` with `run.log`, `checksums.txt`, screenshots  
+- Manifest: `manifest.json` with environment, hashes, steps, and result
+
+---
+
+### Scope_And_Ethics
+- **Lab-only** in isolated VMs with benign artifacts.  
+- No testing on third-party systems without explicit authorization.  
+- Evasion and “bypass” are **measured experiments** to improve defenses.
 
 ### Outcome
-
-This is **not** a traditional course. It’s a comprehensive, staged plan that blends theory, labs, simulations, 
-and real-world style challenges to produce tangible results: **solid skills**, a **verifiable public portfolio**, and the ability to operate responsibly and effectively in offensive-security lab environments.
+A staged plan that blends theory, drills, reproducible labs, and job-style tests to produce tangible results: **strong skills**, a **verifiable portfolio**, and the ability to operate responsibly in offensive-security lab environments.
+```
