@@ -74,7 +74,7 @@
 
 ---
 
-## Quarter C2 — 2025-12 → 2026-02 (F1 closure)
+### Quarter C2 — 2025-12 → 2026-02 (F1 closure)
 
 **Blocks:** `2B01 Systems_C_I (start/wrap)`, `4B01 x86_64/ABI/ASM`, `5B01 Linking/Loading`.
 
@@ -227,7 +227,7 @@
 
 ---
 
-## Quarter C11 — 2028-12 → 2029-03 (F4 continuation)
+### Quarter C11 — 2028-12 → 2029-03 (F4 continuation)
 
 **Blocks:** `F4-B2 Evasion II`, `9B Crypto/Packer v2`, `F4-B3 Persistence`.
 
@@ -245,7 +245,7 @@
 
 ---
 
-## Quarter C12 — 2029-04 → 2029-07 (F4 closure)
+### Quarter C12 — 2029-04 → 2029-07 (F4 closure)
 
 **Blocks:** `F4-B4 C2 & Traffic`, `F4-B5 Covert Ops`, `F4-CAP`.
 
@@ -260,7 +260,7 @@
 
 ---
 
-## Quarter C13 — 2029-08 → 2029-11 (F5 start)
+### Quarter C13 — 2029-08 → 2029-11 (F5 start)
 
 **Block:** `B1 Linux Kernel`.
 
@@ -272,7 +272,7 @@
 
 ---
 
-## Quarter C14 — 2029-12 → 2030-03 (F5 closure)
+### Quarter C14 — 2029-12 → 2030-03 (F5 closure)
 
 **Blocks:** `B2 Windows Kernel`, `B3 Rootkit-style PoCs`, `B4 UEFI/OVMF`, `B5 Bootflow`, `F5-CAP`.
 
@@ -300,7 +300,7 @@
 
 ---
 
-## KPIs And Quality Gates
+### KPIs And Quality Gates
 
 * **PAD:** accuracy rate and average time per exercise.
 * **PBR:** 1-click success on a clean VM; coherent evidence; explicit dependencies.
