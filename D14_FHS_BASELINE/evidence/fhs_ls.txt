@@ -3,8 +3,8 @@ drwxr-xr-x   4 root root  4096 sep  4 23:49 /boot
 drwxr-xr-x  18 root root  3260 sep  9 13:28 /dev
 drwxr-xr-x 165 root root 12288 sep  4 23:49 /etc
 drwxr-xr-x   3 root root  4096 sep  4 01:51 /home
-dr-xr-xr-x 329 root root     0 sep  9 13:27 /proc
+dr-xr-xr-x 328 root root     0 sep  9 13:27 /proc
 drwx------   3 root root  4096 sep  4 01:44 /root
-drwxrwxrwt  11 root root   220 sep  9 15:19 /tmp
+drwxrwxrwt  11 root root   220 sep  9 15:29 /tmp
 drwxr-xr-x  15 root root  4096 sep  4 01:43 /usr
 drwxr-xr-x  12 root root  4096 sep  4 01:58 /var
