@@ -1,5 +1,8 @@
-"mission_ID":"PBR_D14_FHS_BASELINE"
-"nat":true
-"umask":umask
-"timestamp":"$TIMESTAMP_UTC"
-"distro":"$( ./usr/lib/os-release 2>/dev/null; echo ${PRETTY_NAME:-unknown}")
+mission_ID:PBR_D14_FHS_BASELINE
+
+nat:(true)
+umask: 0027
+
+timestamp : 20250909T201902Z
+
+distro: unknown

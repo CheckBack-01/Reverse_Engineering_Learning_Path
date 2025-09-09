@@ -35,3 +35,143 @@ tar: Eliminando la `/' inicial de los nombres
    [X] Finish: 2025-09-09T14:00:11-05:00   
 ==========================================
 
+==========================================
+          PBR - D14 FHS BASELINE          
+------------------------------------------
+   [X] Start: 2025-09-09T15:03:00-05:00   
+==========================================
+
+ID = uid=1000(checkback_01) gid=1000(checkback_01) grupos=1000(checkback_01),4(adm),20(dialout),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),100(users),101(netdev),114(bluetooth),119(lpadmin),121(wireshark),123(kaboxer)
+
+UNAME = Linux Univac1108 6.12.25-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.12.25-1kali1 (2025-04-30) x86_64 GNU/Linux)
+
+UMASK NOW = 0027
+
+HOST INFO =  Static hostname: Univac1108
+       Icon name: computer-vm
+         Chassis: vm 🖴
+      Machine ID: 505c7e0ce44a42e19ca58119a78e01a1
+         Boot ID: e801442b1de14338891536debe71ab2d
+    AF_VSOCK CID: 1164675729
+  Virtualization: vmware
+Operating System: Kali GNU/Linux Rolling
+          Kernel: Linux 6.12.25-amd64
+    Architecture: x86-64
+ Hardware Vendor: VMware, Inc.
+  Hardware Model: VMware Virtual Platform
+Firmware Version: 6.00
+   Firmware Date: Thu 2020-11-12
+    Firmware Age: 4y 9month 3w 6d
+
+tar: Eliminando la `/' inicial de los nombres
+
+
+==========================================
+          PBR - D14 FHS BASELINE          
+------------------------------------------
+   [X] Finish: 2025-09-09T15:03:00-05:00   
+==========================================
+
+==========================================
+          PBR - D14 FHS BASELINE          
+------------------------------------------
+   [X] Start: 2025-09-09T15:13:07-05:00   
+==========================================
+
+ID = uid=1000(checkback_01) gid=1000(checkback_01) grupos=1000(checkback_01),4(adm),20(dialout),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),100(users),101(netdev),114(bluetooth),119(lpadmin),121(wireshark),123(kaboxer)
+
+UNAME = Linux Univac1108 6.12.25-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.12.25-1kali1 (2025-04-30) x86_64 GNU/Linux)
+
+UMASK NOW = 0027
+
+HOST INFO =  Static hostname: Univac1108
+       Icon name: computer-vm
+         Chassis: vm 🖴
+      Machine ID: 505c7e0ce44a42e19ca58119a78e01a1
+         Boot ID: e801442b1de14338891536debe71ab2d
+    AF_VSOCK CID: 1164675729
+  Virtualization: vmware
+Operating System: Kali GNU/Linux Rolling
+          Kernel: Linux 6.12.25-amd64
+    Architecture: x86-64
+ Hardware Vendor: VMware, Inc.
+  Hardware Model: VMware Virtual Platform
+Firmware Version: 6.00
+   Firmware Date: Thu 2020-11-12
+    Firmware Age: 4y 9month 3w 6d
+
+./pbr_d14_run: línea 67: umask: variable sin asignar
+==========================================
+          PBR - D14 FHS BASELINE          
+------------------------------------------
+   [X] Start: 2025-09-09T15:14:01-05:00   
+==========================================
+
+ID = uid=1000(checkback_01) gid=1000(checkback_01) grupos=1000(checkback_01),4(adm),20(dialout),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),100(users),101(netdev),114(bluetooth),119(lpadmin),121(wireshark),123(kaboxer)
+
+UNAME = Linux Univac1108 6.12.25-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.12.25-1kali1 (2025-04-30) x86_64 GNU/Linux)
+
+UMASK NOW = 0027
+
+HOST INFO =  Static hostname: Univac1108
+       Icon name: computer-vm
+         Chassis: vm 🖴
+      Machine ID: 505c7e0ce44a42e19ca58119a78e01a1
+         Boot ID: e801442b1de14338891536debe71ab2d
+    AF_VSOCK CID: 1164675729
+  Virtualization: vmware
+Operating System: Kali GNU/Linux Rolling
+          Kernel: Linux 6.12.25-amd64
+    Architecture: x86-64
+ Hardware Vendor: VMware, Inc.
+  Hardware Model: VMware Virtual Platform
+Firmware Version: 6.00
+   Firmware Date: Thu 2020-11-12
+    Firmware Age: 4y 9month 3w 6d
+
+tar: Eliminando la `/' inicial de los nombres
+
+
+==========================================
+          PBR - D14 FHS BASELINE          
+------------------------------------------
+   [X] Finish: 2025-09-09T15:14:01-05:00   
+==========================================
+
+==========================================
+          PBR - D14 FHS BASELINE          
+------------------------------------------
+   [X] Start: 2025-09-09T15:19:01-05:00   
+==========================================
+
+ID = uid=1000(checkback_01) gid=1000(checkback_01) grupos=1000(checkback_01),4(adm),20(dialout),24(cdrom),25(floppy),27(sudo),29(audio),30(dip),44(video),46(plugdev),100(users),101(netdev),114(bluetooth),119(lpadmin),121(wireshark),123(kaboxer)
+
+UNAME = Linux Univac1108 6.12.25-amd64 #1 SMP PREEMPT_DYNAMIC Kali 6.12.25-1kali1 (2025-04-30) x86_64 GNU/Linux)
+
+UMASK NOW = 0027
+
+HOST INFO =  Static hostname: Univac1108
+       Icon name: computer-vm
+         Chassis: vm 🖴
+      Machine ID: 505c7e0ce44a42e19ca58119a78e01a1
+         Boot ID: e801442b1de14338891536debe71ab2d
+    AF_VSOCK CID: 1164675729
+  Virtualization: vmware
+Operating System: Kali GNU/Linux Rolling
+          Kernel: Linux 6.12.25-amd64
+    Architecture: x86-64
+ Hardware Vendor: VMware, Inc.
+  Hardware Model: VMware Virtual Platform
+Firmware Version: 6.00
+   Firmware Date: Thu 2020-11-12
+    Firmware Age: 4y 9month 3w 6d
+
+tar: Eliminando la `/' inicial de los nombres
+
+
+==========================================
+          PBR - D14 FHS BASELINE          
+------------------------------------------
+   [X] Finish: 2025-09-09T15:19:02-05:00   
+==========================================
+

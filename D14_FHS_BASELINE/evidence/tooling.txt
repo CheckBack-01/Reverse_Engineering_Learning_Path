@@ -1,3 +1,6 @@
-date="$(date -Is)"
-kernel="$(uname -r)"
-umask="$(umask)"
+date = 2025-09-09T15:19:02-05:00
+
+kernel = 6.12.25-amd64
+
+umask = 0027
+
