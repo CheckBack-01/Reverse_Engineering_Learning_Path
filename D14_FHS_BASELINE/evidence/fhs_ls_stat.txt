@@ -1,0 +1,10 @@
+lrwxrwxrwx 777 root : root /bin
+drwxr-xr-x 755 root : root /boot
+drwxr-xr-x 755 root : root /dev
+drwxr-xr-x 755 root : root /etc
+drwxr-xr-x 755 root : root /home
+dr-xr-xr-x 555 root : root /proc
+drwx------ 700 root : root /root
+drwxrwxrwt 1777 root : root /tmp
+drwxr-xr-x 755 root : root /usr
+drwxr-xr-x 755 root : root /var
