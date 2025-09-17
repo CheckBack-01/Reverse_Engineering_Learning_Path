@@ -2,7 +2,7 @@
 
 Official repository of the TOCD plan (TryOfCheckDogs): a self-directed curriculum in Reverse Engineering and Malware Analysis. It contains phases, reproducible labs (**CPP-R**), drills (**GDP**), integrated missions (**PAD**), guides, and evidence. Anyone should be able to find a lab, run it with a script, and verify the evidence via hashes.
 
-## Repository Map & How to navigate it
+### Repository Map & How to navigate it
 
 ```
 TryOfCheckDogs/
@@ -45,7 +45,7 @@ TryOfCheckDogs/
 * **Block exams:** **PAD/**.
 * **Scenarios:** **MJT\_T\_***, \*\*MJT\_B****, \*\*MJT\_Post***\*.
 
-## Where everything is
+### Where everything is
 
 ### 1) Program, schedule, and status
 
@@ -79,7 +79,7 @@ Examples:
 * F4, Covert C2: `phases/F4_Univac1108/F4-B4/…`
 * F5, Benign DXE: `phases/F5_YoneEvilHost/F5-B4/…`
 
-## How to run a lab (standard procedure)
+### How to run a lab (standard procedure)
 
 ```
 1. Enter the lab
@@ -105,7 +105,7 @@ Examples:
 * `manifest.json` with versions, hashes, and limits/`VALIDSIG` when applicable.
 * “Expected vs observed” notes in the README.
 
-## Evidence discipline (mandatory)
+### Evidence discipline (mandatory)
 
 * **One-command:** every **CPP-R** must re-execute without intervention.
 * **Idempotence:** a second run does not break things or duplicate junk.
@@ -113,7 +113,7 @@ Examples:
 * **Encryption:** sensitive briefs/resources travel signed and encrypted (GPG).
 * **Without evidence it doesn’t exist:** closures without a complete package are not accepted.
 
-## What’s in each phase (aligned summary)
+### What’s in each phase (aligned summary)
 
 * **F1\_Eniac:** Linux/CLI, Toolchain, Systems-C, x86\_64/ABI, ELF/PLT/GOT/LD\_PRELOAD, basic PE and safe MA triage.
 * **F2\_IBM1401:** Applied reversing, 1-layer unpack, in-memory **loaders**, **manual mapping (intro)**, execution paths in userland, and mitigations.
@@ -121,7 +121,7 @@ Examples:
 * **F4\_Univac1108:** Evasion (reduction and telemetry), reversible persistence, lab C2, covert operation, and **F4-CAP**.
 * **F5\_YoneEvilHost:** Kernel observability and development (Linux/Windows), UEFI/OVMF, bootflow, reversible PoCs, and **F5-CAP** kernel+firmware.
 
-## Quick support
+### Quick support
 
 * Structure or reproducibility: open an Issue prefixed with `[STRUCT]` or `[CPP-R]`.
 * OPSEC/Legal and encryption questions: `docs/Opsec/`.
