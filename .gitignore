@@ -1,0 +1,129 @@
+# =========================
+# SO/IDE (system junk and editors)
+# =========================
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+.idea/
+*.code-workspace
+*.iml
+.tags
+.tags_sorted_by_file
+
+# =========================
+# C/C++: build artifacts
+# =========================
+/build/
+/bin/
+/obj/
+/out/
+/dist/
+*.o
+*.obj
+*.lo
+*.la
+*.a
+*.lib
+*.so
+*.so.*
+*.dll
+*.dylib
+*.exe
+*.pdb
+*.ilk
+*.exp
+
+# =========================
+#CMake/Ninja/others generated
+# =========================
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+cmake-build-*/
+compile_commands.json
+*.ninja
+.ninja_log
+.ninja_deps
+
+# =========================
+# Python utility (harness, scripts)
+# =========================
+__pycache__/
+*.py[cod]
+*.pyo
+
+# =========================
+# RE tools (projects/databases)
+# =========================
+# IDA Pro
+*.idb
+*.i64
+# Binary Ninja
+*.bndb
+# rizin / radare2 (bases de datos de proyecto)
+*.rzdb
+
+# =========================
+# Logs, temporary and caches
+# =========================
+*.log
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+*.old
+*.orig
+*.cache
+.cache/
+*.pid
+
+# =========================
+# VM images and large disks (do not version)
+# =========================
+*.iso
+*.img
+*.qcow2
+*.vmdk
+*.vdi
+*.ova
+*.ovf
+
+# =========================
+# Security / OPSEC (never upload secrets)
+# =========================
+secrets.*
+*.key
+*.pem
+*.pfx
+*.p12
+*.kdbx
+*.jks
+*.keystore
+*.crt
+*.cer
+*.der
+*.cert
+*.env
+.env*
+*.token
+*.password
+.envrc
+.direnv/
+
+# =========================
+# Massive captures and dump
+# =========================
+# *.pcap
+# *.pcapng
+# *.etl
+# *.dmp
+# core
+# core.*
+
+# =========================
+# Don't ignore evidence!
+# =========================
+!cpp/evidence/**
+!**/cpp/evidence/**
