@@ -32,6 +32,7 @@ TryOfCheckDogs/
 │  │  │  └─ MJT*/             # MJT_T_YYYYMMDD/MJT_B_YYYYMMDD/MJT_Post_YYYYMMDD
 |  |  └─ 0B02/ ...
 |  └─ F2/ ...
+├─ .gitignore
 └─ README.md                  # This document
 ```
 
