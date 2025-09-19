@@ -115,12 +115,12 @@ secrets.*
 # =========================
 # Massive captures and dump
 # =========================
-# *.pcap
-# *.pcapng
-# *.etl
-# *.dmp
-# core
-# core.*
+*.pcap
+*.pcapng
+*.etl
+*.dmp
+core
+core.*
 
 # =========================
 # Don't ignore evidence!
