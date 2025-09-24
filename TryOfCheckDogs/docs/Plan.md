@@ -5,13 +5,90 @@
 My objective is to become a Reverse Engineer / Malware Analyst with mastery of defense evasion and the capability to build and defeat controls in Windows and Linux at a low level.
 My career begins with self-education: I designed a path that prioritizes offensive reversing, measurable evasion, and the engineering of benign adversary-emulation tools for laboratories. My study methods and conventions are documented in this repository.
 
-In parallel with PUCMM (TEP, cybersecurity), I will start my self-directed education one year earlier. When I begin university, I will keep TOCD active without overextending myself. In the medium term, I will pursue the JHU postgraduate program (Reverse Engineering & Vulnerability Analysis) when my first job makes it sustainable.
+### Professional Objective
 
-### Why I Am Doing This
+My career starts with structured self-education (TOCD, 12 months) and a stack of accredited credentials that generate U.S.-recognizable college credit and HR-recognized signals:
 
-I am passionate about cybersecurity and enjoy hard challenges; that is why I chose Reverse Engineering.
-I want to obtain my first position as a malware analyst or junior RE, save, and finance JHU. In the long term, I will build robust evasion tooling and malware-stopping defenses.
-Overall map: first I self-educate, then I enter university and, after 12–16 months of hands-on study, I start Bug Bounty to take what I have learned to the real world and initiate interview processes.
+Credit-recommended certifications (ACE) and Undergraduate Certificates to accumulate ≥48 verified credits.
+
+UMGC – Undergraduate Certificate in Cyber Threat Hunting (18 credits) as a transcriptable anchor and a bridge to future bachelor’s/graduate studies.
+
+Bug bounty and contract work fund the plan and provide practical evidence.
+
+Once the credits are in place, I’ll enter SANS (CAE-CD, accredited) to consolidate with GIAC and specialize in RE/Malware.
+
+Why accredited certifications
+
+They are valid and recognized in the U.S. (ACE/university transcript/CAE-CD).
+
+They satisfy prerequisites (e.g., ≥48 credits for SANS ACS).
+
+They improve HR filters and keep the option to complete a bachelor’s later by transferring what I’ve already earned.
+
+12-Month Path (TOCD + U.S. credits)
+
+I maintain UORE OPSEC: VM with NAT, snapshots/rollback, benign artifacts; everything with evidence (run.log, checksums, manifest.json) and encrypted prompts (GPG).
+
+Months 1–3 — Fundamentals + ACE (self-paced)
+
+Google Cybersecurity Professional Certificate (ACE ~9 credits).
+
+Sophia Learning (GenEd): 2 courses (6 credits).
+
+Bug bounty (GDP): 1 submission/week with a reproducible evidence package.
+
+Months 4–6 — First core cert + more credit
+
+PNPT (hands-on pentest) as the core trade credential.
+
+Sophia: +2 courses (6 credits) → 12 credits total via Sophia.
+
+CLEP/DSST: 1–2 exams (3–6 credits) to accelerate.
+
+Months 7–9 — University credential + extra ACE
+
+UMGC – Undergraduate Certificate in Cyber Threat Hunting (18 credits, online).
+
+IBM Cybersecurity Analyst (ACE 10–15 credits, version-dependent).
+
+DSST optional if credits are still short.
+
+Months 10–12 — Close ≥48 credits & “ready for SANS”
+
+Audit accumulated credits (target: 48–60 credits).
+
+GIAC (optional, exam-only) if budget allows; otherwise I’ll obtain GIAC inside SANS.
+
+Professional dossier: repos with evidence/, bug-bounty reports, benign adversary-emulation tooling, and CPP-R templates.
+
+Next Stage (post-12 months)
+
+SANS – Cybersecurity (ACS): 4 courses, 4×GIAC, pace 10–18 months.
+If credits were short, SANS CSF (6–12 credits) serves as a bridge.
+
+Technical focus: offensive reverse engineering, measurable evasion, benign tooling engineering, threat research, and malware analysis.
+
+Methods & Conventions (UORE)
+
+Lab-only, zero traffic outside scope, synthetic datasets.
+
+Reproducibility is mandatory: every exercise/case closes with a one-command CPP-R (cpp_run.sh), manifest.json, and evidence/ (run.log, checksums, GPG/VALIDSIG).
+
+Canonical textual flow: command table → GDP → objective verification → CPP-R closure.
+
+Why I’m doing this
+
+I’m passionate about cybersecurity and chose Reverse Engineering/Malware for the real technical challenge. I aim for a global first role (RE Jr./Malware Analyst), to fund SANS and GIAC, and mid-term to build robust evasion tools and “bug-breaking” defenses with measurable effectiveness.
+
+Measurable 12-Month Targets
+
+U.S. credits accumulated: ≥48 (ACE + UMGC + exams).
+
+Core certifications: PNPT + (optional) 1 GIAC or a GIAC plan within SANS.
+
+Accredited certifications (ACE/university): 3–4 (Google, IBM, Sophia/CLEP/DSST + UMGC).
+
+Portfolio: ≥12 CPP-R deliveries with evidence; ≥6 bug-bounty reports with reproducible PoC.
 
 ### Vision and Goal
 
