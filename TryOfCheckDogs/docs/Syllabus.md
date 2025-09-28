@@ -18,7 +18,7 @@ Training to operate as a **Reverse Engineer / Malware Analyst** with mastery of 
 
 ---
 
-### 2) UORE Rules (non-negotiable)
+### 2) Rules 
 
 * **Lab-only:** VM with **NAT**, **snapshots**, and proven **rollback**; **benign** artifacts; zero out-of-scope traffic.
 * **Reproducible or it doesn’t exist:** every exercise closes with a **one-command CPP-R** (`cpp_run.sh`) + `manifest.json` + `evidence/` (`run.log`, `checksums.txt`) and a **GPG signature (VALIDSIG)**.
