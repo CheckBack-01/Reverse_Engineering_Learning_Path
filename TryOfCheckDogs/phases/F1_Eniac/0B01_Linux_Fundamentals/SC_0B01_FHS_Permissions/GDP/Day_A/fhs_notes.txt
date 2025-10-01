@@ -1,0 +1,5 @@
+# /bin -essential binaries
+# /etc -system configs
+# /home -user directories
+# /tmp -temporary volatile files
+# /var -variable data (logs,caches)
