@@ -1,23 +1,34 @@
 #!/usr/bin/env bash
 
-# GOAL:
+echo "==================================="
+echo "Start [*] $(date -Is)"
+echo -e "=================================== \n"
 
-# create test acl
-echo "create test file : file_acl_export.txt"
-echo "-------------------------------"
+echo -e "* GOAL: save acl to a text file and restore them later (useful for backups) \n"
+
+# create test file
 touch /tmp/file_acl_export.txt
-setfacl -m u:user_test:rw /tmp/file_acl_export.txt
+setfacl -m u:user_test:rwx /tmp/file_acl_export.txt
 setfacl -m g:users:r /tmp/file_acl_export.txt
-echo "export acl . . . "
-getfacl /tmp/file_acl_export.txt 2>/dev/null > /tmp/acl_backup.txt
-cat /tmp/acl_backup.txt
-echo "-------------------------------"
-echo "delete acl . . . "
-setfacl -b /tmp/file_acl_export.txt
-getfacl /tmp/file_acl_export.txt  2>/dev/null
-echo "-------------------------------"
-echo "restore acl"
-setfacl --restore=/tmp/acl_backup.txt
+echo -e "acl applied to \n"
 getfacl /tmp/file_acl_export.txt 2>/dev/null
-echo "verification  . . ."
-getfacl /tmp/file_acl_export.txt 2>/dev/null | grep -q "user:user_test:rw-" && getfacl /tmp/file_acl_export.txt 2>dev/null | grep -q "group:users:r--" && echo "PASS: restores acl"
+
+# expoting acl
+touch /tmp/acl_backup.txt
+getfacl /tmp/file_acl_export.txt 2>/dev/null > /tmp/acl_backup.txt
+echo "backup created"
+echo -e "\n"
+cat /tmp/acl_backup.txt
+
+# removed acl
+echo -e "removed acl \n"
+setfacl -b /tmp/file_acl_export.txt
+getfacl /tmp/file_acl_export.txt 2>/dev/null
+
+echo -e "restore acl \n"
+setfacl --restore=/tmp/file_acl_export.txt
+getfacl /tmp/file_acl_export.txt 2>/dev/null
+
+echo "===================================="
+echo "Finish [*] $(date -Is)"
+echo -e "==================================== \n"
