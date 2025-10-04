@@ -1,8 +1,11 @@
 #!/usr/bin/env bash
 
-echo "==========================================================="
-echo "task: list and verify the existence 11 base FHS directories"
-echo "==========================================================="
+echo "==================================="
+echo "Start [*] $(date -Is)"
+echo "=================================== \n"
+
+echo "* task: list and verify the existence 11 base FHS directories"
+
 time {
 touch /tmp/rb4_acl
 chmod 600 /tmp/rb4_acl
