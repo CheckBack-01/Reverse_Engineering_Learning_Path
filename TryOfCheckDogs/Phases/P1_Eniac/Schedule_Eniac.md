@@ -34,7 +34,8 @@
 ### 2B01–3B01 Systems-C I — Part A (4 weeks · ~120 total hours)
 
 > **Objective:** Pointers and memory, safe I/O, mmap, basics of binary parsing.
-> **BT:** Minimal telemetry (structured logs) and local summary for utilities (CPP-R).
+
+**BT:** Minimal telemetry (structured logs) and local summary for utilities (CPP-R).
 
 | Stack                 | Thematic cluster (examples)                                           | Est. hours | Key tools               | Assignment (CPP-R) · Due                                                               |
 | --------------------- | --------------------------------------------------------------------- | ---------: | ----------------------- | -------------------------------------------------------------------------------------- |
@@ -61,7 +62,6 @@
 | Testing & Fuzzing     | unit tests; honggfuzz/AFL (20-min runs)   |       30 h | honggfuzz, AFL, gcov  | **CPP-R-3B01-3:** parser fuzz pass (no crashes) · **Sun 29-Mar-2026**         |
 | Security Pitfalls     | bounds, off-by-one, fmt, UAF, double-free |       24 h | asan, ubsan, valgrind | —                                                                             |
 | Docs & Contracts      | function specs, contracts, cases          |       12 h | markdown, doxygen     | —                                                                             |
-
 - **PAD (Exam) — PAD-3B01**
 - **Date:** 31-Mar-2026 (Tuesday)
 - **Deliverable:** consolidated documentation + tests/evidence package.
@@ -73,7 +73,8 @@
 ### 4B01 x86_64 Architecture & ABI; Practical Assembly (3 weeks · ~90 total hours)
 
 > **Objective:** Calls, stack discipline, syscalls, C↔asm integration, ABI contrasts.
-> **BT:** LD_PRELOAD hook “counter/echo” (benign) with evidence package (CPP-R).
+
+**BT:** LD_PRELOAD hook “counter/echo” (benign) with evidence package (CPP-R).
 
 | Stack                      | Thematic cluster (examples)                | Est. hours | Key tools            | Assignment (CPP-R) · Due                                                            |
 | -------------------------- | ------------------------------------------ | ---------: | -------------------- | ----------------------------------------------------------------------------------- |
@@ -100,7 +101,6 @@
 | Shared Libs            | build .so, symbol visibility                   |       18 h | gcc -fPIC, patchelf  | **CPP-R-5B01-2:** LD_PRELOAD hook for open/fopen · **Sun 3-May-2026**           |
 | Tooling                | ldd, patchelf, objdump/readelf                 |       18 h | patchelf, readelf -r | **CPP-R-5B01-3:** manual rpath/runpath PoC · **Wed 20-May-2026**                |
 | PE vs ELF (high level) | future preparation                             |       12 h | docs, comparisons    | —                                                                               |
-
 - **PAD (Exam) — PAD-5B01**
 - **Date:** 22-May-2026 (Tuesday)
 - **Deliverable:** linking architecture report + symbol tables before/after hooking with evidence.
