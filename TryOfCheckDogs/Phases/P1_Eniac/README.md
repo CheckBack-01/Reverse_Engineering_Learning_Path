@@ -1,4 +1,4 @@
-# Phase 1 — Eniac (Fundamentals with a Malware Analysis Lens)
+# Phase 1 - Eniac (Fundamentals with a Malware Analysis Lens)
 
 - **Start:** 1-Feb-2026
 - **End:** 31-May-2026
