@@ -1,4 +1,4 @@
-## **Plan - TOCD (Try Of Check Dogs)**
+### **Plan - TOCD (Try Of Check Dogs)**
 
 ### 1) Personal Statement
 
@@ -20,11 +20,11 @@ My career is structured self-education, deliberate practice, reproducible eviden
 
 My plan is split into **two tracks**:
 
-### **Baseline Path (4 months)** — Operational fundamentals
+### **Baseline Path (4 months)** - Operational fundamentals
 
 Before entering TOCD, I need to **lay solid foundations** in systems, networking, and scripting. Without these competencies, learning malware analysis and reversing would be slow and frustrating.
 
-**Phase 0 — Baseline:**
+**Phase 0 - Baseline:**
 
 * **Linux Power User:** advanced CLI, permissions, processes, Bash scripting.
 * **Networking Essentials:** TCP/IP, subnetting, Wireshark, iptables + **CCNA**.
@@ -37,11 +37,11 @@ Before entering TOCD, I need to **lay solid foundations** in systems, networking
 
 ---
 
-### **TOCD Path (5 phases)** — Technical track
+### **TOCD Path (5 phases)** - Technical track
 
 After completing Baseline, I enter **TOCD**: the main **Reverse Engineering** and **Malware Analysis** track. This is the backbone of my career.
 
-**Phase 1 — Eniac (Fundamentals with an MA lens):**
+**Phase 1 - Eniac (Fundamentals with an MA lens):**
 
 * Systems-C, x86_64/ABI, ELF/PE, controlled triage.
 * **Duration:** 4 months (Feb 2026 → May 2026).
@@ -51,24 +51,24 @@ After completing Baseline, I enter **TOCD**: the main **Reverse Engineering** an
 * Portfolio preparation, **MAD20** (ATT&CK), **GFACT**, Bug Bounty/CTFs.
 * **Duration:** Jun 2026 → Nov 2026.
 
-**Phase 2 — IBM 1401 (Applied Reversing & Userland Execution):**
+**Phase 2 - IBM 1401 (Applied Reversing & Userland Execution):**
 
 * Static/dynamic, unpack, loaders, injection, evasion.
 * **Duration:** 6 months (Dec 2026 → May 2027).
 
-**Phase 3 — Intel 4004 (Userland Internals & Exploitation):**
+**Phase 3 - Intel 4004 (Userland Internals & Exploitation):**
 
 * Memory, ROP, heap, kernel primitives, local elevation.
 * **Duration:** 4 months (Jun 2027 → Sep 2027).
 
 **Job applications:** Oct 2027 (complete portfolio).
 
-**Phase 4 — Univac 1108 (Evasion, Persistence and C2):**
+**Phase 4 - Univac 1108 (Evasion, Persistence and C2):**
 
 * Loader/implant, reversible persistence, lab C2.
 * **Post-employment**, focused on advanced red team techniques.
 
-**Phase 5 — YoneEvilHost (Kernel, Firmware, UEFI/Boot):**
+**Phase 5 - YoneEvilHost (Kernel, Firmware, UEFI/Boot):**
 
 * Kernel development (LKM, drivers), UEFI/OVMF, didactic rootkits.
 * **Post-employment**, for full-stack mastery.
@@ -79,13 +79,13 @@ After completing Baseline, I enter **TOCD**: the main **Reverse Engineering** an
 
 | Period              | Primary focus               | Key deliverables                              |
 | ------------------- | --------------------------- | --------------------------------------------- |
-| **Oct-25 → Jan-26** | **Phase 0 (Baseline)**      | Linux/Windows/Networking/Scripting + **CCNA** |
-| **Feb-26 → May-26** | **Phase 1 (Eniac)**         | 6–8 CPP-Rs (Systems-C, ABI, ELF/PE, MA Intro) |
-| **Jun-26 → Jul-26** | **Portfolio prep**          | Repos, CPP-R templates, BB/CTF targets        |
-| **Aug-26 → Sep-26** | **MAD20 + Bug Bounty/CTFs** | ATT&CK badges + 6–8 BB submissions            |
-| **Oct-26 → Nov-26** | **GFACT + Bug Bounty/CTFs** | **GFACT** certified + 10–12 BB submissions    |
-| **Dec-26 → May-27** | **Phase 2 (IBM 1401)**      | 6–8 CPP-Rs (RE, unpack, loaders)              |
-| **Jun-27 → Sep-27** | **Phase 3 (Intel 4004)**    | 4–6 CPP-Rs (exploits, kernel)                 |
+| **Oct-25 - Jan-26** | **Phase 0 (Baseline)**      | Linux/Windows/Networking/Scripting + **CCNA** |
+| **Feb-26 - May-26** | **Phase 1 (Eniac)**         | 6–8 CPP-Rs (Systems-C, ABI, ELF/PE, MA Intro) |
+| **Jun-26 - Jul-26** | **Portfolio prep**          | Repos, CPP-R templates, BB/CTF targets        |
+| **Aug-26 - Sep-26** | **MAD20 + Bug Bounty/CTFs** | ATT&CK badges + 6–8 BB submissions            |
+| **Oct-26 - Nov-26** | **GFACT + Bug Bounty/CTFs** | **GFACT** certified + 10–12 BB submissions    |
+| **Dec-26 - May-27** | **Phase 2 (IBM 1401)**      | 6–8 CPP-Rs (RE, unpack, loaders)              |
+| **Jun-27 - Sep-27** | **Phase 3 (Intel 4004)**    | 4–6 CPP-Rs (exploits, kernel)                 |
 | **Oct-27**          | **Job applications**        | **Complete portfolio + applications**         |
 
 
@@ -99,9 +99,9 @@ After completing Baseline, I enter **TOCD**: the main **Reverse Engineering** an
 
 **Technical portfolio:**
 
-* **16–20 reproducible CPP-Rs** (with `evidence/`, `manifest.json`, `checksums.txt`).
-* **10–15 Bug Bounty/CTF reports** (some accepted/published).
-* **6–8 PADs** (integrated block missions).
+* **16-20 reproducible CPP-Rs** (with `evidence/`, `manifest.json`, `checksums.txt`).
+* **10-15 Bug Bounty/CTF reports** (some accepted/published).
+* **6-8 PADs** (integrated block missions).
 * **1 Capstone** (documented exploitation chain).
 
 ### 6) Why these certifications
@@ -138,18 +138,18 @@ block/
 
 | Phase     |    CPP-Rs |  PADs | BB/CTF Reports | Certifications         |
 | --------- | --------: | ----: | -------------: | ---------------------- |
-| Phase 0   |         4 |     — |              — | CCNA                   |
-| Phase 1   |       6–8 |     2 |              — | —                      |
-| Gap       |         — |     — |          10–12 | GFACT, MAD20           |
-| Phase 2   |       6–8 |     2 |          15–20 | —                      |
-| Phase 3   |       4–6 |     1 |          20–25 | —                      |
+| Phase 0   |         4 |     - |              - | CCNA                   |
+| Phase 1   |       6–8 |     2 |              - | -                      |
+| Gap       |         - |     - |          10–12 | GFACT, MAD20           |
+| Phase 2   |       6–8 |     2 |          15–20 | -                      |
+| Phase 3   |       4–6 |     1 |          20–25 | -                      |
 | **Total** | **20–26** | **5** |      **20–25** | **CCNA, GFACT, MAD20** |
 
 **Monthly:**
 
-* ≥1 CPP-R/month (Phase 0–3)
+* ≥1 CPP-R/month (Phase 0-3)
 * ≥2 CTFs/week (from Phase 0)
-* ≥3 BB submissions/month (during Gap and Phase 2–3)
+* ≥3 BB submissions/month (during Gap and Phase 2-3)
 
 ### 9) Readiness checklist (before applying)
 
