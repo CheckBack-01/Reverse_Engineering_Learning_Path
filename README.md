@@ -36,8 +36,8 @@ Program, schedule, and status
 │  │  ├─ Opsec_Legal.md       # OPSEC and legal compliance guide
 │  │  │  └─ Encrypted_Mission_Protocol.md # Definition of encrypted practices
 │  │  ├─ teaching/ 
-│  │  │  ├─ Metodo_Preparacion.md      # My teaching approach and hands-on method
-│  │  │  └─ Guia_Practicas.md          # How to run exercises safely
+│  │  │  ├─ Preparation_Method.md      # My teaching approach and hands-on method
+│  │  │  └─ Practical_Guide.md          # How to run exercises safely
 │  │  ├─ Backlogs.md       # Pending tasks by phase
 │  │  ├─ Plan.md           # Full plan (24 months, all phases)
 │  │  ├─ Progress.md       # Monthly progress log
