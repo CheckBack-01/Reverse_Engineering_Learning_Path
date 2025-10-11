@@ -22,11 +22,11 @@
 
 ---
 
-### Phase 0 — Baseline (9-oct-2025 → 31-ene-2026)
+### Phase 0 - Baseline (9-oct-2025 → 31-ene-2026)
 
 **Objective:** operational competence in Linux, Windows, networking, and scripting before entering TOCD.
 
-### **0B00 — Linux Power User (6 weeks)**
+### **0B00 - Linux Power User (6 weeks)**
 
 **9-oct-2025 → 19-nov-2025**
 
@@ -41,7 +41,7 @@
 
 **PAD-0B00:** 20-nov-2025 (task orchestrator with logging and rollback)
 
-### **0B01 — Networking Essentials (6 weeks)**
+### **0B01 - Networking Essentials (6 weeks)**
 
 **20-nov-2025 → 31-dic-2025**
 
@@ -54,7 +54,7 @@
 | 11   | 18-dic     | 24-dic   | CCNA prep I          | GDP                       | 24-dic   |
 | 12   | 25-dic     | 31-dic   | CCNA prep II + exam  | **CPP-R-0B01** + **CCNA** | 31-dic   |
 
-### **0B02 — Python for Security (4 weeks)**
+### **0B02 - Python for Security (4 weeks)**
 
 **1-ene-2026 → 28-ene-2026**
 
@@ -67,7 +67,7 @@
 
 **Note:** CTFs start from 0B02 (2–3/week on HackTheBox/TryHackMe)
 
-### **0B03 — Windows Administration (4 weeks)**
+### **0B03 - Windows Administration (4 weeks)**
 
 **29-ene-2026 → 25-feb-2026**
 
@@ -82,11 +82,11 @@
 
 ---
 
-### Phase 1 — Eniac (1-feb-2026 → 31-may-2026)
+### Phase 1 - Eniac (1-feb-2026 → 31-may-2026)
 
 **Objective:** fundamentals with a Malware Analysis lens.
 
-### **2B01–3B01 — Systems-C I (8 weeks)**
+### **2B01–3B01 - Systems-C I (8 weeks)**
 
 **1-feb-2026 → 28-mar-2026**
 
@@ -103,7 +103,7 @@
 
 **PAD-2B01:** 29-mar-2026 (Systems-C block)
 
-### **4B01 — x86_64/ABI/ASM (3 weeks)**
+### **4B01 - x86_64/ABI/ASM (3 weeks)**
 
 **29-mar-2026 → 18-abr-2026**
 
@@ -113,7 +113,7 @@
 | 10   | 5-abr      | 11-abr   | Syscalls + C↔asm | **CPP-R-4B01-1** (wrappers) + CTF      | 11-abr   |
 | 11   | 12-abr     | 18-abr   | asm routines     | **CPP-R-4B01-2** (memset/memcmp) + CTF | 18-abr   |
 
-### **5B01 — Linking/ELF/PLT/GOT (3 weeks)**
+### **5B01 - Linking/ELF/PLT/GOT (3 weeks)**
 
 **19-abr-2026 → 9-may-2026**
 
@@ -123,7 +123,7 @@
 | 13   | 26-abr     | 2-may    | PLT/GOT + LD_PRELOAD  | **CPP-R-5B01-1** (ELF parser) + CTF      | 2-may    |
 | 14   | 3-may      | 9-may    | Userland hooks        | **CPP-R-5B01-2** (hook open/fopen) + CTF | 9-may    |
 
-### **6B01 — Windows & PE Fundamentals (2 weeks)**
+### **6B01 - Windows & PE Fundamentals (2 weeks)**
 
 **10-may-2026 → 23-may-2026**
 
@@ -132,7 +132,7 @@
 | 15   | 10-may     | 16-may   | PE layout + imports/exports | GDP + CTF                        | 16-may   |
 | 16   | 17-may     | 23-may   | PE triage                   | **CPP-R-6B01** (PE report) + CTF | 23-may   |
 
-### **7B01 — Intro to Malware Analysis (1 week)**
+### **7B01 - Intro to Malware Analysis (1 week)**
 
 **24-may-2026 → 31-may-2026**
 
@@ -177,11 +177,11 @@
 
 ---
 
-### Phase 2 — IBM 1401 (1-dic-2026 → 31-may-2027)
+### Phase 2 - IBM 1401 (1-dic-2026 → 31-may-2027)
 
 **Objective:** Applied Reversing & Userland Execution.
 
-### **0B04 — Applied Reversing I (6 weeks)**
+### **0B04 - Applied Reversing I (6 weeks)**
 
 **1-dic-2026 → 11-ene-2027**
 
@@ -194,7 +194,7 @@
 | 5    | 29-dic     | 4-ene    | Minimal IAT             | GDP + CTF                              | 4-ene    |
 | 6    | 5-ene      | 11-ene   | Integration             | **CPP-R-0B04-2** (benign loader) + CTF | 11-ene   |
 
-### **1B04 — Deep PE & In-Memory Loaders (6 weeks)**
+### **1B04 - Deep PE & In-Memory Loaders (6 weeks)**
 
 **12-ene-2027 → 22-feb-2027**
 
@@ -209,7 +209,7 @@
 
 **PAD-1B04:** 23-feb-2027 (PE/Loaders block)
 
-### **2B04 — Userland Execution & Mitigations (10 weeks)**
+### **2B04 - Userland Execution & Mitigations (10 weeks)**
 
 **23-feb-2027 → 31-may-2027**
 
@@ -230,11 +230,11 @@
 
 ---
 
-### Phase 3 — Intel 4004 (1-jun-2027 → 30-sep-2027)
+### Phase 3 - Intel 4004 (1-jun-2027 → 30-sep-2027)
 
 **Objective:** Userland Internals & Exploitation.
 
-### **0B04 — Process & Memory Internals (4 weeks)**
+### **0B04 - Process & Memory Internals (4 weeks)**
 
 **1-jun-2027 → 28-jun-2027**
 
@@ -245,7 +245,7 @@
 | 3    | 15-jun     | 21-jun   | TLS demo          | **CPP-R-0B04-1** (process map) + CTF  | 21-jun   |
 | 4    | 22-jun     | 28-jun   | Integration       | **CPP-R-0B04-2** (PEB/TEB walk) + CTF | 28-jun   |
 
-### **1B03 — Userland Exploitation I (3 weeks)**
+### **1B03 - Userland Exploitation I (3 weeks)**
 
 **29-jun-2027 → 19-jul-2027**
 
@@ -255,7 +255,7 @@
 | 6    | 6-jul      | 12-jul   | Basic ROP            | **CPP-R-1B03-1** (educational exploit) + CTF | 12-jul   |
 | 7    | 13-jul     | 19-jul   | DEP/ASLR analysis    | **CPP-R-1B03-2** (detection harness) + CTF   | 19-jul   |
 
-### **2B04 — Advanced Windows Internals (3 weeks)**
+### **2B04 - Advanced Windows Internals (3 weeks)**
 
 **20-jul-2027 → 9-ago-2027**
 
@@ -265,7 +265,7 @@
 | 9    | 27-jul     | 2-ago    | Threads/APC + ETW     | **CPP-R-2B04-1** (handle map) + CTF | 2-ago    |
 | 10   | 3-ago      | 9-ago    | Integration           | **CPP-R-2B04-2** (region map) + CTF | 9-ago    |
 
-### **3B03 — Userland Exploitation II (3 weeks)**
+### **3B03 - Userland Exploitation II (3 weeks)**
 
 **10-ago-2027 → 30-ago-2027**
 
@@ -275,7 +275,7 @@
 | 12   | 17-ago     | 23-ago   | ROP/JOP (Win)   | **CPP-R-3B03-1** (Win exploit) + CTF   | 23-ago   |
 | 13   | 24-ago     | 30-ago   | ROP/JOP (Linux) | **CPP-R-3B03-2** (Linux exploit) + CTF | 30-ago   |
 
-### **4B03 — Heap Exploitation (2 weeks)**
+### **4B03 - Heap Exploitation (2 weeks)**
 
 **31-ago-2027 → 13-sep-2027**
 
@@ -284,7 +284,7 @@
 | 14   | 31-ago     | 6-sep    | UAF + tcache/fastbin | GDP + CTF                        | 6-sep    |
 | 15   | 7-sep      | 13-sep   | Integration          | **CPP-R-4B03** (heap PoCs) + CTF | 13-sep   |
 
-### **5B05 — Kernel Fundamentals + Elevation (2 weeks)**
+### **5B05 - Kernel Fundamentals + Elevation (2 weeks)**
 
 **14-sep-2027 → 27-sep-2027**
 
@@ -293,7 +293,7 @@
 | 16   | 14-sep     | 20-sep   | IOCTL + R/W primitive | GDP + CTF                     | 20-sep   |
 | 17   | 21-sep     | 27-sep   | Local elevation (VM)  | **CPP-R-5B05** (SYSTEM) + CTF | 27-sep   |
 
-### **6B02 — F3-CAP (1 week)**
+### **6B02 - F3-CAP (1 week)**
 
 **28-sep-2027 → 30-sep-2027**
 
@@ -316,7 +316,7 @@
 
 ---
 
-### Phase 4 — Univac 1108 (Post-employment, ~12 months)
+### Phase 4 - Univac 1108 (Post-employment, ~12 months)
 
 **Prerequisite:** work experience as MA/RE (6–12 months minimum)
 **Estimated start:** based on post-employment availability
@@ -340,7 +340,7 @@
 
 ---
 
-### Phase 5 — YoneEvilHost (Post-employment, ~6 months)
+### Phase 5 - YoneEvilHost (Post-employment, ~6 months)
 
 **Prerequisite:** Phase 4 completed
 **Estimated start:** based on availability
