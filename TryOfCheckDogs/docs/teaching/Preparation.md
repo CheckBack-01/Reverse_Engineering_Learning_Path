@@ -1,6 +1,6 @@
-# Practice Guide - Try Of Check Dogs (TOCD)
+### Practice Guide - Try Of Check Dogs (TOCD)
 
-## Introduction: What are the practices in TOCD?
+### Introduction: What are the practices in TOCD?
 
 Each practice in TOCD is a **reproducible and verifiable** technical exercise that demonstrates competence in a specific skill. They are not theoretical exercises nor tasks to "turn in"; they are **technical artifacts** that anyone can run, verify, and audit.
 
@@ -9,8 +9,6 @@ Each practice in TOCD is a **reproducible and verifiable** technical exercise th
 * **If it isn't reproducible, it doesn't exist**
 * **If it leaves no evidence, it doesn't count**
 * **If it isn't encrypted (when applicable), it doesn't travel**
-
----
 
 ### 1) Types of practices: hierarchy and purpose
 
