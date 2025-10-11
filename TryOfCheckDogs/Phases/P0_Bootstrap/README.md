@@ -27,67 +27,67 @@ Phase 0 builds **operational competence** in systems, networks, and scripting be
 * **Lab logbook**, **OPSEC** checklist, and **signed tags** per block.
 * Competence with **tcpdump/Wireshark**, traffic analysis, and basic firewall configuration.
 
----
 
 ### How the phase is organized
 
 **Naming.** Blocks use codes like `0B00` (first digit = phase index, second = block index). A block can span multiple **stacks** (Composite Stack).
+---
 
 ### 0B00 — Linux Power User
 
-**Objective.** Advanced command-line, permissions, processes, systemd, and professional Bash scripting.
+> **Objective.** Advanced command-line, permissions, processes, systemd, and professional Bash scripting.
 
 **Highlights.** FHS and advanced permissions (chmod/chown/ACL), complex pipelines (grep/sed/awk/xargs), process management (`ps`, `top`, `systemd`), `/proc` and `/sys`, logging with `journalctl`, Bash scripting (arrays, functions, error handling, `set -euo pipefail`).
 
-**CPP-R (examples).** Automation script with structured logging and rollback; incremental backup with integrity verification; task orchestrator with error control.
+- **CPP-R (examples).** Automation script with structured logging and rollback; incremental backup with integrity verification; task orchestrator with error control.
 
-**PAD (evidence).** Operating system diagram; permissions matrix and use cases; documented complex pipeline.
+- **PAD (evidence).** Operating system diagram; permissions matrix and use cases; documented complex pipeline.
 
-**· BT:** **System inventory script** with logging, error handling, and structured output (JSON/CSV).
+- **· BT:** **System inventory script** with logging, error handling, and structured output (JSON/CSV).
 
 ---
 
 ### 0B01 — Networking Essentials + CCNA
 
-**Objective.** Solid networking fundamentals (TCP/IP, subnetting, routing) and **CCNA** certification.
+> **Objective.** Solid networking fundamentals (TCP/IP, subnetting, routing) and **CCNA** certification.
 
 **Highlights.** TCP/IP stack and OSI model; subnetting and VLSM; basic routing (static/dynamic); DNS, DHCP, NAT; traffic capture and analysis (tcpdump, Wireshark); basic firewall (iptables/nftables); network troubleshooting.
 
-**CPP-R (examples).** Capture and analysis of suspicious traffic (simulated); firewall configuration with documented rules; network monitoring script with alerts.
+- **CPP-R (examples).** Capture and analysis of suspicious traffic (simulated); firewall configuration with documented rules; network monitoring script with alerts.
 
-**PAD (evidence).** Network topology diagram; traffic analysis with Wireshark (PCAP + report); documented troubleshooting with reproducible steps.
+- **PAD (evidence).** Network topology diagram; traffic analysis with Wireshark (PCAP + report); documented troubleshooting with reproducible steps.
 
-**Certification:** **CCNA** (Cisco Certified Network Associate).
+- **Certification:** **CCNA** (Cisco Certified Network Associate).
 
-**· BT:** **Traffic analysis tool** (Python + scapy) with basic pattern detection and reporting.
+- **· BT:** **Traffic analysis tool** (Python + scapy) with basic pattern detection and reporting.
 
 ---
 
 ### 0B02 — Python for Security
 
-**Objective.** Solid syntax, essential libraries, and automation scripting for security tasks.
+> **Objective.** Solid syntax, essential libraries, and automation scripting for security tasks.
 
 **Highlights.** Syntax and control structures; lists, dictionaries, sets; functions and modules; error handling (`try/except`); key libraries: `requests` (HTTP), `scapy` (networking), `argparse` (CLI), `json` (parsing); basic sockets; regex; file I/O.
 
-**CPP-R (examples).** Recon tool (subdomain enumeration, port scanning); log parser (CSV/JSON output); HTTP client with error handling; automation script with argparse.
+- **CPP-R (examples).** Recon tool (subdomain enumeration, port scanning); log parser (CSV/JSON output); HTTP client with error handling; automation script with argparse.
 
-**PAD (evidence).** Recon tool suite with tests; log parser with validation; documentation of technical decisions.
+- **PAD (evidence).** Recon tool suite with tests; log parser with validation; documentation of technical decisions.
 
-**· BT:** **Log parser/analyzer** extracting IOCs, aggregating metrics, and producing structured output.
+- **· BT:** **Log parser/analyzer** extracting IOCs, aggregating metrics, and producing structured output.
 
 ---
 
 ### 0B03 — Windows Administration
 
-**Objective.** Proficiency in PowerShell, Windows system management, and basic auditing.
+> **Objective.** Proficiency in PowerShell, Windows system management, and basic auditing.
 
 **Highlights.** PowerShell: cmdlets, objects, pipeline; WMI and CIM; registry management; services and processes; event logs (Get-EventLog, Get-WinEvent); Sysmon (configuration and analysis); NTFS permissions and ACLs; scheduled tasks; basic remoting (WinRM).
 
-**CPP-R (examples).** System inventory script (hardware, software, users); configuration baseline with before/after comparison; event log analysis with filtering and alerts; automation of administrative tasks.
+- **CPP-R (examples).** System inventory script (hardware, software, users); configuration baseline with before/after comparison; event log analysis with filtering and alerts; automation of administrative tasks.
 
-**PAD (evidence).** Complete system inventory with scripts; reproducible baseline; Sysmon log analysis with change detection.
+- **PAD (evidence).** Complete system inventory with scripts; reproducible baseline; Sysmon log analysis with change detection.
 
-**· BT:** **Baseline + change-detection script** (PowerShell) with diff report and alerts.
+- **· BT:** **Baseline + change-detection script** (PowerShell) with diff report and alerts.
 
 
 ### Learning (skills and mindset)
