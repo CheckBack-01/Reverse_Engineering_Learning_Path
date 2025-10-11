@@ -13,7 +13,7 @@
 **Builder Track (F1):** minimal telemetry and local summary for utilities, LD_PRELOAD hook “counter/echo” (all as CPP-R with evidence; companion detection where applicable).
 
 
-## Quarter Map (high level)
+### Quarter Map (high level)
 
 * **Q1 (1-Feb-2026 → 28-Mar-2026):** 2B01–3B01 Systems-C I (8 weeks)
 
