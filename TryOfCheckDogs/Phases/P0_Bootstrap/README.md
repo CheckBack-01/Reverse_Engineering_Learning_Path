@@ -42,7 +42,7 @@ Phase 0 builds **operational competence** in systems, networks, and scripting be
 
 - **PAD (evidence).** Operating system diagram; permissions matrix and use cases; documented complex pipeline.
 
-- **· BT:** **System inventory script** with logging, error handling, and structured output (JSON/CSV).
+- **BT:** **System inventory script** with logging, error handling, and structured output (JSON/CSV).
 
 ---
 
