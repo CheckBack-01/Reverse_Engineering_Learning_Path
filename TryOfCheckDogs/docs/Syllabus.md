@@ -14,11 +14,11 @@
 
 ### 2) Structure: Baseline Path + TOCD Path
 
-### **Baseline Path (Phase 0)** — 4 months
+### **Baseline Path (Phase 0)** - 4 months
 
 Operational fundamentals in systems, networks, and scripting before entering TOCD.
 
-### **TOCD Path (Phases 1–5)** — Technical career
+### **TOCD Path (Phases 1–5)** - Technical career
 
 * **Phases 1–3:** within the 24 months of preparation (feb 2026 → sep 2027).
 * **Phases 4–5:** post-employment, advanced specialization.
