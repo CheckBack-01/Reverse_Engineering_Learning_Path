@@ -33,48 +33,58 @@ Phase 1 builds deep understanding of **Systems-C**, **x86_64/ABI**, **ELF/PLT/GO
 
 ### 2B01–3B01 — Systems-C I (two stacks)
 
-**Objective.** Memory and pointers, low-level I/O, contracts, and safe parsing.
+> **Objective.** Memory and pointers, low-level I/O, contracts, and safe parsing.
+
 **Highlights.** pointers/`const`/`restrict`, structs/bitfields, `malloc/free`, `errno` and contracts, `stdio` vs syscalls, buffers, `mmap`; safe binary parsing; basic sockets; light testing and fuzzing.
-**CPP-R (examples).** Custom **hexdump**; mini **safe-strings** + tests; mini viewer via `mmap`.
-**PAD (evidence).** Function specifications; threats and mitigations.
-**· BT:** **Minimal telemetry** (structured logs) and **local summary** for utilities.
+
+- **CPP-R (examples).** Custom **hexdump**; mini **safe-strings** + tests; mini viewer via `mmap`.
+- **PAD (evidence).** Function specifications; threats and mitigations.
+-**BT:** **Minimal telemetry** (structured logs) and **local summary** for utilities.
 
 ---
 
 ### 4B01 — x86_64 Architecture & ABI; Practical Assembly
 
-**Objective.** Calling conventions, stack, syscalls, C↔asm.
+> **Objective.** Calling conventions, stack, syscalls, C↔asm.
+
 **Highlights.** SysV x86_64 CC; prologue/epilogue; callee-saved; syscalls and `errno`; `inline asm`; passing `struct`; conceptual contrast Windows x64 vs SysV.
-**CPP-R (examples).** `memcmp/memset` in asm with cross-tests; syscall wrappers without libc.
-**PAD (evidence).** Stack diagrams; comparative micro-bench.
-**· BT:** **LD_PRELOAD hook** “counter/echo” (benign) with evidence package.
+
+- **CPP-R (examples).** `memcmp/memset` in asm with cross-tests; syscall wrappers without libc.
+- **PAD (evidence).** Stack diagrams; comparative micro-bench.
+- **BT:** **LD_PRELOAD hook** “counter/echo” (benign) with evidence package.
 
 ---
 
 ### 5B01 — Linking, Loading & Formats (ELF, PLT/GOT, LD_PRELOAD)
 
-**Objective.** Symbol resolution and controlled interception in userland.
+> **Objective.** Symbol resolution and controlled interception in userland.
+
 **Highlights.** ELF headers/sections/segments/relocations/symbols; static vs dynamic; PIC/PIE; PLT/GOT & lazy binding; `ldd`, `patchelf`, `objdump/readelf`; visibility; **LD_PRELOAD**; PE vs ELF contrast.
-**CPP-R (examples).** Minimal ELF parser; hook for `open/fopen`; `rpath/runpath` control with `patchelf`.
-**PAD (evidence).** Linking report; symbol tables **before/after** the hook.
+
+- **CPP-R (examples).** Minimal ELF parser; hook for `open/fopen`; `rpath/runpath` control with `patchelf`.
+- **PAD (evidence).** Linking report; symbol tables **before/after** the hook.
 
 ---
 
 ### 6B01 — Windows & PE Fundamentals for Analysts
 
-**Objective.** Understand **PE** at analyst level: headers, sections, imports/exports, timestamps, hashes/signatures.
+> **Objective.** Understand **PE** at analyst level: headers, sections, imports/exports, timestamps, hashes/signatures.
+
 **Highlights.** PE layout, `pefile/sigcheck/dumpbin`, imports/exports, resources, timestamp sanity, hashsets (SHA-256), Authenticode signatures (read-only).
-**CPP-R (examples).** **Benign PE triage**: hash + imports + sections → short reproducible report.
-**PAD (evidence).** Section table → characteristics; import tree with notes.
+
+- **CPP-R (examples).** **Benign PE triage**: hash + imports + sections → short reproducible report.
+- **PAD (evidence).** Section table → characteristics; import tree with notes.
 
 ---
 
 ### 7B01 — Intro to Malware Analysis: Safe Triage & IOCs
 
-**Objective.** Controlled static/dynamic triage, **IOC** extraction, and minimal reporting.
+> **Objective.** Controlled static/dynamic triage, **IOC** extraction, and minimal reporting.
+
 **Highlights.** `strings` → regex → IOC table flow; hash discipline; benign local sandbox (no external network); action logging; limits/ethics; **YARA-lite** (static).
-**CPP-R (examples).** `strings` pipeline + **YARA-lite** → IOC CSV with checksums.
-**PAD (evidence).** Mini-report with hypotheses → findings → limits → next steps.
+
+- **CPP-R (examples).** `strings` pipeline + **YARA-lite** → IOC CSV with checksums.
+- **PAD (evidence).** Mini-report with hypotheses → findings → limits → next steps.
 
 ---
 
@@ -84,7 +94,6 @@ Phase 1 builds deep understanding of **Systems-C**, **x86_64/ABI**, **ELF/PLT/GO
 **BL-F1-02:** **LD_PRELOAD** hook “counter/echo” (4B01) — **CPP-R** with **YARA-lite detection**
 
 > Each **BT** item includes a “companion detection” where applicable (e.g., YARA-lite/Sigma over own artifacts) and reproducible evidence.
-
 
 ### Learning (skills and mindset)
 
