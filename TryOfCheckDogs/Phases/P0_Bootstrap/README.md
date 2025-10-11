@@ -1,4 +1,4 @@
-# Phase 0 — Bootstrap (Operational Baseline)
+# Phase 0 - Bootstrap (Operational Baseline)
 
 - **Start:** 2025-10-09
 - **Target role:** Competent technical operator in Linux, Windows, networking, and scripting
