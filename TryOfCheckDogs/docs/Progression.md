@@ -412,11 +412,11 @@
 
 | Metric   | Goal           | Completed | % |
 | -------- | -------------- | --------- | - |
-| CPP-Rs   | 4–6            | —         | — |
-| PAD      | 1              | —         | — |
-| Capstone | 1              | —         | — |
-| Exploits | ≥2 (Win+Linux) | —         | — |
-| Hours    | ~510 h         | —         | — |
+| CPP-Rs   | 4–6            | -         | - |
+| PAD      | 1              | -         | - |
+| Capstone | 1              | -         | - |
+| Exploits | ≥2 (Win+Linux) | -         | - |
+| Hours    | ~510 h         | -         | - |
  
  ---
  
@@ -424,15 +424,15 @@
 
 | Metric                 | Goal       | Completed | % |
 | ---------------------- | ---------- | --------- | - |
-| **Total CPP-Rs**       | 20–26      | —         | — |
-| **Total PADs**         | 5          | —         | — |
-| **Total CTFs**         | 60–90      | —         | — |
-| **Bug Bounty reports** | 20–25      | —         | — |
-| **CCNA**               | 1          | —         | — |
-| **GFACT**              | 1          | —         | — |
-| **MAD20**              | 1          | —         | — |
-| **Hours invested**     | ~2,880 h   | —         | — |
-| **Public portfolio**   | Verifiable | —         | — |
+| **Total CPP-Rs**       | 20–26      | -         | - |
+| **Total PADs**         | 5          | -         | - |
+| **Total CTFs**         | 60–90      | -         | - |
+| **Bug Bounty reports** | 20–25      | -         | - |
+| **CCNA**               | 1          | -         | - |
+| **GFACT**              | 1          | -         | - |
+| **MAD20**              | 1          | -         | - |
+| **Hours invested**     | ~2,880 h   | -         | - |
+| **Public portfolio**   | Verifiable | -         | - |
 
 ### 4) Readiness checklist (before applying for jobs, Oct 2027)
 
