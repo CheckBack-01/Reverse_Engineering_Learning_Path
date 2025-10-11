@@ -20,13 +20,13 @@
 
 ### 2) Progress by phase
 
-### **Phase 0 — Baseline (9-Oct-2025 → 31-Jan-2026)**
+### **Phase 0 - Baseline (9-Oct-2025 → 31-Jan-2026)**
 
 > **Objective:** Operational competence in Linux, Windows, networking, and scripting.
 
 **Target duration:** 4 months (16 weeks)
 
-#### **0B00 — Linux Power User (6 weeks, 9-Oct-2025 → 19-Nov-2025)**
+#### **0B00 - Linux Power User (6 weeks, 9-Oct-2025 → 19-Nov-2025)**
 
 | Item           | Goal | Status  | Due date    | Notes                                          |
 | -------------- | ---- | ------- | ----------- | ---------------------------------------------- |
@@ -40,9 +40,9 @@
 * Time: within target
 * Evidence: run.log, checksums.txt, manifest.json
 
-**Notes:** —
+**Notes:** -
 
-#### **0B01 — Networking Essentials (6 weeks, 20-Nov-2025 → 31-Dec-2025)**
+#### **0B01 - Networking Essentials (6 weeks, 20-Nov-2025 → 31-Dec-2025)**
 
 | Item           | Goal       | Status  | Due date                               | Notes                        |
 | -------------- | ---------- | ------- | -------------------------------------- | ---------------------------- |
@@ -56,9 +56,9 @@
 * CPP-R: reproducible on a clean VM
 * Traffic analyzed: ≥5 scenarios
 
-**Notes:** —
+**Notes:** -
 
-#### **0B02 — Python for Security (4 weeks, 1-Jan-2026 → 28-Jan-2026)**
+#### **0B02 - Python for Security (4 weeks, 1-Jan-2026 → 28-Jan-2026)**
 
 | Item           | Goal | Status  | Due date    | Notes                                   |
 | -------------- | ---- | ------- | ----------- | --------------------------------------- |
@@ -72,9 +72,9 @@
 * CTFs: documented writeups
 * Coverage: ≥80% of concepts
 
-**Notes:** —
+**Notes:** -
 
-#### **0B03 — Windows Administration (4 weeks, 29-Jan-2026 → 25-Feb-2026)**
+#### **0B03 - Windows Administration (4 weeks, 29-Jan-2026 → 25-Feb-2026)**
 
 | Item           | Goal | Status  | Due date    | Notes                                   |
 | -------------- | ---- | ------- | ----------- | --------------------------------------- |
@@ -88,9 +88,9 @@
 * Baseline: comparable before/after
 * Audit: Sysmon integrated
 
-**Notes:** —
+**Notes:** -
 
-**Phase 0 — Summary:**
+**Phase 0 - Summary:**
 
 | Metric | Goal   | Completed | % |
 | ------ | ------ | --------- | - |
@@ -101,13 +101,13 @@
 
 ---
 
-### **Phase 1 — Eniac (1-Feb-2026 → 31-May-2026)**
+### **Phase 1 - Eniac (1-Feb-2026 → 31-May-2026)**
 
 > **Objective:** Fundamentals with a Malware Analysis lens.
 
 **Target duration:** 4 months (17 weeks)
 
-#### **2B01–3B01 — Systems-C I (8 weeks, 1-Feb-2026 → 28-Mar-2026)**
+#### **2B01–3B01 - Systems-C I (8 weeks, 1-Feb-2026 → 28-Mar-2026)**
 
 | Item                                                         | Goal  | Status  | Due date    | Notes                     |
 | ------------------------------------------------------------ | ----- | ------- | ----------- | ------------------------- |
@@ -123,9 +123,9 @@
 * Coverage: ≥80% (gcov)
 * Fuzzing: 20 min without crashes
 
-**Notes:** —
+**Notes:** -
 
-#### **4B01 — x86_64/ABI/ASM (3 weeks, 29-Mar-2026 → 18-Apr-2026)**
+#### **4B01 - x86_64/ABI/ASM (3 weeks, 29-Mar-2026 → 18-Apr-2026)**
 
 | Item                                               | Goal | Status  | Due date    | Notes                        |
 | -------------------------------------------------- | ---- | ------- | ----------- | ---------------------------- |
@@ -141,9 +141,9 @@
 * Benchmarks: asm 5–10% faster than C
 * Clear stack diagrams
 
-**Notes:** —
+**Notes:** -
 
-#### **5B01 — Linking/ELF/PLT/GOT (3 weeks, 19-Apr-2026 → 9-May-2026)**
+#### **5B01 - Linking/ELF/PLT/GOT (3 weeks, 19-Apr-2026 → 9-May-2026)**
 
 | Item                                                | Goal | Status  | Due date    | Notes                                |
 | --------------------------------------------------- | ---- | ------- | ----------- | ------------------------------------ |
@@ -159,9 +159,9 @@
 * Hook: intercepts calls without crashes
 * Tables: before/after hooking
 
-**Notes:** —
+**Notes:** -
 
-#### **6B01 — Windows & PE Fundamentals (2 weeks, 10-May-2026 → 23-May-2026)**
+#### **6B01 - Windows & PE Fundamentals (2 weeks, 10-May-2026 → 23-May-2026)**
 
 | Item                                                   | Goal | Status  | Due date    | Notes                         |
 | ------------------------------------------------------ | ---- | ------- | ----------- | ----------------------------- |
@@ -177,9 +177,9 @@
 * Imports: ≥95% correctly extracted
 * Report: professional, <2 pages
 
-**Notes:** —
+**Notes:** -
 
-#### **7B01 — Intro to Malware Analysis (1 week, 24-May-2026 → 31-May-2026)**
+#### **7B01 - Intro to Malware Analysis (1 week, 24-May-2026 → 31-May-2026)**
 
 | Item                                      | Goal | Status  | Due date    | Notes                          |
 | ----------------------------------------- | ---- | ------- | ----------- | ------------------------------ |
@@ -195,9 +195,9 @@
 * CSV IOCs: normalized, verifiable
 * PAD: hypotheses → findings → limits
 
-**Notes:** —
+**Notes:** -
 
-**Phase 1 — Summary:**
+**Phase 1 - Summary:**
 
 | Metric     | Goal   | Completed | % |
 | ---------- | ------ | --------- | - |
@@ -234,7 +234,7 @@
 * BB: ≥2 accepted, professional report
 * CTFs: writeups in repo
 
-**Notes:** —
+**Notes:** -
 
 #### **GFACT + Bug Bounty/CTFs (Oct–Nov 2026)**
 
@@ -250,7 +250,7 @@
 * BB: acceptance rate ≥50%
 * CTFs: writeup consistency
 
-**Notes:** —
+**Notes:** -
 
 **Gap — Summary:**
 
@@ -264,13 +264,13 @@
 
 ---
 
-### **Phase 2 — IBM 1401 (1-Dec-2026 → 31-May-2027)**
+### **Phase 2 - IBM 1401 (1-Dec-2026 → 31-May-2027)**
 
 > **Objective:** Applied Reversing & Userland Execution.
 
 **Target duration:** 6 months (26 weeks)
 
-#### **0B04 — Applied Reversing I (6 weeks, 1-Dec-2026 → 11-Jan-2027)**
+#### **0B04 - Applied Reversing I (6 weeks, 1-Dec-2026 → 11-Jan-2027)**
 
 | Item         | Goal | Status  | Due date    | Notes                              |
 | ------------ | ---- | ------- | ----------- | ---------------------------------- |
@@ -289,9 +289,9 @@
 * Bypass: ≥3 anti-debug techniques
 * Report: technical, reproducible
 
-**Notes:** —
+**Notes:** -
 
-#### **1B04 — Deep PE & In-Memory Loaders (6 weeks, 12-Jan-2027 → 22-Feb-2027)**
+#### **1B04 - Deep PE & In-Memory Loaders (6 weeks, 12-Jan-2027 → 22-Feb-2027)**
 
 | Item         | Goal | Status  | Due date    | Notes                          |
 | ------------ | ---- | ------- | ----------- | ------------------------------ |
@@ -309,9 +309,9 @@
 * Manual mapping: ≥80% imports resolved
 * Tests: coverage ≥70%
 
-**Notes:** —
+**Notes:** -
 
-#### **2B04 — Userland Execution & Mitigations (10 weeks, 23-Feb-2027 → 31-May-2027)**
+#### **2B04 - Userland Execution & Mitigations (10 weeks, 23-Feb-2027 → 31-May-2027)**
 
 | Item         | Goal  | Status  | Due date    | Notes                              |
 | ------------ | ----- | ------- | ----------- | ---------------------------------- |
@@ -330,9 +330,9 @@
 * Comparison: artifact matrix vs mitigations
 * Hollowing: benign, reversible, auditable
 
-**Notes:** —
+**Notes:** -
 
-**Phase 2 — Summary:**
+**Phase 2 - Summary:**
 
 | Metric            | Goal                 | Completed | % |
 | ----------------- | -------------------- | --------- | - |
@@ -343,13 +343,13 @@
 
 ---
 
-### **Phase 3 — Intel 4004 (1-Jun-2027 → 30-Sep-2027)**
+### **Phase 3 - Intel 4004 (1-Jun-2027 → 30-Sep-2027)**
 
 **Objective:** Userland Internals & Exploitation.
 
 **Target duration:** 4 months (17 weeks)
 
-#### **0B04 — Process & Memory Internals (4 weeks, 1-Jun-2027 → 28-Jun-2027)**
+#### **0B04 - Process & Memory Internals (4 weeks, 1-Jun-2027 → 28-Jun-2027)**
 
 | Item         | Goal | Status  | Due date    | Notes                             |
 | ------------ | ---- | ------- | ----------- | --------------------------------- |
@@ -358,7 +358,7 @@
 | CTFs         | 4–6  | Pending | Weekly      | 1–2/week                          |
 
 
-#### **1B03 — Userland Exploitation I (3 weeks, 29-Jun-2027 → 19-Jul-2027)**
+#### **1B03 - Userland Exploitation I (3 weeks, 29-Jun-2027 → 19-Jul-2027)**
 
 | Item         | Goal | Status  | Due date    | Notes                               |
 | ------------ | ---- | ------- | ----------- | ----------------------------------- |
@@ -367,7 +367,7 @@
 | CTFs         | 3–5  | Pending | Weekly      | 1–2/week                            |
 
 
-#### **2B04 — Advanced Windows Internals (3 weeks, 20-Jul-2027 → 9-Aug-2027)**
+#### **2B04 - Advanced Windows Internals (3 weeks, 20-Jul-2027 → 9-Aug-2027)**
 
 | Item         | Goal       | Status  | Due date   | Notes                           |
 | ------------ | ---------- | ------- | ---------- | ------------------------------- |
@@ -376,7 +376,7 @@
 | CTFs         | 3– Pending | Weekly  | 1–2/week   |                                 |
 
 
-#### **3B03 — Userland Exploitation II (3 weeks, 10-Aug-2027 → 30-Aug-2027)**
+#### **3B03 - Userland Exploitation II (3 weeks, 10-Aug-2027 → 30-Aug-2027)**
 
 | Item         | Goal | Status  | Due date    | Notes                         |
 | ------------ | ---- | ------- | ----------- | ----------------------------- |
@@ -385,7 +385,7 @@
 | CTFs         | 3–5  | Pending | Weekly      | 1–2/week                      |
 
 
-#### **4B03 — Heap Exploitation (2 weeks, 31-Aug-2027 → 13-Sep-2027)**
+#### **4B03 - Heap Exploitation (2 weeks, 31-Aug-2027 → 13-Sep-2027)**
 
 | Item       | Goal | Status  | Due date    | Notes                       |
 | ---------- | ---- | ------- | ----------- | --------------------------- |
@@ -393,7 +393,7 @@
 | CTFs       | 2–3  | Pending | Weekly      | 1–2/week                    |
 
 
-#### **5B05 — Kernel Fundamentals + Elevation (2 weeks, 14-Sep-2027 → 27-Sep-2027)**
+#### **5B05 - Kernel Fundamentals + Elevation (2 weeks, 14-Sep-2027 → 27-Sep-2027)**
 
 | Item       | Goal | Status  | Due date    | Notes                            |
 | ---------- | ---- | ------- | ----------- | -------------------------------- |
@@ -401,14 +401,14 @@
 | CTFs       | 2–3  | Pending | Weekly      | 1–2/week                         |
 
 
-#### **6B02 — F3-CAP (1 week, 28-Sep-2027 → 30-Sep-2027)**
+#### **6B02 - F3-CAP (1 week, 28-Sep-2027 → 30-Sep-2027)**
 
 | Item            | Goal | Status  | Due date    | Notes                       |
 | --------------- | ---- | ------- | ----------- | --------------------------- |
 | **Capstone F3** | 1    | Pending | 30-Sep-2027 | **Userland → SYSTEM chain** |
 | PAD-F3          | 1    | Pending | 30-Sep-2027 | Phase 3 integrator          |
 
-**Phase 3 — Summary:**
+**Phase 3 - Summary:**
 
 | Metric   | Goal           | Completed | % |
 | -------- | -------------- | --------- | - |
