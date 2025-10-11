@@ -197,8 +197,6 @@
 
 **Notes:** —
 
----
-
 **Phase 1 — Summary:**
 
 | Metric     | Goal   | Completed | % |
@@ -208,6 +206,7 @@
 | YARA rules | ≥10    | —         | — |
 | Hours      | ~510 h | —         | — |
 
+---
 
 ### **Maturation gap (1-Jun-2026 → 30-Nov-2026)**
 
