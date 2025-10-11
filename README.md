@@ -1,7 +1,7 @@
 # Reverse Engineering Learning Path — TOCD
 
-Author: Denis Yunior Pérez Medina -> [Checkback]
-Last updated: 11-10-2025
+> Author: Denis Yunior Pérez Medina -> [Checkback]
+> Last updated: 11-10-2025
 
 Official repository of the TOCD plan (TryOfCheckDogs): a self-directed curriculum in Reverse Engineering and Malware Analysis. It contains phases, reproducible labs (**CPP-R**), drills (**GDP**), integrated missions (**PAD**), guides, and evidence. Anyone should be able to find a lab, run it with a script, and verify the evidence via hashes.
 
