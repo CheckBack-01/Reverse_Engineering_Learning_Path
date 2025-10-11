@@ -27,12 +27,12 @@ Operational fundamentals in systems, networks, and scripting before entering TOC
 
 ### 3) Integrated schedule (24 months, exact dates)
 
-### **Phase 0 — Baseline (9-oct-2025 → 31-ene-2026)**
+### **Phase 0 - Baseline (9-oct-2025 → 31-ene-2026)**
 
 **Coverage:** 16 weeks
 > **Objective:** operational competence in Linux, Windows, networking, and scripting.
 
-#### **0B00 — Linux Power User (6 weeks)**
+#### **0B00 - Linux Power User (6 weeks)**
 
 **9-oct-2025 → 19-nov-2025**
 
@@ -42,7 +42,7 @@ Operational fundamentals in systems, networks, and scripting before entering TOC
 * **CPP-R:** automation script + system inventory
 * **PAD:** task orchestrator with logging and rollback
 
-#### **0B01 — Networking Essentials (6 weeks)**
+#### **0B01 - Networking Essentials (6 weeks)**
 
 **20-nov-2025 → 31-dic-2025**
 
@@ -52,7 +52,7 @@ Operational fundamentals in systems, networks, and scripting before entering TOC
 * **Certification:** **CCNA** (end of block, 31-dic-2025)
 * **CPP-R:** capture and analysis of suspicious traffic (simulated)
 
-#### **0B02 — Python for Security (4 weeks)**
+#### **0B02 - Python for Security (4 weeks)**
 
 **1-ene-2026 → 28-ene-2026**
 
@@ -62,7 +62,7 @@ Operational fundamentals in systems, networks, and scripting before entering TOC
 * **CPP-R:** recon tool or log parser
 * **CTFs:** HackTheBox/TryHackMe (2–3/week)
 
-#### **0B03 — Windows Administration (4 weeks)**
+#### **0B03 - Windows Administration (4 weeks)**
 
 **29-ene-2026 → 25-feb-2026** *(adjusted to make room for Phase 1)*
 
@@ -79,12 +79,12 @@ Operational fundamentals in systems, networks, and scripting before entering TOC
 
 ---
 
-### **Phase 1 — Eniac (1-feb-2026 → 31-may-2026)**
+### **Phase 1 - Eniac (1-feb-2026 → 31-may-2026)**
 
 **Coverage:** 17 weeks
 > **Objective:** fundamentals with a Malware Analysis lens.
 
-#### **2B01–3B01 — Systems-C I (8 weeks)**
+#### **2B01–3B01 - Systems-C I (8 weeks)**
 
 **1-feb-2026 → 28-mar-2026**
 
@@ -94,7 +94,7 @@ Operational fundamentals in systems, networks, and scripting before entering TOC
 * **CPP-R:** hexdump + safe-strings + parser
 * **PAD:** Systems-C block
 
-#### **4B01 — x86_64/ABI/ASM (3 weeks)**
+#### **4B01 - x86_64/ABI/ASM (3 weeks)**
 
 **29-mar-2026 → 18-abr-2026**
 
@@ -103,7 +103,7 @@ Operational fundamentals in systems, networks, and scripting before entering TOC
 * **CPP-R:** syscall wrappers + asm routines
 * **BT:** Benign LD_PRELOAD hook
 
-#### **5B01 — Linking/ELF/PLT/GOT (3 weeks)**
+#### **5B01 - Linking/ELF/PLT/GOT (3 weeks)**
 
 **19-abr-2026 → 9-may-2026**
 
@@ -111,7 +111,7 @@ Operational fundamentals in systems, networks, and scripting before entering TOC
 * LD_PRELOAD, `patchelf`
 * **CPP-R:** ELF parser + `open/fopen` hook
 
-#### **6B01 — Windows & PE Fundamentals (2 weeks)**
+#### **6B01 - Windows & PE Fundamentals (2 weeks)**
 
 **10-may-2026 → 23-may-2026**
 
@@ -119,7 +119,7 @@ Operational fundamentals in systems, networks, and scripting before entering TOC
 * Reproducible PE triage
 * **CPP-R:** PE report with manifest
 
-#### **7B01 — Intro to Malware Analysis (1 week)**
+#### **7B01 - Intro to Malware Analysis (1 week)**
 
 **24-may-2026 → 31-may-2026**
 
@@ -166,12 +166,12 @@ Operational fundamentals in systems, networks, and scripting before entering TOC
 
 ---
 
-### **Phase 2 — IBM 1401 (1-dic-2026 → 31-may-2027)**
+### **Phase 2 - IBM 1401 (1-dic-2026 → 31-may-2027)**
 
 **Coverage:** 6 months
 **Objective:** Applied Reversing & Userland Execution.
 
-#### **0B04 — Applied Reversing I (6 weeks)**
+#### **0B04 - Applied Reversing I (6 weeks)**
 
 **1-dic-2026 → 11-ene-2027**
 
@@ -180,7 +180,7 @@ Operational fundamentals in systems, networks, and scripting before entering TOC
 * **CPP-R:** reproducible unpack
 * **BT:** Local benign loader
 
-#### **1B04 — Deep PE & In-Memory Loaders (6 weeks)**
+#### **1B04 - Deep PE & In-Memory Loaders (6 weeks)**
 
 **12-ene-2027 → 22-feb-2027**
 
@@ -189,7 +189,7 @@ Operational fundamentals in systems, networks, and scripting before entering TOC
 * **CPP-R:** PE parser + manual map DLL
 * **PAD:** PE/Loaders block
 
-#### **2B04 — Userland Execution & Mitigations (10 weeks)**
+#### **2B04 - Userland Execution & Mitigations (10 weeks)**
 
 **23-feb-2027 → 31-may-2027**
 
@@ -207,19 +207,19 @@ Operational fundamentals in systems, networks, and scripting before entering TOC
 
 ---
 
-### **Phase 3 — Intel 4004 (1-jun-2027 → 30-sep-2027)**
+### **Phase 3 - Intel 4004 (1-jun-2027 → 30-sep-2027)**
 
 **Coverage:** 4 months
 > **Objective:** Userland Internals & Exploitation.
 
-#### **0B04 — Process & Memory Internals (4 weeks)**
+#### **0B04 - Process & Memory Internals (4 weeks)**
 
 **1-jun-2027 → 28-jun-2027**
 
 * PEB/TEB, regions, modules, heaps
 * **CPP-R:** process map + PEB/TEB walk
 
-#### **1B03 — Userland Exploitation I (3 weeks)**
+#### **1B03 - Userland Exploitation I (3 weeks)**
 
 **29-jun-2027 → 19-jul-2027**
 
@@ -227,35 +227,35 @@ Operational fundamentals in systems, networks, and scripting before entering TOC
 * **CPP-R:** educational exploit
 * **BT:** Detection harness
 
-#### **2B04 — Advanced Windows Internals (3 weeks)**
+#### **2B04 - Advanced Windows Internals (3 weeks)**
 
 **20-jul-2027 → 9-ago-2027**
 
 * Memory/Object Manager, ETW
 * **CPP-R:** handle map + region map
 
-#### **3B03 — Userland Exploitation II (3 weeks)**
+#### **3B03 - Userland Exploitation II (3 weeks)**
 
 **10-ago-2027 → 30-ago-2027**
 
 * Info-leak + ROP/JOP (Win/Linux)
 * **CPP-R:** exploits with harness
 
-#### **4B03 — Heap Exploitation (2 weeks)**
+#### **4B03 - Heap Exploitation (2 weeks)**
 
 **31-ago-2027 → 13-sep-2027**
 
 * UAF, tcache/fastbin
 * **CPP-R:** PoCs + hardening
 
-#### **5B05 — Kernel Fundamentals + Elevation (2 weeks)**
+#### **5B05 - Kernel Fundamentals + Elevation (2 weeks)**
 
 **14-sep-2027 → 27-sep-2027**
 
 * IOCTL, R/W primitive
 * **CPP-R:** elevation to SYSTEM (VM)
 
-#### **6B02 — F3-CAP (1 week)**
+#### **6B02 - F3-CAP (1 week)**
 
 **28-sep-2027 → 30-sep-2027**
 
@@ -326,7 +326,6 @@ cpp/
 
 All work is **benign** and runs in an **isolated VM** with snapshots and rollback; zero third-party targets without authorization; encrypted briefs when applicable; **evidence and signatures** discipline as standard.
 
-
 ### 8) Key dates (reminder)
 
 * **9-oct-2025:** start Phase 0
@@ -340,14 +339,13 @@ All work is **benign** and runs in an **isolated VM** with snapshots and rollbac
 * **30-sep-2027:** preparation close, start of applications
 * **oct-2027:** job applications
 
-
 ### Phases 4–5: Post-Employment, Advanced Specialization
 
 > **Note:** These phases are **not within the 24 months of preparation** for the first job, but **are part of TOCD**. They are taken **after obtaining employment** and with practical field experience.
 
 ---
 
-### Phase 4 — Univac 1108 (Evasion, Persistence, and C2)
+### Phase 4 - Univac 1108 (Evasion, Persistence, and C2)
 
 **Estimated coverage:** 12 months (post-employment)
 **Prerequisite:** work experience as MA/RE (6–12 months minimum)
@@ -360,42 +358,42 @@ Phase 4 consolidates **evasion, persistence, and C2** in an **isolated** lab env
 
 ### **Main blocks**
 
-#### **8A — Initial Access & Covert Delivery (lab)**
+#### **8A - Initial Access & Covert Delivery (lab)**
 
 * Local HTTP(S)/WS/DNS profiles in isolated network
 * Benign staging with validation
 * **BT:** Benign implant (innocuous tasks) with timing control and logging
 * **CPP-R:** reproducible delivery profile with local traffic evidence
 
-#### **8B — Minimal Blue Track**
+#### **8B - Minimal Blue Track**
 
 * Reproducible event collection (Win/Linux)
 * Minimal metrics dashboard
 * **BT:** Before/after baseline (telemetry)
 * **CPP-R:** observability panel + key metrics
 
-#### **F4-B1 — Evasion I (artifact reduction)**
+#### **F4-B1 - Evasion I (artifact reduction)**
 
 * Artifact matrix (files, keys, processes, network, memory)
 * Build hardening, minimal footprint
 * **BT:** Before/after measurement of benign implant
 * **CPP-R:** surface comparison with evidence
 
-#### **F4-B2 — Evasion II (telemetry-aware)**
+#### **F4-B2 - Evasion II (telemetry-aware)**
 
 * Telemetry-conscious ETW/logs design
 * Delta validation with instrumentation
 * **BT:** Telemetry-aware adjustments
 * **CPP-R:** impact analysis with metrics
 
-#### **9B — Implant Crypto & Packer v2**
+#### **9B - Implant Crypto & Packer v2**
 
 * Encrypted config (AEAD recommended)
 * Didactic packing with validation
 * **BT:** Packer v2 with integrity validation
 * **CPP-R:** encrypted config + reproducible packer
 
-#### **F4-B3 — Cross-platform Persistence (rollback)**
+#### **F4-B3 - Cross-platform Persistence (rollback)**
 
 * Windows: Scheduled Tasks/services
 * Linux: systemd/cron
@@ -403,7 +401,7 @@ Phase 4 consolidates **evasion, persistence, and C2** in an **isolated** lab env
 * **BT:** Reversible persistence with checklist
 * **CPP-R:** install/start/stop/uninstall without residue
 
-#### **F4-B4 — Covert C2 & Traffic Profiling**
+#### **F4-B4 - Covert C2 & Traffic Profiling**
 
 * Benign server/client in isolated network
 * Queues, authentication, backoff
@@ -411,13 +409,13 @@ Phase 4 consolidates **evasion, persistence, and C2** in an **isolated** lab env
 * **BT:** Lab C2 with metrics
 * **CPP-R:** documented protocol + resilience tests
 
-#### **F4-B5 — Covert Operations (lab)**
+#### **F4-B5 - Covert Operations (lab)**
 
 * End-to-end operation with OPSEC checklist
 * Error and timing control
 * **CPP-R:** coordinated reproducible operation
 
-#### **F4-CAP — Integrated Operation (96 h)**
+#### **F4-CAP - Integrated Operation (96 h)**
 
 * Integration: loader/implant + persistence + C2
 * Technical defense of the solution
@@ -443,7 +441,7 @@ Phase 4 consolidates **evasion, persistence, and C2** in an **isolated** lab env
 
 ---
 
-### Phase 5 — YoneEvilHost (Kernel, Firmware, UEFI/Boot)
+### Phase 5 - YoneEvilHost (Kernel, Firmware, UEFI/Boot)
 
 **Estimated coverage:** 6 months (post-employment)
 **Prerequisite:** userland experience + Phase 4 completed
@@ -456,7 +454,7 @@ Phase 5 consolidates **observability and kernel development** (Linux/Windows) an
 
 ### **Main blocks**
 
-#### **Pre-flight — Readiness for kernel/firmware**
+#### **Pre-flight - Readiness for kernel/firmware**
 
 * Clean VMs (Win/Linux) and OVMF snapshots
 * WinDbg KD and symbols; `dmesg`, `ftrace`, `kprobes`
@@ -464,7 +462,7 @@ Phase 5 consolidates **observability and kernel development** (Linux/Windows) an
 * Proven **rollback** and recovery policies
 * **CPP-R:** debugging verification + QEMU+OVMF boot
 
-#### **F5-B1 — Kernel Observability & Toolchain**
+#### **F5-B1 - Kernel Observability & Toolchain**
 
 * WinDbg KD (break-in, symbols, `!process/!thread`)
 * Linux: kprobes/kretprobes, ftrace, tracefs
@@ -472,7 +470,7 @@ Phase 5 consolidates **observability and kernel development** (Linux/Windows) an
 * **BT:** Signal↔event table + environment checklist
 * **CPP-R:** KD playbook + tracing recipe + signal↔event table
 
-#### **F5-B2 — Linux LKM & Telemetry**
+#### **F5-B2 - Linux LKM & Telemetry**
 
 * Toolchain and headers; Kbuild/Kconfig
 * Metric export via `procfs/sysfs`
@@ -480,7 +478,7 @@ Phase 5 consolidates **observability and kernel development** (Linux/Windows) an
 * **BT:** LKM with toggles/telemetry + tests + rollback
 * **CPP-R:** LKM skeleton + stress + rollback checklist
 
-#### **F5-B3 — Windows Driver Fundamentals**
+#### **F5-B3 - Windows Driver Fundamentals**
 
 * KMDF project, INF, test signing
 * Minimal IOCTL (queues, dispatch, safe buffers)
@@ -488,7 +486,7 @@ Phase 5 consolidates **observability and kernel development** (Linux/Windows) an
 * **BT:** Benign KMDF driver (echo IOCTL + callbacks)
 * **CPP-R:** skeleton + IOCTL + callbacks + tests
 
-#### **F5-B4 — UEFI/OVMF & Bootflow**
+#### **F5-B4 - UEFI/OVMF & Bootflow**
 
 * EDK II toolchain; SEC→PEI→DXE
 * OVMF analysis (UEFITool/UEFIExtract)
@@ -497,7 +495,7 @@ Phase 5 consolidates **observability and kernel development** (Linux/Windows) an
 * **BT:** Benign DXE in OVMF (inventory/logging)
 * **CPP-R:** EDK II environment + DXE + evidence + Secure Boot notes
 
-#### **F5-B5 — Rootkit-style PoCs (VM only)**
+#### **F5-B5 - Rootkit-style PoCs (VM only)**
 
 * Linux: didactic interception with kprobes/ftrace
 * Windows: process/image/registry callbacks (controlled logging)
@@ -505,7 +503,7 @@ Phase 5 consolidates **observability and kernel development** (Linux/Windows) an
 * **All PoCs reversible and detectable**
 * **CPP-R:** PoC with toggle + before/after comparison
 
-#### **F5-CAP — Kernel/Firmware Blue-Aware**
+#### **F5-CAP - Kernel/Firmware Blue-Aware**
 
 * Integrate: kernel telemetry + benign DXE in OVMF
 * “Blue” evaluation and technical defense
