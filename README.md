@@ -1,129 +1,115 @@
 # Reverse Engineering Learning Path — TOCD
 
+Author: Denis Yunior Pérez Medina -> [Checkback]
+Last updated: 11-10-2025
+
 Official repository of the TOCD plan (TryOfCheckDogs): a self-directed curriculum in Reverse Engineering and Malware Analysis. It contains phases, reproducible labs (**CPP-R**), drills (**GDP**), integrated missions (**PAD**), guides, and evidence. Anyone should be able to find a lab, run it with a script, and verify the evidence via hashes.
+
+For recruiters / employers
+Read → GUIA_PARA_RECLUTADORES.md
+Explore → CPP-R Portfolio (representative stacks)
+Verify → manifest.json + checksums.txt (reproducibility)
+Run → cpp_run.sh in your own VM (one-command demo)
+
+For auditors / code reviewers
+Read → docs/opsec/Opsec_Legal.md (compliance)
+Verify → GPG tags signed per block
+Validate → Scripts against the TOCD checklist
+Report → Issues with reference to block/CPP-R
+
+Program, schedule, and status
+
+- **General plan:** `docs/Plan.md`
+- **Syllabus by phase/term:** `docs/Syllabus.md`
+- **Public calendar:** `docs/Schedule.md`
+- **Progress and metrics:** `docs/Progress.md`
+- **Backlogs and reinforcements:** `docs/Backlogs.md`
+--- 
 
 ### Repository Map & How to navigate it
 
+```.
+├─ TryOfCheckDogs/
+│  ├─ docs/                   # Core plan documentation
+│  │  ├─ opsec/               # Operational security and ethics
+│  │  ├─ Opsec_Legal.md       # OPSEC and legal compliance guide
+│  │  │  └─ Encrypted_Mission_Protocol.md # Definition of encrypted practices
+│  │  ├─ teaching/ 
+│  │  │  ├─ Metodo_Preparacion.md      # My teaching approach and hands-on method
+│  │  │  └─ Guia_Practicas.md          # How to run exercises safely
+│  │  ├─ Backlogs.md       # Pending tasks by phase
+│  │  ├─ Plan.md           # Full plan (24 months, all phases)
+│  │  ├─ Progress.md       # Monthly progress log
+│  │  ├─ Schedule.md       # Detailed calendar by week/block
+│  │  └─ Syllabus.md       # Thematic content (Phases 0–5)
+│  ├─ certifications/      # Certifications obtained 
+│  │  ├─ CCNA/ 
+│  │  │  ├─ certificate.pdf         # Official certificate
+│  │  │  ├─ verification_url.txt    # Cisco verification URL
+│  │  │  └─ exam_date.txt           # Pass date
+│  │  └─ MAD20/ ...
+│  ├─ phases/
+│  │  ├─ P0_Baseline/
+│  │  │  ├─ 0B00_Linux_Power_User/ 
+│  │  │  │  ├─ <Stack_DXX>/
+│  │  │  │  │  ├─ cpp/ 
+│  │  │  │  │  │  └─ CPP-R_<nombre>/
+│  │  │  │  │  │     ├─ release/      # (generated at runtime)
+│  │  │  │  │  │     ├─ cpp_run.sh    # One-command script (reproducibility)
+│  │  │  │  │  │     ├─ manifest.json # Metadata (versions, hashes, metrics)
+│  │  │  │  │  │     ├─ mission.tar.gz   # Packaged brief
+│  │  │  │  │  │     ├─ mission.gpg      # Encrypted brief (if applicable)
+│  │  │  │  │  │     ├─ README.md        # What it does, how to run it
+│  │  │  │  │  │     └─ evidence/        # Audit
+│  │  │  │  │  │        ├─ run.log       # Timestamps + commands
+│  │  │  │  │  │        ├─ checksums.txt # SHA-256
+│  │  │  │  │  │        └─ screenshots/  # Screenshots (if applicable)
+│  │  │  │  │  └─ gdp/          # Guided Drills
+│  │  │  │  │     ├─ assets/
+│  │  │  │  │     ├─ scoring/
+│  │  │  │  │     ├─ drills/
+│  │  │  │  │     └─ README.md 
+│  │  │  │  ├─ PAD/                  # Practical Aptitude Drill
+│  │  │  │  │  ├─ challenge/
+│  │  │  │  │  ├─ grader/
+│  │  │  │  │  ├─ solution/
+│  │  │  │  │  └─ README.decrypt.md  # (optional) GPG instructions
+│  │  │  │  └─ README.md             # Block description
+│  │  │  ├─ MJT*/    # MJT_T_YYYYMMDD / MJT_B_YYYYMMDD / MJT_Post_YYYYMMDD 
+│  │  │  └─ 1B03.../
+│  │  └─ P1_Eniac/...
+│  ├─ bug_bounty/             # Bug Bounty reports
+│  └─ ctf/ 
+│     └─ Flare-on/...
+├─ guide/                  # Quick guides
+│  ├─ QUICKSTART.md        # How to start (first steps)
+│  ├─ HOWTO_SETUP_LAB.md   # How to set up the lab
+│  ├─ FAQ.md               # Frequently asked questions
+│  └─ HOWTO_CPP_R.md       # How to create a CPP-R
+│     └─ README.md         # Guide index
+├─ .github/ 
+│  └─ workflows/
+│     ├─ validate_evidence.yml      # CI/CD: validate evidence
+│     └─ verify_reproducibility.yml # CI/CD: verify reproducibility
+├─ LICENSE                          # License (MIT or similar)
+├─ .gitignore                       # Files to ignore
+├─ GUIA_PARA_RECLUTADORES.md        # (RECRUITER_GUIDE)
+├─ README.md                        # This document
+└─ RESUMEN_EJECUTIVO.md             # Executive Summary (start here)
 ```
-TryOfCheckDogs/
-├─ docs/
-│  ├─ Opsec/
-│  │  ├─ Opsec_Legal.md
-│  │  └─ Encrypted_Mission_Protocol.md
-│  ├─ Teaching/
-│  │  ├─ Metodo_De_Clases.md
-│  │  └─ Preparacion_Entrenamiento.md
-│  ├─ Backlogs.md
-│  ├─ Plan.md
-│  ├─ Progress.md
-│  ├─ Schedule.md
-│  └─ Syllabus.md
-├─ guide/
-│  └─ README.md                # Quick guide, HOWTOs
-├─ phases/
-│  ├─ F1_Eniac/                # Fundamentals through an MA lens
-│  │  ├─ 0B01/ … 7B01/         # Linux/Toolchain/Systems-C/ABI/ELF/PE/MA
-│  │  │  ├─ <Stack_DXX>/
-│  │  │  │  ├─ README.md
-│  │  │  │  └─ cpp/
-│  │  │  │     ├─ run.sh
-│  │  │  │     └─ evidence/   # run.log, checksums.txt, manifest.json, screenshots
-│  │  │  ├─ PAD/              # Block integrated mission
-│  │  │  └─ MJT*/             # MJT_T_YYYYMMDD/MJT_B_YYYYMMDD/MJT_Post_YYYYMMDD
-|  |  └─ 0B02/ ...
-|  └─ F2/ ...
-├─ .gitignore
-└─ README.md                  # This document
-```
+Current Status
+Metric                Target                 Completed   %
+Phases                5 (3 prep + 2 post)    0.5 started 10%
+Total blocks          16                     0           0%
+Total CPP-Rs          20–26                  0           0%
+Total PADs            5                      0           0%
+Certifications        3 (CCNA, GFACT, MAD20) 0           0%
+Hours invested        ~2,880 h               0           0%
 
-### Conventions and naming
+Support & Contact
+FAQ: guide/FAQ.md
+Troubleshooting: guide/TROUBLESHOOTING.md
+OPSEC protocol: docs/opsec/Opsec_Legal.md
+Teaching method: docs/teaching/Metodo_Preparacion.md
 
-* **Blocks (F1–F3):** `XBYY` (e.g., `0B01`, `2B04`). X = block index (starting at 0); YY = nº of stacks when applicable.
-* **F4:** `8A`, `8B`, `F4-B1 … F4-B5`, `9B`, `F4-CAP`.
-* **F5:** `Pre-flight`, `F5-B1 … F5-B5`, `F5-CAP`.
-* **Classes/Labs (inside a block):** one folder per stack.
-* **Closures:** **CPP-R** in `cpp/run.sh` that generates `cpp/evidence/<YYYY-MM-DD_HHMMSS>/` with `run.log`, `checksums.txt`, `manifest.json`, and screenshots.
-* **Block exams:** **PAD/**.
-* **Scenarios:** **MJT\_T\_***, \*\*MJT\_B****, \*\*MJT\_Post***\*.
-
-### Where everything is
-
-### 1) Program, schedule, and status
-
-* **General plan:** `docs/Plan.md`
-* **Syllabus by phase/term:** `docs/Syllabus.md`
-* **Public calendar:** `docs/Schedule.md`
-* **Progress and metrics:** `docs/Progress.md`
-* **Backlogs and reinforcements:** `docs/Backlogs.md`
-
-### 2) Method, rules, and OPSEC
-
-* **Class method and templates:** `docs/Teaching/Metodo_De_Clases.md`, `docs/Teaching/Preparacion_Entrenamiento.md`
-* **OPSEC/Legal and “Encrypted Mission”:** `docs/Opsec/Opsec_Legal.md`, `docs/Opsec/Encrypted_Mission_Protocol.md`
-* **Quick guides/HOWTOs:** `guide/Guide_for_recruiters.md`
-
-### 3) Labs by phase and block
-
-Useful shortcuts (conceptual globs):
-
-* All labs in a phase: `phases/Fx_*/**/README.md`
-* All **CPP-R** scripts: `phases/Fx_*/**/cpp/run.sh`
-* All evidence: `phases/Fx_*/**/cpp/evidence/*/`
-* All **PAD**: `phases/Fx_*/**/PAD/**`
-* All **MJT**: `phases/Fx_*/**/MJT_*/**`
-
-Examples:
-
-* F1, Linux/CLI: `phases/F1_Eniac/0B01/…`
-* F2, Loaders: `phases/F2_IBM1401/1B04/…`
-* F3, Heap exploitation: `phases/F3_Intel4004/4B03/…`
-* F4, Covert C2: `phases/F4_Univac1108/F4-B4/…`
-* F5, Benign DXE: `phases/F5_YoneEvilHost/F5-B4/…`
-
-### How to run a lab (standard procedure)
-
-```
-1. Enter the lab
-   Go to `phases/<PHASE>/<BLOCK>/<Stack|DXX_TOPIC>/`
-  
-2. Check prerequisites
-   Read `README.md` and the prior manifest if it exists.
-
-3. Reproducible execution 
-   `bash cpp/run.sh`  
-   It must create `cpp/evidence/<TS>/run.log`, `checksums.txt`, `manifest.json`, and screenshots.
-  
-4. Verification 
-   Check hashes or the verification instruction indicated in the README.
- 
-5. Submission 
-   Commits with a clear message and links to the evidence.  
-```
-
-**Minimum expected output**
-
-* Folder `cpp/evidence/<TS>/` with well-named logs and screenshots.
-* `manifest.json` with versions, hashes, and limits/`VALIDSIG` when applicable.
-* “Expected vs observed” notes in the README.
-
-### Evidence discipline (mandatory)
-
-* **One-command:** every **CPP-R** must re-execute without intervention.
-* **Idempotence:** a second run does not break things or duplicate junk.
-* **Manifest:** `{CPP_id, repo, commit/tag, tool_versions, limits}`.
-* **Encryption:** sensitive briefs/resources travel signed and encrypted (GPG).
-* **Without evidence it doesn’t exist:** closures without a complete package are not accepted.
-
-### What’s in each phase (aligned summary)
-
-* **F1\_Eniac:** Linux/CLI, Toolchain, Systems-C, x86\_64/ABI, ELF/PLT/GOT/LD\_PRELOAD, basic PE and safe MA triage.
-* **F2\_IBM1401:** Applied reversing, 1-layer unpack, in-memory **loaders**, **manual mapping (intro)**, execution paths in userland, and mitigations.
-* **F3\_Intel4004:** Process/memory internals, pedagogical exploitation (basic ROP → leak+ROP/JOP), heap PoCs, lab kernel R/W, and **capstone** userland→SYSTEM.
-* **F4\_Univac1108:** Evasion (reduction and telemetry), reversible persistence, lab C2, covert operation, and **F4-CAP**.
-* **F5\_YoneEvilHost:** Kernel observability and development (Linux/Windows), UEFI/OVMF, bootflow, reversible PoCs, and **F5-CAP** kernel+firmware.
-
-### Quick support
-
-* Structure or reproducibility: open an Issue prefixed with `[STRUCT]` or `[CPP-R]`.
-* OPSEC/Legal and encryption questions: `docs/Opsec/`.
-* Changes to syllabus/dates: `docs/Schedule.md` and `docs/Syllabus.md`.
+Last update: 10-Oct-2025 | Start: 09-Oct-2025 | Target: Oct-2027 | Current phase: Phase 0, Block 0B00 (Linux Power User). ]
