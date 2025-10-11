@@ -1,12 +1,12 @@
 # Try Of Check Dogs (TOCD) — Executive Summary
 
-## What is TOCD?
+### What is TOCD?
 
 **TOCD** (Try Of Check Dogs) is a **24-month structured self-education program** to prepare me for the **Reverse Engineer / Malware Analyst** track with verifiable competency through reproducible evidence.
 
 ---
 
-## My Story
+### My Story
 
 Since I was a kid, I’ve liked planning and **building things**, even breaking toys to see how they work inside. When I discovered cybersecurity, I realized I could apply the same creativity in a technical setting: **build and break controls to understand how systems work**.
 
@@ -14,7 +14,7 @@ This repository is the outcome: a 24-month on-ramp with **verifiable technical s
 
 ---
 
-## The Core Philosophy
+### The Core Philosophy
 
 ```
 If it's not reproducible, it doesn't exist.
@@ -31,7 +31,7 @@ Every exercise I do:
 
 ---
 
-## Structure: 24 Months of Preparation
+### Structure: 24 Months of Preparation
 
 | Phase                       | Period              | Objective                             | Deliverables                      |
 | --------------------------- | ------------------- | ------------------------------------- | --------------------------------- |
@@ -52,7 +52,7 @@ Every exercise I do:
 
 ---
 
-## Methodology: Hands-On Only
+### Methodology: Hands-On Only
 
 ### Daily allocation (5 h/day)
 
@@ -74,7 +74,7 @@ Every exercise I do:
 
 ---
 
-## What I Build
+### What I Build
 
 ### Technical artifacts
 
@@ -99,7 +99,7 @@ cpp/
 
 ---
 
-## Verifiable Certifications
+### Verifiable Certifications
 
 * **CCNA (Cisco Certified Network Associate)** — networking, fundamentals
 * **GFACT (GIAC Foundational Cybersecurity)** — operational security
@@ -109,7 +109,7 @@ All are **official, internationally verifiable accreditations**.
 
 ---
 
-## OPSEC & Security
+### OPSEC & Security
 
 I work **exclusively in isolated VMs** (NAT-only) in VirtualBox/VMware:
 
@@ -123,7 +123,7 @@ Everything complies with OPSEC/Legal under `docs/OPSEC_Legal.md`.
 
 ---
 
-## Learning Pillars
+### Learning Pillars
 
 ### 1. Reverse Engineering
 
@@ -143,7 +143,7 @@ Build **benign adversary-emulation tools** and their **defensive counterparts** 
 
 ---
 
-## Key Milestones
+### Key Milestones
 
 | Milestone                       | Date             | Status                 |
 | ------------------------------- | ---------------- | ---------------------- |
@@ -158,7 +158,7 @@ Build **benign adversary-emulation tools** and their **defensive counterparts** 
 
 ---
 
-## Values That Define Me
+### Values That Define Me
 
 1. **Reproducibility over speed** — a slower but reproducible project > a fast but fragile one.
 2. **Evidence over promises** — I can run my code in your VM and prove what it does.
@@ -168,7 +168,7 @@ Build **benign adversary-emulation tools** and their **defensive counterparts** 
 
 ---
 
-## How to Contribute / Provide Feedback
+### How to Contribute / Provide Feedback
 
 If you find technical errors, suggestions, or improvements:
 
@@ -180,7 +180,7 @@ The goal is for TOCD to be **continuously verifiable and improvable**.
 
 ---
 
-## Contact & Community
+### Contact & Community
 
 * **GitHub Issues:** bugs, suggestions, technical questions
 * **Technical blog:** [coming soon] notes on completed phases
