@@ -31,7 +31,6 @@ Phase 0 builds **operational competence** in systems, networks, and scripting be
 ### How the phase is organized
 
 **Naming.** Blocks use codes like `0B00` (first digit = phase index, second = block index). A block can span multiple **stacks** (Composite Stack).
----
 
 ### 0B00 — Linux Power User
 
