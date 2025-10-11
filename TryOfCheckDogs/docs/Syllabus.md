@@ -270,7 +270,7 @@ Operational fundamentals in systems, networks, and scripting before entering TOC
 
 ---
 
-## 4) Certifications and portfolio (as of 30-sep-2027)
+### 4) Certifications and portfolio (as of 30-sep-2027)
 
 **Certifications:**
 
@@ -302,7 +302,7 @@ Operational fundamentals in systems, networks, and scripting before entering TOC
 * ≥2 CTFs/week (from Phase 0)
 * ≥3 BB submissions/month (during Gap and Phase 2–3)
 
-## 6) Methods and protocols
+### 6) Methods and protocols
 
 * **GDP:** guided drills by topic
 * **CPP-R:** reproducible stack closure (1 command)
@@ -322,12 +322,12 @@ cpp/
 ```
 
 
-## 7) Ethics and OPSEC
+### 7) Ethics and OPSEC
 
 All work is **benign** and runs in an **isolated VM** with snapshots and rollback; zero third-party targets without authorization; encrypted briefs when applicable; **evidence and signatures** discipline as standard.
 
 
-## 8) Key dates (reminder)
+### 8) Key dates (reminder)
 
 * **9-oct-2025:** start Phase 0
 * **31-dic-2025:** CCNA certified
@@ -341,7 +341,7 @@ All work is **benign** and runs in an **isolated VM** with snapshots and rollbac
 * **oct-2027:** job applications
 
 
-# Phases 4–5: Post-Employment, Advanced Specialization
+### Phases 4–5: Post-Employment, Advanced Specialization
 
 > **Note:** These phases are **not within the 24 months of preparation** for the first job, but **are part of TOCD**. They are taken **after obtaining employment** and with practical field experience.
 
@@ -533,7 +533,7 @@ Phase 5 consolidates **observability and kernel development** (Linux/Windows) an
 
 ---
 
-## Summary of the complete TOCD structure
+### Summary of the complete TOCD structure
 
 ```
 Baseline Path (4 months)
