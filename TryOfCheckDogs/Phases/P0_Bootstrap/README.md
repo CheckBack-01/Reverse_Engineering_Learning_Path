@@ -1,4 +1,3 @@
-
 # Phase 0 — Bootstrap (Operational Baseline)
 
 - **Start:** 2025-10-09
@@ -119,9 +118,5 @@ Phase 0 builds **operational competence** in systems, networks, and scripting be
 
 * **CPP-R.** Reproducible closure per **Composite Stack** with clear objectives, verifiable steps, and artifacts (`run.log`, `manifest`, `checksums`, screenshots).
 * **PAD.** Block-integrated mission with report and verification on a clean VM (optional in Phase 0, recommended for 0B01).
-* Each block **closes with a CPP-R** and minimum evidence; **PAD** per plan.
+* Each block **closes with a CPP-R** and minimum evidence; **PAD** per plan
 
-
-### Ethics and scope
-
-**Lab-only**, **benign** artifacts, **NAT-only** network, zero third parties. Briefs encrypted where applicable. See `docs/Opsec_Legal.md`. **Signed tags** per block; evidence or it doesn’t exist.
