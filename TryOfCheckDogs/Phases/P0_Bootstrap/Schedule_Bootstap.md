@@ -2,13 +2,13 @@
 
 **Syllabus & Schedule** (Quarters · Blocks · Stacks)
 
-**Coverage:** 2025-10-09 → 2026-01-31
-**Cadence:** ~30 h/week (5 h/day, Mon–Sat)
-**Methodology:** CPP-R (reproducible closures) + PAD (Practical Aptitude Drill: block-integrated mission, optional) + GDP (guided drills) · Lab-only (OPSEC/Legal)
+- **Coverage:** 2025-10-09 → 2026-01-31
+- **Cadence:** ~30 h/week (5 h/day, Mon–Sat)
+- **Methodology:** CPP-R (reproducible closures) + PAD (Practical Aptitude Drill: block-integrated mission, optional) + GDP (guided drills) · Lab-only (OPSEC/Legal)
 
-**Global outcomes (F0):** 4 CPP-Rs, CCNA certified, functional tools (Bash, Python, PowerShell), troubleshooting competency, lab logbook, and minimal OPSEC checklist.
+- **Global outcomes (F0):** 4 CPP-Rs, CCNA certified, functional tools (Bash, Python, PowerShell), troubleshooting competency, lab logbook, and minimal OPSEC checklist.
 
-**Builder Track (F0):** inventory script (Bash), traffic analysis tool (Python), log parser (Python), baseline script (PowerShell).
+- **Builder Track (F0):** inventory script (Bash), traffic analysis tool (Python), log parser (Python), baseline script (PowerShell).
 
 ---
 
