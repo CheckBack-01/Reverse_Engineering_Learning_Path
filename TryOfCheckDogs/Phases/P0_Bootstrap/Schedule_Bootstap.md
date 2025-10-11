@@ -17,10 +17,9 @@
 * **Q1 (2025-10-09 → 2025-12-31):** 0B00 Linux Power User, 0B01 Networking Essentials (start)
 * **Q2 (2026-01-01 → 2026-01-31):** 0B01 Networking (closure + CCNA), 0B02 Python, 0B03 Windows (accelerated if needed)
 
----
 
 ### Q1 — Detailed Schedule
-```
+
 ### 0B00 — Linux Power User (6 weeks · ~180 total hours)
 
 **Objective:** Fluency in CLI, advanced permissions, processes, systemd, and professional Bash scripting.
@@ -38,9 +37,6 @@
 
 **PAD (Exam) — PAD-0B00 (optional)**
 **Window:** 2025-11-25 → 2025-11-28 · **Deliverable:** task orchestrator with logging, error handling, and rollback.
-
-```
----
 
 ### 0B01 — Networking Essentials (8 weeks · ~240 total hours)
 
@@ -81,7 +77,6 @@
 **PAD (Exam) — PAD-0B02 (optional)**
 **Date:** **Wed 2026-02-18** *(adjusted)* · **Deliverable:** recon tool suite + log parser.
 
----
 
 ### 0B03 — Windows Administration (2 weeks · ~60 total hours, compressed)
 
