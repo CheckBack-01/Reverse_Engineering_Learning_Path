@@ -17,12 +17,11 @@
 * **Q1 (2025-10-09 → 2025-12-31):** 0B00 Linux Power User, 0B01 Networking Essentials (start)
 * **Q2 (2026-01-01 → 2026-01-31):** 0B01 Networking (closure + CCNA), 0B02 Python, 0B03 Windows (accelerated if needed)
 
-
 ### Q1 — Detailed Schedule
 
 ### 0B00 — Linux Power User (6 weeks · ~180 total hours)
 
-**Objective:** Fluency in CLI, advanced permissions, processes, systemd, and professional Bash scripting.
+> **Objective:** Fluency in CLI, advanced permissions, processes, systemd, and professional Bash scripting.
 
 **BT:** System inventory script with logging and error handling (CPP-R with evidence).
 
@@ -35,12 +34,13 @@
 | Bash Scripting    | arrays, functions, error handling, set -euo pipefail     |       36 h | bash                | **CPP-R-0B00-4:** automation script with rollback · **Sun 2025-11-17**         |
 | Logs & Journaling | journalctl, /var/log, rsyslog                            |       12 h | systemd, rsyslog    | Mini-lab: log analysis · **Sun 2025-11-24**                                    |
 
-**PAD (Exam) — PAD-0B00 (optional)**
-**Window:** 2025-11-25 → 2025-11-28 · **Deliverable:** task orchestrator with logging, error handling, and rollback.
+- **PAD (Exam) — PAD-0B00 (optional)**
+- **Window:** 2025-11-25 → 2025-11-28 ·
+- **Deliverable:** task orchestrator with logging, error handling, and rollback.
 
 ### 0B01 — Networking Essentials (8 weeks · ~240 total hours)
 
-**Objective:** Networking fundamentals (TCP/IP, subnetting, routing) and CCNA certification.
+> **Objective:** Networking fundamentals (TCP/IP, subnetting, routing) and CCNA certification.
 
 **BT:** Traffic analysis tool (Python + scapy) with pattern detection.
 
@@ -54,8 +54,9 @@
 | Basic Firewall     | iptables/nftables, rules, logging      |       24 h | iptables/nft       | **CPP-R-0B01-5:** firewall with documented rules · **Sun 2026-01-12**          |
 | CCNA Prep          | integrated review, practice exams      |       96 h | Cisco NetAcad      | **CCNA Exam** · **2026-01-31**                                                 |
 
-**PAD (Exam) — PAD-0B01 (recommended)**
-**Date:** **2026-01-20** · **Deliverable:** complete traffic analysis (PCAP + report + Python tool).
+- **PAD (Exam) - PAD-0B01 (recommended)**
+- **Date:** **2026-01-20** ·
+- **Deliverable:** complete traffic analysis (PCAP + report + Python tool).
 
 ---
 
@@ -63,7 +64,7 @@
 
 ### 0B02 — Python for Security (3 weeks · ~90 total hours)
 
-**Objective:** Solid syntax and automation scripting for security.
+> **Objective:** Solid syntax and automation scripting for security.
 
 **BT:** Log parser/analyzer with IOC extraction.
 
@@ -74,13 +75,14 @@
 | Sockets & Regex     | HTTP client, regex for parsing   |       24 h | **CPP-R-0B02-3:** traffic analysis tool · **Sun 2026-02-09** *(adjusted)*             |
 | Testing & Docs      | unittest, docstrings, README     |       24 h | **CPP-R-0B02-4:** tool suite with tests · **Sun 2026-02-16** *(adjusted)*             |
 
-**PAD (Exam) — PAD-0B02 (optional)**
-**Date:** **Wed 2026-02-18** *(adjusted)* · **Deliverable:** recon tool suite + log parser.
+- **PAD (Exam) - PAD-0B02 (optional)**
+- **Date:** **Wed 2026-02-18** *(adjusted)*
+-  **Deliverable:** recon tool suite + log parser
 
 
 ### 0B03 — Windows Administration (2 weeks · ~60 total hours, compressed)
 
-**Objective:** Proficiency in PowerShell and basic Windows auditing.
+> **Objective:** Proficiency in PowerShell and basic Windows auditing.
 
 **BT:** Baseline + change-detection script (PowerShell).
 
@@ -91,8 +93,9 @@
 | Event Logs & Sysmon | log analysis, Sysmon configuration       |       18 h | **CPP-R-0B03-3:** event log analysis · **Sun 2026-03-09** *(adjusted)*      |
 | Automation          | scheduled tasks, advanced scripts        |       12 h | **CPP-R-0B03-4:** change-detection script · **Sun 2026-03-16** *(adjusted)* |
 
-**PAD (Exam) — PAD-0B03 (optional)**
-**Date:** **Wed 2026-03-18** *(adjusted)* · **Deliverable:** complete baseline + audit script.
+- **PAD (Exam) — PAD-0B03 (optional)**
+- **Date:** **Wed 2026-03-18** *(adjusted)* ·
+- **Deliverable:** complete baseline + audit script.
 
 ---
 
