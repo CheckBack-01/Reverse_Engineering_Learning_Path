@@ -1,4 +1,4 @@
-# Phase 0 — Bootstrap (Operational Baseline)
+# Phase 0 - Bootstrap (Operational Baseline)
 
 **Syllabus & Schedule** (Quarters · Blocks · Stacks)
 
