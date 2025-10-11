@@ -339,7 +339,7 @@ All work is **benign** and runs in an **isolated VM** with snapshots and rollbac
 * **30-sep-2027:** preparation close, start of applications
 * **oct-2027:** job applications
 
-### Phases 4–5: Post-Employment, Advanced Specialization
+### Phases 4-5: Post-Employment, Advanced Specialization
 
 > **Note:** These phases are **not within the 24 months of preparation** for the first job, but **are part of TOCD**. They are taken **after obtaining employment** and with practical field experience.
 
