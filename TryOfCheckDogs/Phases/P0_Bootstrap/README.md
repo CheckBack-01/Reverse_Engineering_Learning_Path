@@ -5,8 +5,6 @@
 **Target role:** Competent technical operator in Linux, Windows, networking, and scripting
 **Security:** Lab-only, benign artifacts, NAT network, encrypted briefs (GPG), reproducible evidence
 
----
-
 ### Scope
 
 Phase 0 builds **operational competence** in systems, networks, and scripting before entering TOCD. Without these foundations, learning malware analysis and reversing would be slow and frustrating. Verifiable scripts, reproducible configurations, and the tools.
