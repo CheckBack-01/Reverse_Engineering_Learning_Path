@@ -6,16 +6,18 @@ Last updated: 11-10-2025
 Official repository of the TOCD plan (TryOfCheckDogs): a self-directed curriculum in Reverse Engineering and Malware Analysis. It contains phases, reproducible labs (**CPP-R**), drills (**GDP**), integrated missions (**PAD**), guides, and evidence. Anyone should be able to find a lab, run it with a script, and verify the evidence via hashes.
 
 For recruiters / employers
-Read → GUIA_PARA_RECLUTADORES.md
-Explore → CPP-R Portfolio (representative stacks)
-Verify → manifest.json + checksums.txt (reproducibility)
-Run → cpp_run.sh in your own VM (one-command demo)
+
+- Read : GUIA_PARA_RECLUTADORES.md
+- Explore : CPP-R Portfolio (representative stacks)
+- Verify : manifest.json + checksums.txt (reproducibility)
+- Run :  cpp_run.sh in your own VM (one-command demo)
 
 For auditors / code reviewers
-Read → docs/opsec/Opsec_Legal.md (compliance)
-Verify → GPG tags signed per block
-Validate → Scripts against the TOCD checklist
-Report → Issues with reference to block/CPP-R
+
+- Read :  docs/opsec/Opsec_Legal.md (compliance)
+- Verify :  GPG tags signed per block
+- Validate : Scripts against the TOCD checklist
+- Report : Issues with reference to block/CPP-R
 
 Program, schedule, and status
 
