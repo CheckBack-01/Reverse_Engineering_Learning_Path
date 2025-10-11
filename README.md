@@ -99,13 +99,15 @@ Program, schedule, and status
 └─ RESUMEN_EJECUTIVO.md             # Executive Summary (start here)
 ```
 Current Status
-Metric                Target                 Completed   %
-Phases                5 (3 prep + 2 post)    0.5 started 10%
-Total blocks          16                     0           0%
-Total CPP-Rs          20–26                  0           0%
-Total PADs            5                      0           0%
-Certifications        3 (CCNA, GFACT, MAD20) 0           0%
-Hours invested        ~2,880 h               0           0%
+
+| Metric              | Target                 | Completed  | %   |
+| -------------------- | ---------------------- | ------------ | --- |
+| **Phases**            | 5 (3 prep + 2 post)    | 0.5 started  | 10% |
+| **Total blockss**  | 16                     | 0            | 0%  |
+| **Total CPP-Rs**   | 20–26                  | 0            | 0%  |
+| **Total PADs**     | 5                      | 0            | 0%  |
+| **Certifications**  | 3 (CCNA, GFACT, MAD20) | 0            | 0%  |
+| **Hours invested** | ~2,880 h               | 0            | 0%  |
 
 Support & Contact
 FAQ: guide/FAQ.md
