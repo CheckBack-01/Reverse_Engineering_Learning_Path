@@ -33,7 +33,7 @@ Before entering TOCD, I need to **lay solid foundations** in systems, networking
 
 - **Deliverables:** 4 CPP-Rs (1 per block) + **CCNA** + weekly CTFs.
 
-- **Duration:** 4 months (Oct 2025 → Jan 2026).
+- **Duration:** 4 months (Oct 2025 - Jan 2026).
 
 ---
 
@@ -44,22 +44,22 @@ After completing Baseline, I enter **TOCD**: the main **Reverse Engineering** an
 **Phase 1 - Eniac (Fundamentals with an MA lens):**
 
 * Systems-C, x86_64/ABI, ELF/PE, controlled triage.
-* **Duration:** 4 months (Feb 2026 → May 2026).
+* **Duration:** 4 months (Feb 2026 - May 2026).
 
 **Maturation gap (6 months):**
 
 * Portfolio preparation, **MAD20** (ATT&CK), **GFACT**, Bug Bounty/CTFs.
-* **Duration:** Jun 2026 → Nov 2026.
+* **Duration:** Jun 2026 - Nov 2026.
 
 **Phase 2 - IBM 1401 (Applied Reversing & Userland Execution):**
 
 * Static/dynamic, unpack, loaders, injection, evasion.
-* **Duration:** 6 months (Dec 2026 → May 2027).
+* **Duration:** 6 months (Dec 2026 - May 2027).
 
 **Phase 3 - Intel 4004 (Userland Internals & Exploitation):**
 
 * Memory, ROP, heap, kernel primitives, local elevation.
-* **Duration:** 4 months (Jun 2027 → Sep 2027).
+* **Duration:** 4 months (Jun 2027 - Sep 2027).
 
 **Job applications:** Oct 2027 (complete portfolio).
 
@@ -93,9 +93,9 @@ After completing Baseline, I enter **TOCD**: the main **Reverse Engineering** an
 
 **Target certifications:**
 
-* **CCNA** (Cisco Networking) — networking fundamentals.
-* **GFACT** (GIAC Foundational Cybersecurity) — security fundamentals.
-* **MAD20** (MITRE ATT&CK Defender) — common threat-hunting language.
+* **CCNA** (Cisco Networking) - networking fundamentals.
+* **GFACT** (GIAC Foundational Cybersecurity) - security fundamentals.
+* **MAD20** (MITRE ATT&CK Defender) - common threat-hunting language.
 
 **Technical portfolio:**
 
@@ -181,5 +181,3 @@ This plan is **pure self-education**: **deliberate practice**, **reproducible ev
 **Start date:** October 9, 2025
 **First job application:** October 2027
 **Total preparation time:** 24 months
-
-**Motto:** *“If it’s not reproducible, it doesn’t exist; if it leaves no evidence, it doesn’t count.”*
