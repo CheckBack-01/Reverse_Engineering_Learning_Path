@@ -5,14 +5,14 @@
 - 
 **Methodology:** **GDP** (guided drills) · **CPP-R** (reproducible closures) · **PAD** (block mission) · **MJT** (mock job test) · **Lab-only/OPSEC**
 
-## 1) Rules
+### 1) Rules
 
 * **Lab-only:** VM with **NAT**, **snapshots**, and proven **rollback**; **benign** artifacts; zero out-of-scope traffic.
 * **Reproducibility or it doesn’t exist:** each practice closes with a **1-command CPP-R** (`cpp_run.sh`) + `manifest.json` + `evidence/` (`run.log`, `checksums.txt`) and **GPG signature (VALIDSIG)**.
 * **Encryption by default:** sensitive briefs/resources under **Encrypted Mission Protocol**.
 * **Time with intent:** 70–80% practice; minimal enabling theory.
 
-## 2) Structure: Baseline Path + TOCD Path
+### 2) Structure: Baseline Path + TOCD Path
 
 ### **Baseline Path (Phase 0)** — 4 months
 
