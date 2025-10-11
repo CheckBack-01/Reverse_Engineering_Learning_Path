@@ -7,7 +7,7 @@
 - **Target date (job applications):** October 2027
 - **Total preparation time:** 24 months
 
-## 1) Executive summary (to date)
+### 1) Executive summary (to date)
 
 | Metric                     | Goal                             | Completed | % |
 | -------------------------- | -------------------------------- | --------- | - |
