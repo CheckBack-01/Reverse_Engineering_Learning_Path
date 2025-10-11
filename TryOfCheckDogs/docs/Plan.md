@@ -1,120 +1,185 @@
-# PLAN — Try Of Check Dogs (TOCD)
+## **Plan - TOCD (Try Of Check Dogs)**
 
-### 1) **Personal Statement**
+### 1) Personal Statement
 
-I want to become a **Reverse Engineer / Malware Analyst** with mastery of **defense evasion** and the ability to **create and break controls** on **Windows and Linux** at a low level.
-My career begins with **structured self-education (TOCD)** and a **stack of accredited credentials** that yield **valid U.S. college credit** and a **signal recognized by HR**. I prioritize **offensive reversing**, **measurable evasion**, and the **engineering of benign adversary-emulation tools** for the lab. My **methods and conventions** live in this repository.
+I want to become a **Reverse Engineer / Malware Analyst** with mastery of **defense evasion** and the ability to **build and break controls** on **Windows and Linux** at a low level.
+
+My career is structured self-education, deliberate practice, reproducible evidence, and a verifiable technical portfolio. I prioritize offensive reversing, measurable evasion, and the engineering of benign adversary-emulation tools for the lab. My methods and conventions live in this repository.
 
 ---
 
 ### 2) Principles
 
-* **Lab-only:** VM with **NAT**, **snapshots**, and tested **rollback**; **benign** artifacts; zero out-of-scope traffic.
+* **Lab-only:** VM with **NAT**, **snapshots**, and tested **rollback**; **benign** artifacts; zero traffic out of scope.
+* **Reproducibility or it doesn’t exist:** every exercise closes with a **1-command CPP-R** (`cpp_run.sh`) + `manifest.json` + `evidence/` (includes `run.log`, `checksums.txt`) and **GPG signature (VALIDSIG)**.
+* **Encrypted briefs:** Encrypted Mission Protocol where applicable.
+* **Time with intent:** 70–80% practice; minimal enabling theory.
+* **Portfolio > paper:** reproducible deliverables and professional-quality reports.
 
-* **Reproducible or it doesn’t exist:** every exercise closes with **one-command CPP-R** (`cpp_run.sh`) + `manifest.json` + `evidence/` (includes `run.log`, `checksums.txt`) and **GPG signature (VALIDSIG)**.
+### 3) The structure: Baseline Path + TOCD Path
 
-* **Encrypted statements:** Encrypted Mission Protocol.
+My plan is split into **two tracks**:
 
-* **Time with intent:** 70–80% hands-on; minimum enabling theory.
+### **Baseline Path (4 months)** — Operational fundamentals
 
----
+Before entering TOCD, I need to **lay solid foundations** in systems, networking, and scripting. Without these competencies, learning malware analysis and reversing would be slow and frustrating.
 
-### 3) Why **accredited programs** (and not “standalone courses”)
+**Phase 0 — Baseline:**
 
-1. They are **valid in the U.S.** (ACE / university transcript / CAE-CD).
-2. They **satisfy prerequisites** (e.g., **≥48 credits** for SANS ACS).
-3. They improve **HR filters** and preserve the option to **finish a bachelor’s** with what’s already transferred.
+* **Linux Power User:** advanced CLI, permissions, processes, Bash scripting.
+* **Networking Essentials:** TCP/IP, subnetting, Wireshark, iptables + **CCNA**.
+* **Python for Security:** syntax, libraries (requests, scapy), recon scripting.
+* **Windows Administration:** PowerShell, registry, event logs, Sysmon.
 
----
+- **Deliverables:** 4 CPP-Rs (1 per block) + **CCNA** + weekly CTFs.
 
-### 4) Plan map (executive summary)
-
-* **Phase A — Intensive TOCD (5 months, 1-Oct-2025 → 28-Feb-2026)**
-  Technical foundation with **reproducible CPP-R**.
-  **Why:** measurable foundation and evidence habits.
-
-* **Phase B — Sophia (4 courses) + light TOCD (4 months, 1-Mar-2026 → 30-Jun-2026)**
-  _Python, Relational Databases, Networking, Algebra.
-  **Why:** ~12 fast, economical credits + fundamentals for tooling/telemetry.
-
-* **Phase C — Maturation gap: MAD20 + PMRP + Bug Bounty (6 months, 1-Jul-2026 → 31-Dec-2026)**
-  **Jul–Aug:** prep/portfolio · **Sep–Oct:** **MITRE MAD20 Basic** + **Bug Bounty** · **Nov:** **TCM PMRP** + **Bug Bounty** · **Dec:** BB/portfolio consolidation (TOCD backlog 30–45 min/week).
-  **Why:** arrive at SANS with practical signal (ATT&CK, malware, reproducible reports) without overlapping loads.
-
-* **Phase D — SANS.edu Cybersecurity Fundamentals Certificate (CSF) + TOCD (9 months, 1-Jan-2027 → 30-Sep-2027)**
-  3 **CSF** courses, **one at a time** (≈13 weeks each) + light TOCD.
-  **Why:** ~12 SANS credits + **GIAC GFACT** (via SEC275) and CAE-CD branding, without mixing courses/certs.
-
-* **Phase E — Polish + applications (3 months, integrated in Jul–Sep 2027)**
-  Close dossier (≥16 CPP-R, ≥8 BB) and **apply**.
-  **Why:** go to market with a ready portfolio.
+- **Duration:** 4 months (Oct 2025 → Jan 2026).
 
 ---
 
-### 5) High-level schedule (24 months)
+### **TOCD Path (5 phases)** — Technical track
 
-| Period          | Primary focus                          | Hours/day | Secondary focus    | Hours/day | Key deliverables                                                |
-| --------------- | -------------------------------------- | --------: | ------------------ | --------: | --------------------------------------------------------------- |
-| Oct-25 → Feb-26 | **Intensive TOCD**                     |       5.0 | —                  |         — | 8–10 **CPP-R**                                                  |
-| Mar-26 → Jun-26 | **Sophia (4 courses)**                 |       2.5 | **TOCD (light)**   |       2.5 | 4 courses (~12 cr) + 4 **CPP-R**                                |
-| Jul-26 → Aug-26 | **Cert prep & portfolio**              |       2.5 | **TOCD (light)**   |       2.5 | Repos, CPP-R templates, BB targets                              |
-| Sep-26 → Oct-26 | **MITRE MAD20 Basic**                  |       2.5 | **Bug Bounty**     |       2.5 | ATT&CK badges + 6–8 BB submissions (cumulative)                 |
-| Nov-26          | **TCM PMRP**                           |       2.5 | **Bug Bounty**     |       2.5 | PMRP (5d+2d) + BB submissions                                   |
-| Dec-26          | **Bug Bounty (consolidation)**         |       2.5 | **TOCD (backlog)** |       2.5 | 14–18 total submissions · 6–8 “star” reports                    |
-| Jan-27 → Mar-27 | **SANS CSF — Course 1**                |       3.0 | **TOCD (light)**   |       2.0 | 1 CSF course + 1–2 **CPP-R**                                    |
-| Apr-27 → Jun-27 | **SANS CSF — Course 2**                |       3.0 | **TOCD (light)**   |       2.0 | 1 CSF course + 1–2 **CPP-R**                                    |
-| Jul-27 → Sep-27 | **SANS CSF — Course 3 (SEC275/GFACT)** |       3.0 | **TOCD (light)**   |       2.0 | **CSF complete (~12 cr, incl. GFACT) + dossier + applications** |
+After completing Baseline, I enter **TOCD**: the main **Reverse Engineering** and **Malware Analysis** track. This is the backbone of my career.
 
----
+**Phase 1 — Eniac (Fundamentals with an MA lens):**
 
-### 6) Detailed plan (what, how, why)
+* Systems-C, x86_64/ABI, ELF/PE, controlled triage.
+* **Duration:** 4 months (Feb 2026 → May 2026).
 
-### Phase A — Intensive TOCD (1-Oct-2025 → 28-Feb-2026)
+**Maturation gap (6 months):**
 
-* **What I’ll do:** SCs A→B→C; Recon, IDOR/BOLA, XSS/DOM/Template, SSRF/Chains, Logic/CSRF, Automation, Reporting.
-* **Deliverables:** 8–10 **CPP-R** with `evidence/` and **VALIDSIG**.
-* **KPI:** 2 CPP-R/month + 1 mini triage report.
-* **Why:** **measurable, verifiable** technical base.
+* Portfolio preparation, **MAD20** (ATT&CK), **GFACT**, Bug Bounty/CTFs.
+* **Duration:** Jun 2026 → Nov 2026.
 
-### Phase B — Sophia (4 courses) + TOCD (1-Mar-2026 → 30-Jun-2026)
+**Phase 2 — IBM 1401 (Applied Reversing & Userland Execution):**
 
-* **Courses:** *Introduction to Python Programming*, *Introduction to Relational Databases*, *Introduction to Networking*, *College Algebra*.
-* **Deliverables:** 4 courses (~12 cr) + 4 **CPP-R**.
-* **KPI:** 1 course/month + 1 CPP-R/month.
-* **Why:** **transferable credit** and direct fundamentals (Python, SQL, networking, math base).
+* Static/dynamic, unpack, loaders, injection, evasion.
+* **Duration:** 6 months (Dec 2026 → May 2027).
 
-### Phase C — MAD20 gap + PMRP + Bug Bounty (1-Jul-2026 → 31-Dec-2026)
+**Phase 3 — Intel 4004 (Userland Internals & Exploitation):**
 
-* **Jul–Aug:** portfolio prep and polish (2.5 h) + light TOCD (2.5 h).
-* **Sep–Oct:** **MITRE MAD20 Basic** (2.5 h) + **Bug Bounty** (2.5 h).
-* **Nov:** **TCM PMRP** (2.5 h) + **Bug Bounty** (2.5 h).
-* **Dec:** **Bug Bounty** (2.5 h) + **TOCD backlog** (2.5 h).
-* **Deliverables:** 14–18 BB submissions, 6–8 “star” reports; PMRP passed; ATT&CK badges.
-* **Why:** maximize **practical signal** before SANS and sharpen reproducible reporting.
+* Memory, ROP, heap, kernel primitives, local elevation.
+* **Duration:** 4 months (Jun 2027 → Sep 2027).
 
-### Phase D — **SANS CSF** + TOCD (1-Jan-2027 → 30-Sep-2027)
+**Job applications:** Oct 2027 (complete portfolio).
 
-* **Path:** **Course 1 (Jan–Mar)** → **Course 2 (Apr–Jun)** → **Course 3/SEC275 (Jul–Sep)**, **one at a time**.
-* **Deliverables:** CSF complete (~12 cr) + **GIAC GFACT** (via SEC275) + 3–4 reinforcing CPP-R.
-* **KPI:** 1–2 CPP-R deliverables/month and evidence checklist at 100%.
-* **Why:** add **SANS credit** and a **GIAC seal** within the program.
+**Phase 4 — Univac 1108 (Evasion, Persistence and C2):**
 
----
+* Loader/implant, reversible persistence, lab C2.
+* **Post-employment**, focused on advanced red team techniques.
 
-### 7) Credits and “SANS-ready”
+**Phase 5 — YoneEvilHost (Kernel, Firmware, UEFI/Boot):**
 
-**Projected totals as of 30-Sep-2027 (ranges):**
+* Kernel development (LKM, drivers), UEFI/OVMF, didactic rootkits.
+* **Post-employment**, for full-stack mastery.
 
-* **Sophia (4 courses):** ~12 cr
-* **SANS CSF:** ~12 cr
-* **CLEP/DSST (optional, 1–2 exams):** +6–12 cr
+> **Note:** Phases 4 and 5 **are not within the 24 months of preparation** for the first job, but **are part of TOCD**.
 
-**Projected total:** **24–36 cr** (without CLEP) · **30–48 cr** (with 1–2 CLEP).
-If, at close, credits are still short of 48, I will add **English Composition I/II (Sophia)** or one “anchor” course (UMGC/APU) to cross the threshold.
+### 4) High-level timeline (24 months of preparation)
 
----
+| Period              | Primary focus               | Key deliverables                              |
+| ------------------- | --------------------------- | --------------------------------------------- |
+| **Oct-25 → Jan-26** | **Phase 0 (Baseline)**      | Linux/Windows/Networking/Scripting + **CCNA** |
+| **Feb-26 → May-26** | **Phase 1 (Eniac)**         | 6–8 CPP-Rs (Systems-C, ABI, ELF/PE, MA Intro) |
+| **Jun-26 → Jul-26** | **Portfolio prep**          | Repos, CPP-R templates, BB/CTF targets        |
+| **Aug-26 → Sep-26** | **MAD20 + Bug Bounty/CTFs** | ATT&CK badges + 6–8 BB submissions            |
+| **Oct-26 → Nov-26** | **GFACT + Bug Bounty/CTFs** | **GFACT** certified + 10–12 BB submissions    |
+| **Dec-26 → May-27** | **Phase 2 (IBM 1401)**      | 6–8 CPP-Rs (RE, unpack, loaders)              |
+| **Jun-27 → Sep-27** | **Phase 3 (Intel 4004)**    | 4–6 CPP-Rs (exploits, kernel)                 |
+| **Oct-27**          | **Job applications**        | **Complete portfolio + applications**         |
 
-### 8) Why these certifications (minimum rationale per item)
 
-* **MITRE MAD20 Basic:** common ATT&CK and hunting language; modular evidence (badges).
-* **TCM PMRP:** **practical** exam with report; fits the **CPP-R** pipeline and triage.
+### 5) Certifications and technical signal
+
+**Target certifications:**
+
+* **CCNA** (Cisco Networking) — networking fundamentals.
+* **GFACT** (GIAC Foundational Cybersecurity) — security fundamentals.
+* **MAD20** (MITRE ATT&CK Defender) — common threat-hunting language.
+
+**Technical portfolio:**
+
+* **16–20 reproducible CPP-Rs** (with `evidence/`, `manifest.json`, `checksums.txt`).
+* **10–15 Bug Bounty/CTF reports** (some accepted/published).
+* **6–8 PADs** (integrated block missions).
+* **1 Capstone** (documented exploitation chain).
+
+### 6) Why these certifications
+
+* **CCNA:** real networking; foundation for traffic/C2 analysis.
+* **GFACT:** cybersecurity fundamentals; gateway to other GIAC certs.
+* **MAD20:** common ATT&CK language; hunting; modular evidence (badges).
+
+### 7) Methods and protocols
+
+I use four main protocols to structure the learning:
+
+* **GDP (Guided Drills Protocol):** guided, verifiable practice to build fluency.
+* **CPP-R (Reproducible Proof of Concept):** stack-integrating proof, 1 command, with manifest and evidence.
+* **PAD (Practical Aptitude Drill):** block-integrated mission with verification on a clean VM.
+* **MJT (Mock Job Test):** mini job test with minimal context and automatic validation.
+
+**Standard evidence format:**
+
+```
+block/
+└─ <stack>/
+    └─ cpp/
+       ├─ cpp_run.sh          # reproduces PoC with 1 command
+       ├─ manifest.json       # versions, hashes, metrics
+       └─ evidence/
+          ├─ run.log          # execution timestamps
+          └─ screenshots/     # captures if applicable
+```
+
+### 8) KPIs and progress metrics
+
+**By phase:**
+
+| Phase     |    CPP-Rs |  PADs | BB/CTF Reports | Certifications         |
+| --------- | --------: | ----: | -------------: | ---------------------- |
+| Phase 0   |         4 |     — |              — | CCNA                   |
+| Phase 1   |       6–8 |     2 |              — | —                      |
+| Gap       |         — |     — |          10–12 | GFACT, MAD20           |
+| Phase 2   |       6–8 |     2 |          15–20 | —                      |
+| Phase 3   |       4–6 |     1 |          20–25 | —                      |
+| **Total** | **20–26** | **5** |      **20–25** | **CCNA, GFACT, MAD20** |
+
+**Monthly:**
+
+* ≥1 CPP-R/month (Phase 0–3)
+* ≥2 CTFs/week (from Phase 0)
+* ≥3 BB submissions/month (during Gap and Phase 2–3)
+
+### 9) Readiness checklist (before applying)
+
+As of **October 2027**, I must have:
+
+* [*] **CCNA** certified
+* [*] **GFACT** certified
+* [*] **MAD20** badges complete
+* [*] **≥16 CPP-Rs** in a public repo
+* [*] **≥10 BB/CTF reports** documented
+* [*] **1 Capstone** (userland → SYSTEM) reproducible
+* [*] **GitHub/portfolio** clean and professional
+* [*] **LinkedIn** updated with certifications and portfolio
+* [*] **Technical resume** (1 page, verifiable skills)
+
+### 10) Future vision
+
+**Short term (24 months):** complete Baseline + Phases 1–3 of TOCD, obtain the first job as **Malware Analyst**, **Threat Intelligence **or **Reverse Engineer -> jr**.
+
+**Medium term (post-employment):** complete Phases 4 and 5 of TOCD, specialize in **advanced evasion**, **C2**, **kernel**, and **firmware**.
+
+**Long term:** be a reference in **offensive reverse engineering** and **malware analysis**, with the ability to **build and break controls** at any level of the stack (userland, kernel, firmware).
+
+
+### Conclusion
+
+This plan is **pure self-education**: **deliberate practice**, **reproducible evidence**, and a **verifiable portfolio**.
+
+**Start date:** October 9, 2025
+**First job application:** October 2027
+**Total preparation time:** 24 months
+
+**Motto:** *“If it’s not reproducible, it doesn’t exist; if it leaves no evidence, it doesn’t count.”*
