@@ -42,8 +42,6 @@
 
 **Notes:** —
 
----
-
 #### **0B01 — Networking Essentials (6 weeks, 20-Nov-2025 → 31-Dec-2025)**
 
 | Item           | Goal       | Status  | Due date                               | Notes                        |
@@ -59,8 +57,6 @@
 * Traffic analyzed: ≥5 scenarios
 
 **Notes:** —
-
----
 
 #### **0B02 — Python for Security (4 weeks, 1-Jan-2026 → 28-Jan-2026)**
 
@@ -78,8 +74,6 @@
 
 **Notes:** —
 
----
-
 #### **0B03 — Windows Administration (4 weeks, 29-Jan-2026 → 25-Feb-2026)**
 
 | Item           | Goal | Status  | Due date    | Notes                                   |
@@ -95,8 +89,6 @@
 * Audit: Sysmon integrated
 
 **Notes:** —
-
----
 
 **Phase 0 — Summary:**
 
@@ -133,8 +125,6 @@
 
 **Notes:** —
 
----
-
 #### **4B01 — x86_64/ABI/ASM (3 weeks, 29-Mar-2026 → 18-Apr-2026)**
 
 | Item                                               | Goal | Status  | Due date    | Notes                        |
@@ -152,8 +142,6 @@
 * Clear stack diagrams
 
 **Notes:** —
-
----
 
 #### **5B01 — Linking/ELF/PLT/GOT (3 weeks, 19-Apr-2026 → 9-May-2026)**
 
@@ -173,8 +161,6 @@
 
 **Notes:** —
 
----
-
 #### **6B01 — Windows & PE Fundamentals (2 weeks, 10-May-2026 → 23-May-2026)**
 
 | Item                                                   | Goal | Status  | Due date    | Notes                         |
@@ -192,8 +178,6 @@
 * Report: professional, <2 pages
 
 **Notes:** —
-
----
 
 #### **7B01 — Intro to Malware Analysis (1 week, 24-May-2026 → 31-May-2026)**
 
@@ -224,7 +208,6 @@
 | YARA rules | ≥10    | —         | — |
 | Hours      | ~510 h | —         | — |
 
----
 
 ### **Maturation gap (1-Jun-2026 → 30-Nov-2026)**
 
@@ -309,8 +292,6 @@
 
 **Notes:** —
 
----
-
 #### **1B04 — Deep PE & In-Memory Loaders (6 weeks, 12-Jan-2027 → 22-Feb-2027)**
 
 | Item         | Goal | Status  | Due date    | Notes                          |
@@ -330,8 +311,6 @@
 * Tests: coverage ≥70%
 
 **Notes:** —
-
----
 
 #### **2B04 — Userland Execution & Mitigations (10 weeks, 23-Feb-2027 → 31-May-2027)**
 
@@ -353,8 +332,6 @@
 * Hollowing: benign, reversible, auditable
 
 **Notes:** —
-
----
 
 **Phase 2 — Summary:**
 
@@ -381,7 +358,6 @@
 | CPP-R-0B04-2 | 1    | Pending | 28-Jun-2027 | **PEB/TEB walk** reproducible     |
 | CTFs         | 4–6  | Pending | Weekly      | 1–2/week                          |
 
----
 
 #### **1B03 — Userland Exploitation I (3 weeks, 29-Jun-2027 → 19-Jul-2027)**
 
@@ -391,7 +367,6 @@
 | CPP-R-1B03-2 | 1    | Pending | 19-Jul-2027 | **Detection harness**               |
 | CTFs         | 3–5  | Pending | Weekly      | 1–2/week                            |
 
----
 
 #### **2B04 — Advanced Windows Internals (3 weeks, 20-Jul-2027 → 9-Aug-2027)**
 
@@ -401,7 +376,6 @@
 | CPP-R-2B04-2 | 1          | Pending | 9-Aug-2027 | **Region map** (memory)         |
 | CTFs         | 3– Pending | Weekly  | 1–2/week   |                                 |
 
----
 
 #### **3B03 — Userland Exploitation II (3 weeks, 10-Aug-2027 → 30-Aug-2027)**
 
@@ -411,7 +385,6 @@
 | CPP-R-3B03-2 | 1    | Pending | 30-Aug-2027 | **Linux exploit** (ROP/JOP)   |
 | CTFs         | 3–5  | Pending | Weekly      | 1–2/week                      |
 
----
 
 #### **4B03 — Heap Exploitation (2 weeks, 31-Aug-2027 → 13-Sep-2027)**
 
@@ -420,7 +393,6 @@
 | CPP-R-4B03 | 1    | Pending | 13-Sep-2027 | **Heap PoCs** (UAF, tcache) |
 | CTFs       | 2–3  | Pending | Weekly      | 1–2/week                    |
 
----
 
 #### **5B05 — Kernel Fundamentals + Elevation (2 weeks, 14-Sep-2027 → 27-Sep-2027)**
 
@@ -429,7 +401,6 @@
 | CPP-R-5B05 | 1    | Pending | 27-Sep-2027 | **Elevation to SYSTEM** (VM lab) |
 | CTFs       | 2–3  | Pending | Weekly      | 1–2/week                         |
 
----
 
 #### **6B02 — F3-CAP (1 week, 28-Sep-2027 → 30-Sep-2027)**
 
@@ -437,8 +408,6 @@
 | --------------- | ---- | ------- | ----------- | --------------------------- |
 | **Capstone F3** | 1    | Pending | 30-Sep-2027 | **Userland → SYSTEM chain** |
 | PAD-F3          | 1    | Pending | 30-Sep-2027 | Phase 3 integrator          |
-
----
 
 **Phase 3 — Summary:**
 
@@ -449,7 +418,9 @@
 | Capstone | 1              | —         | — |
 | Exploits | ≥2 (Win+Linux) | —         | — |
 | Hours    | ~510 h         | —         | — |
-
+ 
+ ---
+ 
 ### 3) Cumulative summary (24 months of preparation)
 
 | Metric                 | Goal       | Completed | % |
