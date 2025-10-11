@@ -20,7 +20,7 @@
 
 ### 2) Progress by phase
 
-### **Phase 0 - Baseline (9-Oct-2025 → 31-Jan-2026)**
+### **Phase 0 - Baseline (9-Oct-2025 - 31-Jan-2026)**
 
 > **Objective:** Operational competence in Linux, Windows, networking, and scripting.
 
