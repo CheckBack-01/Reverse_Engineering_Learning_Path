@@ -1,15 +1,13 @@
 
 # Phase 0 — Bootstrap (Operational Baseline)
 
-**Start:** 2025-10-09
-**Target role:** Competent technical operator in Linux, Windows, networking, and scripting
-**Security:** Lab-only, benign artifacts, NAT network, encrypted briefs (GPG), reproducible evidence
+- **Start:** 2025-10-09
+- **Target role:** Competent technical operator in Linux, Windows, networking, and scripting
+- **Security:** Lab-only, benign artifacts, NAT network, encrypted briefs (GPG), reproducible evidence
 
 ### Scope
 
 Phase 0 builds **operational competence** in systems, networks, and scripting before entering TOCD. Without these foundations, learning malware analysis and reversing would be slow and frustrating. Verifiable scripts, reproducible configurations, and the tools.
-
----
 
 ### Methodology
 
@@ -19,7 +17,6 @@ Phase 0 builds **operational competence** in systems, networks, and scripting be
 * **Encrypted Mission Protocol:** briefs/resources travel signed + encrypted when they contain sensitive information.
 * **Repo/OPSEC:** VM snapshots, benign datasets, no third-party data.
 
----
 
 ### Phase-level outcomes
 
@@ -93,7 +90,6 @@ Phase 0 builds **operational competence** in systems, networks, and scripting be
 
 **· BT:** **Baseline + change-detection script** (PowerShell) with diff report and alerts.
 
----
 
 ### Learning (skills and mindset)
 
@@ -104,7 +100,6 @@ Phase 0 builds **operational competence** in systems, networks, and scripting be
 * **Reproducible evidence** discipline from day one (CPP-R, manifest, checksums).
 * **Technical operator** mindset: solve problems with tools, not just theory.
 
----
 
 ### Outcomes and success criteria
 
@@ -120,15 +115,12 @@ Phase 0 builds **operational competence** in systems, networks, and scripting be
   * **C:** ≥60% CPP-Rs; CCNA pending or passed with difficulty.
   * **Redo:** <60% or CCNA not attempted.
 
----
-
 ### Assessment (CPP-R & PAD)
 
 * **CPP-R.** Reproducible closure per **Composite Stack** with clear objectives, verifiable steps, and artifacts (`run.log`, `manifest`, `checksums`, screenshots).
 * **PAD.** Block-integrated mission with report and verification on a clean VM (optional in Phase 0, recommended for 0B01).
 * Each block **closes with a CPP-R** and minimum evidence; **PAD** per plan.
 
----
 
 ### Ethics and scope
 
