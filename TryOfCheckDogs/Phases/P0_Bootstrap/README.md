@@ -58,7 +58,7 @@ Phase 0 builds **operational competence** in systems, networks, and scripting be
 
 - **Certification:** **CCNA** (Cisco Certified Network Associate).
 
-- **· BT:** **Traffic analysis tool** (Python + scapy) with basic pattern detection and reporting.
+- **BT:** **Traffic analysis tool** (Python + scapy) with basic pattern detection and reporting.
 
 ---
 
@@ -72,7 +72,7 @@ Phase 0 builds **operational competence** in systems, networks, and scripting be
 
 - **PAD (evidence).** Recon tool suite with tests; log parser with validation; documentation of technical decisions.
 
-- **· BT:** **Log parser/analyzer** extracting IOCs, aggregating metrics, and producing structured output.
+- **BT:** **Log parser/analyzer** extracting IOCs, aggregating metrics, and producing structured output.
 
 ---
 
@@ -86,8 +86,9 @@ Phase 0 builds **operational competence** in systems, networks, and scripting be
 
 - **PAD (evidence).** Complete system inventory with scripts; reproducible baseline; Sysmon log analysis with change detection.
 
-- **· BT:** **Baseline + change-detection script** (PowerShell) with diff report and alerts.
+- **BT:** **Baseline + change-detection script** (PowerShell) with diff report and alerts.
 
+---
 
 ### Learning (skills and mindset)
 
