@@ -7,7 +7,7 @@ Official repository of the TOCD plan (TryOfCheckDogs): a self-directed curriculu
 
 For recruiters / employers
 
-- Read : GUIA_PARA_RECLUTADORES.md
+- Read : GUIDE_FOR_RECRUITERS.md
 - Explore : CPP-R Portfolio (representative stacks)
 - Verify : manifest.json + checksums.txt (reproducibility)
 - Run :  cpp_run.sh in your own VM (one-command demo)
