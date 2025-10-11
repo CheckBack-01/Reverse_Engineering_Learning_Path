@@ -1,4 +1,4 @@
-# Phase 1 — ENIAC
+# Phase 1 - ENIAC
 
 **Syllabus & Schedule** (Quarters · Blocks · Stacks)
 
