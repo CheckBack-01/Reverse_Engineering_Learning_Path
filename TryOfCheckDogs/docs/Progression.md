@@ -1,198 +1,605 @@
-# Progression — Metrics & Status (TOCD + CSF Track)
+### Progress - Try Of Check Dogs (TOCD)
 
-**Plan coverage:** 2025-10-01 → 2027-09-30 (24 months)
-**Cadence:** ~30 hrs/week (5 hrs/day, Mon–Sat)
-**Mixing rule:** I never carry **two** courses/certifications at the same time; **only** 1 course/cert **+ TOCD**.
-**Pacing change:** starting **2026-03-01** (month 6) **TOCD = 2.5 h/day** and **course/cert = 2.5 h/day** (except BB Sprint: TOCD → backlog 30–45 min/week).
+**Progress tracking document, metrics, and completed milestones.**
 
-**Legend:** ☐ Not started · ◐ In progress · ✔ Done
+- **Start:** October 9, 2025
+- **Current date:**  11-10-2025
+- **Target date (job applications):** October 2027
+- **Total preparation time:** 24 months
 
----
+## 1) Executive summary (to date)
 
-### Global counters (target / current)
+| Metric                     | Goal                             | Completed | % |
+| -------------------------- | -------------------------------- | --------- | - |
+| **Total CPP-Rs**           | 20–26                            | —         | — |
+| **Total PADs**             | 5                                | —         | — |
+| **BB/CTF Reports**         | 20–25                            | —         | — |
+| **Certifications**         | 3 (CCNA, GFACT, MAD20)           | —         | — |
+| **Hours invested**         | ~2,880 h (24 months × 30 h/week) | —         | — |
+| **Reproducible portfolio** | Public, verifiable               | —         | — |
 
-* **CPP-R (closed):** target ≥ **16** by 2027-09-30 · current: 0
-* **PAD (closed):** target ≥ **8** · current: 0
-* **MJT (closed total):** target ≥ **4** · current: 0
+### 2) Progress by phase
 
-  * MJT-T (by topic) ≥ 2 · current: 0
-  * MJT-B (by block) ≥ 2 · current: 0
-* **Evidence with link** (`evidence/` + **VALIDSIG**): target ≥ **24** · current: 0
-* **Bug Bounty (submissions):** target **14–18** (Sprint **2026-09 → 2026-12**) · accepted target **≥ 6–8** · current: 0
-* **Accumulated credits (Sophia/CSF/Exams):** target **24–36** (base) · **30–48** with exams · current: 0
+### **Phase 0 — Baseline (9-Oct-2025 → 31-Jan-2026)**
 
-  * Sophia (4 courses) → **~12 cr**
-  * SANS CSF (3 courses) → **~12 cr**
-  * CLEP/DSST (1–2 optional exams) → **+6–12 cr**
+> **Objective:** Operational competence in Linux, Windows, networking, and scripting.
 
-**Certifications (target / status):**
+**Target duration:** 4 months (16 weeks)
 
-* **MITRE MAD20 Basic:** 1 · ☐
-* **TCM PMRP:** 1 · ☐
-* **GIAC GFACT (via CSF/SEC275):** 1 · ☐
+#### **0B00 — Linux Power User (6 weeks, 9-Oct-2025 → 19-Nov-2025)**
 
----
+| Item           | Goal | Status  | Due date    | Notes                                          |
+| -------------- | ---- | ------- | ----------- | ---------------------------------------------- |
+| CPP-R-0B00     | 1    | Pending | 19-Nov-2025 | Automation + inventory script                  |
+| PAD-0B00       | 1    | Pending | 20-Nov-2025 | Task orchestrator with logging                 |
+| GDP (5 drills) | 5    | Pending | Weekly      | CLI, permissions, processes, Bash, integration |
 
-### Quality metrics (OKRs)
+**Expected metrics:**
 
-* **MJT-T triage:** target ≤ **30 min** · current: —
-* **MJT-B triage:** target ≤ **60 min** · current: —
-* **Hypotheses confirmed/corrected:** target ≥ **70%** · current: —
-* **Evidence completeness:** target **100%** (`run.log`, `manifest`, hashes, bounds) · current: —
-* **Tooling per MJT:** target ≥ **1 script** · current: —
-* **A ratio across last 5 deliveries (CPP-R/PAD/MJT):** target ≥ **60%** A, ≤ **10%** Redo · current: —
+* Drill accuracy: ≥90%
+* Time: within target
+* Evidence: run.log, checksums.txt, manifest.json
 
----
-
-### Milestones (gates) and decisions
-
-* **2026-06-30:** 4 **Sophia** courses → move to **MAD20/PMRP/BB Gap**.
-* **2026-10-31:** **MAD20** completed (badges).
-* **2026-11-30:** **PMRP** completed (5d + 2d report).
-* **2026-12-31:** **BB Sprint** closes → start **SANS CSF** (01-Jan-2027).
-* **2027-03-31:** **CSF Course 1** completed.
-* **2027-06-30:** **CSF Course 2** completed (if credits are short, consider **1 CLEP/DSST**).
-* **2027-09-30:** **CSF Course 3/SEC275 + GFACT** completed; **dossier and active applications**.
+**Notes:** —
 
 ---
 
-### Quarterly view (CPP-R/PAD/MJT + accredited track)
+#### **0B01 — Networking Essentials (6 weeks, 20-Nov-2025 → 31-Dec-2025)**
 
-### Q1 — 2025-10-01 → 2025-12-31 · **Phase A (start) — Intensive TOCD (5 h/day)**
+| Item           | Goal       | Status  | Due date                               | Notes                        |
+| -------------- | ---------- | ------- | -------------------------------------- | ---------------------------- |
+| CPP-R-0B01     | 1          | Pending | 31-Dec-2025                            | Traffic capture and analysis |
+| **CCNA**       | 1          | Pending | 31-Dec-2025                            | Official Cisco certification |
+| GDP (5 drills) | 5  Pending | Weekly  | TCP/IP, DNS, Wireshark, iptables, CCNA |                              |
 
-| Block | Title                      | CPP-R | PAD | MJT-T | MJT-B | Status | Notes                      |
-| ----- | -------------------------- | ----: | --: | ----: | ----: | ------ | -------------------------- |
-| 0B01  | Linux/CLI/Bash & Ecosystem |     0 |   0 |     0 |     0 | ◐      | Upcoming CPP-R/MJT windows |
-| 1B01  | Toolchain, Debugging & VCS |     0 |   0 |     0 |     0 | ☐      | Test plan with sanitizers  |
+**Expected metrics:**
 
-**Q1 objective:** 3–4 **CPP-R**.
+* CCNA: passed (≥825/1000)
+* CPP-R: reproducible on a clean VM
+* Traffic analyzed: ≥5 scenarios
 
----
-
-### Q2 — 2026-01-01 → 2026-03-31 · **Phase A (cont.) — TOCD 5 h/day (Jan–Feb) → 2.5 h/day + Sophia (Mar)**
-
-| Block | Title               | CPP-R | PAD | MJT-T | MJT-B | Status | Notes                    |
-| ----- | ------------------- | ----: | --: | ----: | ----: | ------ | ------------------------ |
-| 2B01  | Systems C I (start) |     0 |   0 |     0 |     0 | ☐      |                          |
-| 3B01  | Systems C I (close) |     0 |   0 |     0 |     0 | ☐      |                          |
-| 4B01  | x86_64 / ABI / ASM  |     0 |   0 |     0 |     0 | ☐      | **LD_PRELOAD** hook (BT) |
-
-**Accredited track (Sophia):** **Intro to Python** (Mar).
-**Q2 objective:** 3–4 additional **CPP-R** + **1 Sophia course**.
+**Notes:** —
 
 ---
 
-### Q3 — 2026-04-01 → 2026-06-30 · **Phase A (close) + Sophia (2.5 h) / TOCD (2.5 h)**
+#### **0B02 — Python for Security (4 weeks, 1-Jan-2026 → 28-Jan-2026)**
 
-| Block | Title                                     | CPP-R | PAD | MJT-T | MJT-B | Status | Notes               |
-| ----- | ----------------------------------------- | ----: | --: | ----: | ----: | ------ | ------------------- |
-| 5B01  | Linking/Loading (ELF/PLT/GOT/LD_PRELOAD)  |     0 |   0 |     0 |     0 | ☐      |                     |
-| 6B01  | Windows & PE Fundamentals                 |     0 |   0 |     0 |     0 | ☐      | Basic PE viewer     |
-| 7B01  | Intro to Malware Analysis (Triage & IOCs) |     0 |   0 |     0 |     0 | ☐      | YARA-lite + harness |
+| Item           | Goal | Status  | Due date    | Notes                                   |
+| -------------- | ---- | ------- | ----------- | --------------------------------------- |
+| CPP-R-0B02     | 1    | Pending | 28-Jan-2026 | Recon tool or parser                    |
+| CTFs           | 8–12 | Pending | Weekly      | 2–3/week on HTB/THM                     |
+| GDP (4 drills) | 4    | Pending | Weekly      | Syntax, libraries, sockets, integration |
 
-**Sophia:** Apr: **Relational DBs** · May: **Networking** · Jun: **Algebra.**
-**Q3 objective:** 3 Sophia courses (total **4/4 ≈ 12 cr**) + **1–2 CPP-R**.
+**Expected metrics:**
 
----
+* CPP-R: clean, commented code
+* CTFs: documented writeups
+* Coverage: ≥80% of concepts
 
-### Q4 — 2026-07-01 → 2026-09-30 · **Phase B (start) — TOCD 2.5 h + Cert prep (Jul–Aug); BB Sprint starts in Sep**
-
-| Block | Title               | CPP-R | PAD | MJT-T | MJT-B | Status | Notes                                 |
-| ----- | ------------------- | ----: | --: | ----: | ----: | ------ | ------------------------------------- |
-| 0B04  | Applied Reversing I |     0 |   0 |     0 |     0 | ☐      | Loader + harness; reproducible unpack |
-
-**Cert/BB track:**
-
-* **Jul–Aug:** Cert prep & portfolio (2.5 h) + **TOCD 2.5 h**.
-* **Sep:** **MAD20** (2.5 h) + **Bug Bounty** (2.5 h); **TOCD → backlog**.
-
-**Q4 objective:** Progress on 0B04 + partial **MAD20 badges** + **4–6 BB submissions** (Sep).
+**Notes:** —
 
 ---
 
-### Q5 — 2026-10-01 → 2026-12-31 · **Phase B (operational pause) — BB Sprint + MAD20/PMRP**
+#### **0B03 — Windows Administration (4 weeks, 29-Jan-2026 → 25-Feb-2026)**
 
-| Track            | Item                        | Target             | Status | Notes                          |
-| ---------------- | --------------------------- | ------------------ | ------ | ------------------------------ |
-| Bug Bounty       | Total submissions (Oct–Dec) | **10–12**          | ☐      | 2.5 h/day BB, **CPP-R** report |
-| MAD20            | Certification               | **Passed**         | ☐      | Oct (full badges)              |
-| PMRP             | Certification               | **Passed**         | ☐      | Nov (5d + 2d report)           |
-| TOCD             | Backlog                     | **30–45 min/week** | ☐      | Script/drill maintenance       |
-| BB consolidation | December                    | **14–18 total**    | ☐      | **6–8 “star” reports**         |
+| Item           | Goal | Status  | Due date    | Notes                                   |
+| -------------- | ---- | ------- | ----------- | --------------------------------------- |
+| CPP-R-0B03     | 1    | Pending | 25-Feb-2026 | Inventory script + baseline             |
+| CTFs           | 8–12 | Pending | Weekly      | Continue 2–3/week                       |
+| GDP (4 drills) | 4    | Pending | Weekly      | PowerShell, registry, logs, integration |
 
-**Q5 objective:** close **MAD20 + PMRP** and the BB Sprint.
+**Expected metrics:**
 
----
+* CPP-R: reproducible on Windows 10 VM
+* Baseline: comparable before/after
+* Audit: Sysmon integrated
 
-### Q6 — 2027-01-01 → 2027-03-31 · **Phase B (cont.) — TOCD 2.5 h + SANS CSF (Course 1, 2.5–3 h)**
-
-| Block/Track | Title                            | CPP-R | PAD | MJT | Status | Notes                            |
-| ----------- | -------------------------------- | ----: | --: | --: | :----: | -------------------------------- |
-| 1B04        | Deep PE & In-Memory Loaders      |     0 |   0 |   0 |    ☐   | Parser/loader/manual map (intro) |
-| 2B04        | Userland Execution & Mitigations |     0 |   0 |   0 |    ☐   | Comparisons DEP/ASLR/CFG         |
-| CSF         | **Course 1**                     |     — |   — |   — |    ☐   | 01-Jan-27 → 31-Mar-27            |
-
-**Q6 objective:** **CSF C1** completed + **1–2 CPP-R**.
+**Notes:** —
 
 ---
 
-### Q7 — 2027-04-01 → 2027-06-30 · **Transition F2→F3 + SANS CSF (Course 2)**
+**Phase 0 — Summary:**
 
-| Track        | Item                  | Target              | Status | Notes                 |
-| ------------ | --------------------- | ------------------- | ------ | --------------------- |
-| CSF          | **Course 2**          | **Completed**       | ☐      | 01-Apr-27 → 30-Jun-27 |
-| TOCD         | Monthly reinforcement | **1 CPP-R/month**   | ☐      |                       |
-| Exams (opt.) | **CLEP/DSST #1**      | **Passed** (3–6 cr) | ☐      | Micro-window (1 day)  |
-
-**Q7 objective:** **CSF C2** + (opt.) **1 CLEP/DSST**.
-
----
-
-### Q8 — 2027-07-01 → 2027-09-30 · **Phase C (start) + CSF (Course 3/SEC275)**
-
-| Track      | Item                          | Target        | Status | Notes                        |
-| ---------- | ----------------------------- | ------------- | ------ | ---------------------------- |
-| CSF        | **Course 3 / SEC275 (GFACT)** | **Completed** | ☐      | 01-Jul-27 → 30-Sep-27        |
-| Portfolio  | **Total CPP-R**               | **≥ 16**      | ☐      | Labs/BB with evidence        |
-| Employment | **Applications/month**        | **10–15**     | ☐      | Contracts/FT (remote/global) |
-
-**Q8 objective:** **CSF complete (~12 cr) + GFACT + dossier**.
+| Metric | Goal   | Completed | % |
+| ------ | ------ | --------- | - |
+| CPP-Rs | 4      | —         | — |
+| CCNA   | 1      | —         | — |
+| CTFs   | 16–24  | —         | — |
+| Hours  | ~480 h | —         | — |
 
 ---
 
-### Credits (tracker)
+### **Phase 1 — Eniac (1-Feb-2026 → 31-May-2026)**
 
-* **Sophia:** 4 courses (~12 cr) → ☐ ☐ ☐ ☐
-* **SANS CSF:** Course 1 → ☐ · Course 2 → ☐ · Course 3/SEC275 → ☐
-* **CLEP/DSST (opt.):** Exam #1 → ☐ · Exam #2 → ☐
+> **Objective:** Fundamentals with a Malware Analysis lens.
 
-**Expected total by 2027-09-30:**
+**Target duration:** 4 months (17 weeks)
 
-* **Base:** **24 cr** (Sophia ~12 + CSF ~12)
-* **With exams (opt.):** **30–48 cr** (depending on 1–2 CLEP/DSST)
+#### **2B01–3B01 — Systems-C I (8 weeks, 1-Feb-2026 → 28-Mar-2026)**
 
----
+| Item                                                         | Goal  | Status  | Due date    | Notes                     |
+| ------------------------------------------------------------ | ----- | ------- | ----------- | ------------------------- |
+| CPP-R-2B01-1                                                 | 1     | Pending | 1-Mar-2026  | Hexdump (offset + ASCII)  |
+| CPP-R-2B01-2                                                 | 1     | Pending | 8-Mar-2026  | Mini binary viewer (mmap) |
+| CPP-R-2B01-3                                                 | 1     | Pending | 28-Mar-2026 | Safe binary parser        |
+| PAD-2B01                                                     | 1     | Pending | 10-Mar-2026 | Specifications + tests    |
+| GDP (Pointers, Dynamic Memory, I/O, Parsing, Error Handling) | 10–15 | Pending | Weekly      | 2–3/week                  |
 
-### Closure checklist (per item)
+**Expected metrics:**
 
-1. **Status:** ☐ → ◐ → ✔
-2. **Counters:** update CPP-R/PAD/MJT/Credits/Certs/BB
-3. **Standard links:**
+* Clean sanitizers (-Wall -Wextra -Werror)
+* Coverage: ≥80% (gcov)
+* Fuzzing: 20 min without crashes
 
-   * Labs: `phases/Fx_NAME/<block>/<lab>/`
-   * Evidence: `cpp/evidence/<YYYYMMDD_HHMM>/`
-   * PAD: `phases/Fx_NAME/<block>/PAD/<YYYY-MM-DD>/`
-   * MJT: `phases/Fx_NAME/<block>/MJT_{T|B|Post}_<YYYY-MM-DD>/`
-4. **Clear commit:**
-
-   * `feat(cpp-r): close CPP-R-<id> (<block>) + evidence`
-   * `feat(pad): finalize PAD-<id> (<block>)`
-   * `feat(mjt): close MJT-<type> (<block>) + run.log + manifest`
+**Notes:** —
 
 ---
 
-### Operational notes
+#### **4B01 — x86_64/ABI/ASM (3 weeks, 29-Mar-2026 → 18-Apr-2026)**
 
-* **TOCD during BB Sprint:** backlog 30–45 min/week (drills + script maintenance).
-* **Minimum acceptable evidence:** `cpp_run.sh` (1 command), `manifest.json`, `run.log`, `checksums.txt`, screenshots (if applicable), **VALIDSIG**.
-* **OPSEC:** 100% lab-only; **benign** datasets/artifacts; no external network in final runs.
+| Item                                               | Goal | Status  | Due date    | Notes                        |
+| -------------------------------------------------- | ---- | ------- | ----------- | ---------------------------- |
+| CPP-R-4B01-1                                       | 1    | Pending | 5-Apr-2026  | Syscall wrapper without libc |
+| CPP-R-4B01-2                                       | 1    | Pending | 12-Apr-2026 | C+asm with structs           |
+| CPP-R-4B01-3                                       | 1    | Pending | 19-Apr-2026 | Benchmarks asm vs C          |
+| PAD-4B01                                           | 1    | Pending | 21-Apr-2026 | Stack diagrams + benchmarks  |
+| GDP (ABI, Syscalls, C↔asm, Routines, ABI Contrast) | 8–10 | Pending | Weekly      | 2–3/week                     |
+
+**Expected metrics:**
+
+* Functional asm routines
+* Benchmarks: asm 5–10% faster than C
+* Clear stack diagrams
+
+**Notes:** —
+
+---
+
+#### **5B01 — Linking/ELF/PLT/GOT (3 weeks, 19-Apr-2026 → 9-May-2026)**
+
+| Item                                                | Goal | Status  | Due date    | Notes                                |
+| --------------------------------------------------- | ---- | ------- | ----------- | ------------------------------------ |
+| CPP-R-5B01-1                                        | 1    | Pending | 26-Apr-2026 | ELF parser (headers + symbols)       |
+| CPP-R-5B01-2                                        | 1    | Pending | 3-May-2026  | LD_PRELOAD hook (open/fopen)         |
+| CPP-R-5B01-3                                        | 1    | Pending | 20-May-2026 | PoC rpath/runpath with patchelf      |
+| PAD-5B01                                            | 1    | Pending | 22-May-2026 | Linking architecture + symbol tables |
+| GDP (ELF, Linking, Shared Libs, Tooling, PE vs ELF) | 8–10 | Pending | Weekly      | 2–3/week                             |
+
+**Expected metrics:**
+
+* Parser: analyzes ≥90% of binaries
+* Hook: intercepts calls without crashes
+* Tables: before/after hooking
+
+**Notes:** —
+
+---
+
+#### **6B01 — Windows & PE Fundamentals (2 weeks, 10-May-2026 → 23-May-2026)**
+
+| Item                                                   | Goal | Status  | Due date    | Notes                         |
+| ------------------------------------------------------ | ---- | ------- | ----------- | ----------------------------- |
+| CPP-R-6B01-1                                           | 1    | Pending | 24-May-2026 | PE triage (hashes + sections) |
+| CPP-R-6B01-2                                           | 1    | Pending | 31-May-2026 | Imports/exports extraction    |
+| CPP-R-6B01-3                                           | 1    | Pending | 7-Jun-2026  | Reproducible PE report        |
+| PAD-6B01                                               | 1    | Pending | 2-Jun-2026  | Mini PE triage report         |
+| GDP (PE Layout, Imports/Exports, Toolchain, Reporting) | 6–8  | Pending | Weekly      | 2–3/week                      |
+
+**Expected metrics:**
+
+* Hash discipline: SHA-256 verified
+* Imports: ≥95% correctly extracted
+* Report: professional, <2 pages
+
+**Notes:** —
+
+---
+
+#### **7B01 — Intro to Malware Analysis (1 week, 24-May-2026 → 31-May-2026)**
+
+| Item                                      | Goal | Status  | Due date    | Notes                          |
+| ----------------------------------------- | ---- | ------- | ----------- | ------------------------------ |
+| CPP-R-7B01-1                              | 1    | Pending | 27-May-2026 | Pipeline strings→YARA→CSV      |
+| CPP-R-7B01-2                              | 1    | Pending | 3-Jun-2026  | YARA-lite rules + verification |
+| PAD-7B01                                  | 1    | Pending | 5-Jun-2026  | Triage + IOCs + logging        |
+| YARA Rules                                | ≥10  | Pending | 31-May-2026 | Functional with FP/FN metrics  |
+| GDP (Strings, YARA, Logging, Integration) | 4–6  | Pending | Weekly      | 1–2/week                       |
+
+**Expected metrics:**
+
+* YARA rules: FP ≤ 3%, FN ≤ 10%
+* CSV IOCs: normalized, verifiable
+* PAD: hypotheses → findings → limits
+
+**Notes:** —
+
+---
+
+**Phase 1 — Summary:**
+
+| Metric     | Goal   | Completed | % |
+| ---------- | ------ | --------- | - |
+| CPP-Rs     | 6–8    | —         | — |
+| PADs       | 2      | —         | — |
+| YARA rules | ≥10    | —         | — |
+| Hours      | ~510 h | —         | — |
+
+---
+
+### **Maturation gap (1-Jun-2026 → 30-Nov-2026)**
+
+> **Objective:** Portfolio, certifications, real practice.
+
+#### **Portfolio preparation (Jun–Jul 2026)**
+
+| Item           | Goal  | Status  | Due date    | Notes                        |
+| -------------- | ----- | ------- | ----------- | ---------------------------- |
+| Polished repos | 2–3   | Pending | 31-Jul-2026 | Clean structure, README      |
+| Templates      | 3–5   | Pending | 30-Jun-2026 | CPP-R template, PAD template |
+| BB/CTF targets | 10–15 | Pending | 31-Jul-2026 | List of apps/platforms       |
+
+#### **MAD20 + Bug Bounty/CTFs (Aug–Sep 2026)**
+
+| Item                   | Goal                 | Status  | Due date    | Notes                |
+| ---------------------- | -------------------- | ------- | ----------- | -------------------- |
+| MAD20 Basic            | 1 (modules complete) | Pending | 30-Sep-2026 | ATT&CK badges        |
+| Bug Bounty submissions | 6–8                  | Pending | 30-Sep-2026 | Reproducible reports |
+| CTFs                   | 16–24                | Pending | Weekly      | 2–3/week             |
+
+**Expected metrics:**
+
+* MAD20: all modules completed
+* BB: ≥2 accepted, professional report
+* CTFs: writeups in repo
+
+**Notes:** —
+
+#### **GFACT + Bug Bounty/CTFs (Oct–Nov 2026)**
+
+| Item                   | Goal               | Status  | Due date    | Notes                   |
+| ---------------------- | ------------------ | ------- | ----------- | ----------------------- |
+| GFACT                  | 1 (certification)  | Pending | 30-Nov-2026 | Passed, badge on Credly |
+| Bug Bounty submissions | 10–12 (cumulative) | Pending | 30-Nov-2026 | Continue 3+/month       |
+| CTFs                   | 20–30 (cumulative) | Pending | Weekly      | 2–3/week                |
+
+**Expected metrics:**
+
+* GFACT: ≥75% (750/1000 points)
+* BB: acceptance rate ≥50%
+* CTFs: writeup consistency
+
+**Notes:** —
+
+**Gap — Summary:**
+
+| Metric         | Goal   | Completed | % |
+| -------------- | ------ | --------- | - |
+| MAD20          | 1      | —         | — |
+| GFACT          | 1      | —         | — |
+| BB submissions | 10–12  | —         | — |
+| CTFs           | 20–30  | —         | — |
+| Hours          | ~450 h | —         | — |
+
+---
+
+### **Phase 2 — IBM 1401 (1-Dec-2026 → 31-May-2027)**
+
+> **Objective:** Applied Reversing & Userland Execution.
+
+**Target duration:** 6 months (26 weeks)
+
+#### **0B04 — Applied Reversing I (6 weeks, 1-Dec-2026 → 11-Jan-2027)**
+
+| Item         | Goal | Status  | Due date    | Notes                              |
+| ------------ | ---- | ------- | ----------- | ---------------------------------- |
+| CPP-R-0B04-1 | 1    | Pending | 20-Dec-2026 | Reproducible static report         |
+| CPP-R-0B04-2 | 1    | Pending | 27-Dec-2026 | Dynamic traces + evidence          |
+| CPP-R-0B04-3 | 1    | Pending | 3-Jan-2027  | Anti-debug bypass                  |
+| CPP-R-0B04-4 | 1    | Pending | 10-Jan-2027 | **Reproducible unpack** + IAT      |
+| CPP-R-0B04-5 | 1    | Pending | 17-Jan-2027 | Decoder + tests                    |
+| CPP-R-0B04-6 | 1    | Pending | 24-Jan-2027 | Final report + methodology         |
+| PAD-0B04     | 1    | Pending | 26-Jan-2027 | Complete methodology + screenshots |
+| CTFs         | 8–12 | Pending | Weekly      | 1–2/week maintenance               |
+
+**Expected metrics:**
+
+* Unpack: integral binary, functional IAT
+* Bypass: ≥3 anti-debug techniques
+* Report: technical, reproducible
+
+**Notes:** —
+
+---
+
+#### **1B04 — Deep PE & In-Memory Loaders (6 weeks, 12-Jan-2027 → 22-Feb-2027)**
+
+| Item         | Goal | Status  | Due date    | Notes                          |
+| ------------ | ---- | ------- | ----------- | ------------------------------ |
+| CPP-R-1B04-1 | 1    | Pending | 2-Feb-2027  | PE parser (headers/imports)    |
+| CPP-R-1B04-2 | 1    | Pending | 9-Feb-2027  | **Local loader** (shellcode)   |
+| CPP-R-1B04-3 | 1    | Pending | 16-Feb-2027 | **Manual mapping** intro (DLL) |
+| CPP-R-1B04-4 | 1    | Pending | 23-Feb-2027 | Stability report               |
+| CPP-R-1B04-5 | 1    | Pending | 2-Mar-2027  | Consolidated loader + tests    |
+| PAD-1B04     | 1    | Pending | 4-Mar-2027  | Design + memory diagram        |
+| CTFs         | 8–12 | Pending | Weekly      | 1–2/week                       |
+
+**Expected metrics:**
+
+* Loader: stable, no crashes
+* Manual mapping: ≥80% imports resolved
+* Tests: coverage ≥70%
+
+**Notes:** —
+
+---
+
+#### **2B04 — Userland Execution & Mitigations (10 weeks, 23-Feb-2027 → 31-May-2027)**
+
+| Item         | Goal  | Status  | Due date    | Notes                              |
+| ------------ | ----- | ------- | ----------- | ---------------------------------- |
+| CPP-R-2B04-1 | 1     | Pending | 9-Mar-2027  | CRT+LL mode with logging           |
+| CPP-R-2B04-2 | 1     | Pending | 16-Mar-2027 | APC mode with evidence             |
+| CPP-R-2B04-3 | 1     | Pending | 23-Mar-2027 | **Hollowing PoC** reversible       |
+| CPP-R-2B04-4 | 1     | Pending | 30-Mar-2027 | Trace + surface comparison         |
+| CPP-R-2B04-5 | 1     | Pending | 6-Apr-2027  | Final comparison (matrix)          |
+| CPP-R-2B04-6 | 1     | Pending | 13-Apr-2027 | Test suite + benchmarks            |
+| PAD-2B04     | 1     | Pending | 15-Apr-2027 | Integrated mission (≥2 techniques) |
+| CTFs         | 12–16 | Pending | Weekly      | 1–2/week                           |
+
+**Expected metrics:**
+
+* Techniques: ≥2 functional, documented
+* Comparison: artifact matrix vs mitigations
+* Hollowing: benign, reversible, auditable
+
+**Notes:** —
+
+---
+
+**Phase 2 — Summary:**
+
+| Metric            | Goal                 | Completed | % |
+| ----------------- | -------------------- | --------- | - |
+| CPP-Rs            | 6–8                  | —         | — |
+| PADs              | 2                    | —         | — |
+| Functional loader | 1 with ≥2 techniques | —         | — |
+| Hours             | ~780 h               | —         | — |
+
+---
+
+### **Phase 3 — Intel 4004 (1-Jun-2027 → 30-Sep-2027)**
+
+**Objective:** Userland Internals & Exploitation.
+
+**Target duration:** 4 months (17 weeks)
+
+#### **0B04 — Process & Memory Internals (4 weeks, 1-Jun-2027 → 28-Jun-2027)**
+
+| Item         | Goal | Status  | Due date    | Notes                             |
+| ------------ | ---- | ------- | ----------- | --------------------------------- |
+| CPP-R-0B04-1 | 1    | Pending | 21-Jun-2027 | **Process map** (PEB/TEB/modules) |
+| CPP-R-0B04-2 | 1    | Pending | 28-Jun-2027 | **PEB/TEB walk** reproducible     |
+| CTFs         | 4–6  | Pending | Weekly      | 1–2/week                          |
+
+---
+
+#### **1B03 — Userland Exploitation I (3 weeks, 29-Jun-2027 → 19-Jul-2027)**
+
+| Item         | Goal | Status  | Due date    | Notes                               |
+| ------------ | ---- | ------- | ----------- | ----------------------------------- |
+| CPP-R-1B03-1 | 1    | Pending | 12-Jul-2027 | **Educational exploit** (basic ROP) |
+| CPP-R-1B03-2 | 1    | Pending | 19-Jul-2027 | **Detection harness**               |
+| CTFs         | 3–5  | Pending | Weekly      | 1–2/week                            |
+
+---
+
+#### **2B04 — Advanced Windows Internals (3 weeks, 20-Jul-2027 → 9-Aug-2027)**
+
+| Item         | Goal       | Status  | Due date   | Notes                           |
+| ------------ | ---------- | ------- | ---------- | ------------------------------- |
+| CPP-R-2B04-1 | 1          | Pending | 2-Aug-2027 | **Handle map** (Object Manager) |
+| CPP-R-2B04-2 | 1          | Pending | 9-Aug-2027 | **Region map** (memory)         |
+| CTFs         | 3– Pending | Weekly  | 1–2/week   |                                 |
+
+---
+
+#### **3B03 — Userland Exploitation II (3 weeks, 10-Aug-2027 → 30-Aug-2027)**
+
+| Item         | Goal | Status  | Due date    | Notes                         |
+| ------------ | ---- | ------- | ----------- | ----------------------------- |
+| CPP-R-3B03-1 | 1    | Pending | 23-Aug-2027 | **Windows exploit** (ROP/JOP) |
+| CPP-R-3B03-2 | 1    | Pending | 30-Aug-2027 | **Linux exploit** (ROP/JOP)   |
+| CTFs         | 3–5  | Pending | Weekly      | 1–2/week                      |
+
+---
+
+#### **4B03 — Heap Exploitation (2 weeks, 31-Aug-2027 → 13-Sep-2027)**
+
+| Item       | Goal | Status  | Due date    | Notes                       |
+| ---------- | ---- | ------- | ----------- | --------------------------- |
+| CPP-R-4B03 | 1    | Pending | 13-Sep-2027 | **Heap PoCs** (UAF, tcache) |
+| CTFs       | 2–3  | Pending | Weekly      | 1–2/week                    |
+
+---
+
+#### **5B05 — Kernel Fundamentals + Elevation (2 weeks, 14-Sep-2027 → 27-Sep-2027)**
+
+| Item       | Goal | Status  | Due date    | Notes                            |
+| ---------- | ---- | ------- | ----------- | -------------------------------- |
+| CPP-R-5B05 | 1    | Pending | 27-Sep-2027 | **Elevation to SYSTEM** (VM lab) |
+| CTFs       | 2–3  | Pending | Weekly      | 1–2/week                         |
+
+---
+
+#### **6B02 — F3-CAP (1 week, 28-Sep-2027 → 30-Sep-2027)**
+
+| Item            | Goal | Status  | Due date    | Notes                       |
+| --------------- | ---- | ------- | ----------- | --------------------------- |
+| **Capstone F3** | 1    | Pending | 30-Sep-2027 | **Userland → SYSTEM chain** |
+| PAD-F3          | 1    | Pending | 30-Sep-2027 | Phase 3 integrator          |
+
+---
+
+**Phase 3 — Summary:**
+
+| Metric   | Goal           | Completed | % |
+| -------- | -------------- | --------- | - |
+| CPP-Rs   | 4–6            | —         | — |
+| PAD      | 1              | —         | — |
+| Capstone | 1              | —         | — |
+| Exploits | ≥2 (Win+Linux) | —         | — |
+| Hours    | ~510 h         | —         | — |
+
+### 3) Cumulative summary (24 months of preparation)
+
+| Metric                 | Goal       | Completed | % |
+| ---------------------- | ---------- | --------- | - |
+| **Total CPP-Rs**       | 20–26      | —         | — |
+| **Total PADs**         | 5          | —         | — |
+| **Total CTFs**         | 60–90      | —         | — |
+| **Bug Bounty reports** | 20–25      | —         | — |
+| **CCNA**               | 1          | —         | — |
+| **GFACT**              | 1          | —         | — |
+| **MAD20**              | 1          | —         | — |
+| **Hours invested**     | ~2,880 h   | —         | — |
+| **Public portfolio**   | Verifiable | —         | — |
+
+### 4) Readiness checklist (before applying for jobs, Oct 2027)
+
+**Status: Pending**
+
+```
+READINESS CHECKLIST — OCTOBER 2027
+=====================================
+
+CERTIFICATIONS
+- [ ] CCNA certified (Cisco Cert Tracker verifiable)
+- [ ] GFACT certified (Credly badge visible)
+- [ ] MAD20 badges complete (MITRE portal verifiable)
+
+TECHNICAL PORTFOLIO
+- [ ] ≥16 CPP-Rs in public repo, reproducible
+- [ ] ≥10 documented Bug Bounty/CTF reports
+- [ ] 1 Capstone F3 (userland → SYSTEM)
+- [ ] Clean, explanatory README.md
+- [ ] Clean and professional GitHub
+
+DOCUMENTATION
+- [ ] Technical resume (1 page, verifiable skills)
+- [ ] LinkedIn updated with certs and portfolio
+- [ ] GitHub pinned with top 3 projects
+- [ ] Video demo (5–8 min) of Capstone F3
+
+OPSEC & LEGAL
+- [ ] OPSEC audit completed without critical incidents
+- [ ] Lab setup verified (NAT-only, snapshots)
+- [ ] Manifests in 100% of projects
+- [ ] GPG signature on critical tags
+- [ ] COMPLIANCE sign-off completed
+
+VERIFIABLE SKILLS
+- [ ] Reversing: can analyze a real binary live
+- [ ] Exploitation: can build and run an exploit (lab)
+- [ ] Scripting: own tools, functional
+- [ ] Communication: professional technical reports
+
+Signature: _________________________ Date: _____________
+```
+
+### 5) Critical milestones and deadlines
+
+### **Key milestones (24 months):**
+
+| Milestone              | Date        | Status  | Notes                      |
+| ---------------------- | ----------- | ------- | -------------------------- |
+| **Phase 0 start**      | 9-Oct-2025  | Pending | Operational baseline       |
+| **CCNA certified**     | 31-Dec-2025 | Pending | Networking base            |
+| **Phase 1 start**      | 1-Feb-2026  | Pending | MA fundamentals            |
+| **MAD20 complete**     | 30-Sep-2026 | Pending | ATT&CK basics              |
+| **GFACT certified**    | 30-Nov-2026 | Pending | Cybersecurity fundamentals |
+| **Phase 2 start**      | 1-Dec-2026  | Pending | Applied reversing          |
+| **Phase 3 start**      | 1-Jun-2027  | Pending | Exploitation               |
+| **Complete portfolio** | 30-Sep-2027 | Pending | 16–20 CPP-Rs, 10–15 BB     |
+| **Job applications**   | Oct-2027    | Pending | Entry-level MA/RE          |
+
+### **Inflexible deadlines:**
+
+* **31-Dec-2025:** CCNA must be passed (basis for Phase 2)
+* **30-Sep-2026:** MAD20 + GFACT (credentials for applications)
+* **30-Sep-2027:** 100% reproducible portfolio (to present in interviews)
+
+---
+
+### 6) Dependencies and prerequisites
+
+### **Blocks with mandatory dependencies:**
+
+| Block                      | Prereq                      | Reason                                                  | Status |
+| -------------------------- | --------------------------- | ------------------------------------------------------- | ------ |
+| **Phase 1 (Eniac)**        | Phase 0 complete            | I need fluent Linux/Windows/networking                  |       |
+| **Phase 2 (IBM 1401)**     | Phase 1 complete            | I need to understand binaries (ELF/PE) before reversing |       |
+| **Phase 3 (Intel 4004)**   | Phase 2 complete            | I need userland techniques before exploitation          |       |
+| **Phase 4 (Univac)**       | 6–12 months work experience | I need real-world context post-employment               |       |
+| **Phase 5 (YoneEvilHost)** | Phase 4 complete            | I need solid userland before kernel                     |      |
+
+
+### 7) Preparation close-out (Oct 2027)
+
+### **Final portfolio checklist:**
+
+**Status: Pending (Oct 2027)**
+
+```
+FINAL CHECKLIST — PORTFOLIO READY
+===================================
+
+TECHNICAL
+- [ ] 16–20 reproducible CPP-Rs (one-command verified)
+- [ ] 10–15 BB/CTF reports with writeups
+- [ ] 1 Capstone F3 (userland → SYSTEM, video demo)
+- [ ] 5 PADs (integrated missions)
+- [ ] 3 certifications (CCNA, GFACT, MAD20)
+
+REPOS / GITHUB
+- [ ] TryOfCheckDogs public repo, clean
+- [ ] Executive README.md (what, why, how)
+- [ ] 3–5 pinned repos with top projects
+- [ ] GPG-signed tags on critical releases
+- [ ] Zero secrets in history (scan with git-secrets)
+
+DOCUMENTATION
+- [ ] Plan.md up to date
+- [ ] Schedule.md with real dates
+- [ ] Syllabus.md (Phases 0–3)
+- [ ] Metodo_Preparacion.md (how I learn)
+- [ ] OPSEC_Legal.md (100% compliance)
+- [ ] RECRUITER_GUIDE.md (navigation for HR)
+
+PERSONAL MARKETING
+- [ ] Technical resume (1 page, verifiable skills)
+- [ ] LinkedIn with certs + portfolio link
+- [ ] Customized GitHub profile
+- [ ] Capstone video demo (5–8 min, YouTube unlisted)
+- [ ] 3–5 technical writeups on personal blog (optional)
+
+INTERVIEW
+- [ ] Mock interview prep (10+ technical questions)
+- [ ] Technical explainer ready (explain Capstone)
+- [ ] Questions for employer (role, mentoring, tech stack)
+- [ ] Live demo (reproduce CPP-R live)
+
+LEGAL / OPSEC EVIDENCE
+- [ ] OPSEC compliance sign-off signed
+- [ ] Complete audit log (no critical incidents)
+- [ ] Lab setup verified (NAT-only, functional snapshots)
+- [ ] Manifests in 100% of projects (SHA-256 validated)
+
+Signature: _________________________ Date: 30-Sep-2027
+Recruiter reviewed: _____________ Date: [after interview]
+```
+
+**Motto:** *"If it’s not reproducible, it doesn’t exist; if it leaves no evidence, it doesn’t count."*
+
+**Document updated:** 10-10-2025
+
+**Next review:** next 17-10-2025/10-11-2025
