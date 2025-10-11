@@ -94,9 +94,9 @@ Program, schedule, and status
 │     └─ verify_reproducibility.yml # CI/CD: verify reproducibility
 ├─ LICENSE                          # License (MIT or similar)
 ├─ .gitignore                       # Files to ignore
-├─ GUIA_PARA_RECLUTADORES.md        # (RECRUITER_GUIDE)
+├─ GUIDE_FOR_RECRUITERS.md          # (RECRUITER_GUIDE)
 ├─ README.md                        # This document
-└─ RESUMEN_EJECUTIVO.md             # Executive Summary (start here)
+└─ Executive_Summary.md             # Executive Summary (start here)
 ```
 Current Status
 
