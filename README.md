@@ -109,10 +109,13 @@ Current Status
 | **Certifications**  | 3 (CCNA, GFACT, MAD20) | 0            | 0%  |
 | **Hours invested** | ~2,880 h               | 0            | 0%  |
 
-Support & Contact
-FAQ: guide/FAQ.md
-Troubleshooting: guide/TROUBLESHOOTING.md
-OPSEC protocol: docs/opsec/Opsec_Legal.md
-Teaching method: docs/teaching/Metodo_Preparacion.md
+- Support & Contact
+- FAQ: guide/FAQ.md
+- Troubleshooting: guide/TROUBLESHOOTING.md
+- OPSEC protocol: docs/opsec/Opsec_Legal.md
+- Teaching method: docs/teaching/Metodo_Preparacion.md
 
-Last update: 10-Oct-2025 | Start: 09-Oct-2025 | Target: Oct-2027 | Current phase: Phase 0, Block 0B00 (Linux Power User). ]
+- Last update: 10-Oct-2025  
+- Start: 09-Oct-2025 
+- Target: Oct-2027  
+- Current phase: Phase 0, Block 0B00 (Linux Power User). 
