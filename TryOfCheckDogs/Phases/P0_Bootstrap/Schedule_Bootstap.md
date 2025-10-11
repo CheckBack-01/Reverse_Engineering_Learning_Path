@@ -103,16 +103,12 @@
 * **Phase 0 Final Sign-off:** **Fri 2026-01-31** — all CPP-Rs complete, **CCNA certified**, reproducible evidence, OPSEC checklist signed, **one-command repro OK**.
 * **Rubric:** A/B/C/Redo per F0 specification (functional scripts, CCNA passed, clear documentation).
 
----
-
 ### Notes
 
 * Dates are **anchors** for planning; minor variations don’t change deliverables or evidence standards.
 * **Lab-only** work with **benign** artifacts, snapshots, and reproducible evidence.
 * F0 block naming: `0B00`, `0B01`, `0B02`, `0B03`; **PAD** = block-integrated mission (optional, but recommended for 0B01).
 * **CTFs:** 2–3/week from 0B02 (HackTheBox, TryHackMe) in parallel.
-
----
 
 ### Expected accumulated credits (end of Phase 0)
 
