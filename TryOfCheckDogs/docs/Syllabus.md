@@ -2,7 +2,7 @@
 
 - **Plan window:** 9-oct-2025 → 30-sep-2027 (24 months of preparation)
 - **Cadence:** ~30 h/week (5 h/day, Mon–Sat)
-- 
+
 **Methodology:** **GDP** (guided drills) · **CPP-R** (reproducible closures) · **PAD** (block mission) · **MJT** (mock job test) · **Lab-only/OPSEC**
 
 ### 1) Rules
